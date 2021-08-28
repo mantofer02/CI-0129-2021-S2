@@ -1,0 +1,9 @@
+
+#include "Problema.h"
+#include "ProblemaCasasola.h"
+
+int main(){
+   Problema * problema = new ProblemaCasasola();
+
+   return 0;
+}
