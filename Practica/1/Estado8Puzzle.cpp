@@ -24,7 +24,7 @@ Estado8Puzzle::Estado8Puzzle() {
 Estado8Puzzle * Estado8Puzzle::clonar() {
     Estado8Puzzle * nuevo = new Estado8Puzzle();
     for(int i = 0; i < 9; ++i){
-       nuevo->board[i] = this->board[i];
+      nuevo->board[i] = this->board[i];
     }
     return nuevo;
 }
