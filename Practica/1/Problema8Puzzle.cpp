@@ -77,6 +77,7 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
   }
 }
 
+
 Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNull) {
   Estado8Puzzle * clon1 = estado->clonar();
   if (posNull != 0 || posNull != 3 || posNull != 6){
@@ -97,4 +98,33 @@ Estado8Puzzle *Problema8Puzzle::swapDerecha(Estado8Puzzle * estado, int posNull)
     clon1 = nullptr;
   }
   return clon1;
+}  
+
+Estado8Puzzle* Problema8Puzzle::swapAbajo(Estado8Puzzle* estado, int posicionEspacio) {
+  Estado8Puzzle* resultado = estado->clonar();
+  int posicionSuperior = posicionEspacio - 3;
+
+  if (posicionSuperior > 0) {
+    resultado->board[posicionEspacio] = resultado->board[posicionSuperior];
+    resultado->board[posicionSuperior] = 0;
+  } else {
+    resultado = nullptr;
+  }
+
+  return resultado;
+}
+
+Estado8Puzzle* Problema8Puzzle::swapArriba(Estado8Puzzle* estado, int posicionEspacio) {
+  Estado8Puzzle* resultado = estado->clonar();
+  int posicionInferior = posicionEspacio + 3;
+
+  if (posicionInferior < 9) {
+    resultado->board[posicionEspacio] = resultado->board[posicionInferior];
+    resultado->board[posicionInferior] = 0;
+  } else {
+    resultado = nullptr;
+  }
+
+  return resultado;
+
 }
