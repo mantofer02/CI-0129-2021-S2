@@ -63,9 +63,9 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
       }
     }
     swapIzquierda(siguientes, estado8, posEspacio);
-    // swapDerecha(siguientes, estado8, posEspacio);
-    // swapArriba(siguientes, estado8, posEspacio);
-    // swapAbajo(siguientes, estado8, posEspacio);
+    swapDerecha(siguientes, estado8, posEspacio);
+    swapArriba(siguientes, estado8, posEspacio);
+    swapAbajo(siguientes, estado8, posEspacio);
   }
   return siguientes;
 }
@@ -74,17 +74,15 @@ void Problema8Puzzle::swapIzquierda(Lista * siguientes, Estado * estado, int pos
   Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
   Estado8Puzzle * clon1 = estado8->clonar();
 
-  if (posNull != 0 || posNull != 3 || posNull != 6){
+  if (posNull != 0 && posNull != 3 && posNull != 6){
     std::cout << posNull << std::endl;
-    clon1->board[posNull] =  9;
-    // clon1->board[posNull-1] = 0;
+    clon1->board[posNull] =  clon1->board[posNull - 1];
+    clon1->board[posNull-1] = 0;
+  } else{
+    clon1 = nullptr;
   }
-  // else{
-  //   clon1 = nullptr;
-  // }
   if (clon1) {
-    // std::cout << "SIGO VIVO" << std::endl;
-    // std::cout << clon1 << std::endl;
+    std::cout << "Entro Swap Izquierda" << std:: endl;
     siguientes->push_back(clon1);
   }
 }
@@ -93,7 +91,7 @@ void Problema8Puzzle::swapDerecha(Lista * siguientes, Estado * estado, int posNu
   Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
   Estado8Puzzle * clon1 = estado8->clonar();
 
-  if (posNull != 2 || posNull != 5|| posNull != 8){
+  if (posNull != 2 && posNull != 5 && posNull != 8){
     clon1->board[posNull] =  clon1->board[posNull+1];
     clon1->board[posNull+1] =  0;
   }else{
@@ -132,7 +130,6 @@ void Problema8Puzzle::swapArriba(Lista * siguientes, Estado* estado, int posicio
     resultado->board[posicionEspacio] = resultado->board[posicionInferior];
     resultado->board[posicionInferior] = 0;
   } else {
-    std::cout << "NO EXISTO " << std::endl;
     resultado = nullptr;
   }
   if (resultado) {
