@@ -50,6 +50,23 @@ int Problema8Puzzle::distanciaManhattan(int posicion, int ficha) {
   return (abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha));
 }
 
-Lista *Problema8Puzzle::getSiguientes(Estado *) {
+Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
+  Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
+  Lista * siguientes = new Lista();
+  if(estado8) {
+    int posEspacio;
+    int estadosPosibles = 3;
+    for (int i = 0; i < 9; ++i) {
+      if (estado8->board[i] == 0) {
+        posEspacio = i;
+        i = 10;
+      }
+    }
+    if (posEspacio == 0 || posEspacio == 2 || posEspacio == 6 || posEspacio == 8) {
+      estadosPosibles = 2;
+    }
+    
+    if (posEspacio == 4) {estadosPosibles = 4;}
 
+  }
 }

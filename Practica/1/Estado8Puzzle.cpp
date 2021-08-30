@@ -10,6 +10,7 @@ Estado8Puzzle::Estado8Puzzle() {
    * en la posicion 1, esté la ficha 1,
    * en la posicion 2 está la ficha 3, etc...
    */
+  
   this->board[0] = 0;
   this->board[1] = 1;
   this->board[2] = 3;

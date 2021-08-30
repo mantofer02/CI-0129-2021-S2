@@ -56,4 +56,4 @@ Lista * ProblemaCasasola::getSiguientes( Estado * estado){
       delete clon3;
    }
    return siguientes;
-}      
+}
