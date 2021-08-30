@@ -10,7 +10,7 @@ class Problema8Puzzle : public Problema {
    public:
       Problema8Puzzle();
       Estado * getEstadoInicial();
-      int esSolucion( Estado * );
+      int esSolucion( Estado * ); 
       int heuristica(Estado *);
       int distanciaManhattan(int, int);
       Lista * getSiguientes( Estado * );
