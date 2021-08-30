@@ -63,20 +63,13 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
         i = 10;
       }
     }
-    if (posEspacio == 0 || posEspacio == 2 || posEspacio == 6 || posEspacio == 8) {
-      
-    }
-
-    // for ( i:4) 
-    // switch ()
-    // newEstado = swapC
-    // 
-    
-    if (posEspacio == 4) {estadosPosibles = 4;}
-
+    siguientes->push_back(swapIzquierda(estado8, posEspacio));
+    siguientes->push_back(swapDerecha(estado8, posEspacio));
+    siguientes->push_back(swapArriba(estado8, posEspacio));
+    siguientes->push_back(swapAbajo(estado8, posEspacio));
   }
+  return siguientes;
 }
-
 
 Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNull) {
   Estado8Puzzle * clon1 = estado->clonar();
