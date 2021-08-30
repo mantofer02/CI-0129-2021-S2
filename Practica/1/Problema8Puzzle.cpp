@@ -64,7 +64,7 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
       }
     }
     if (posEspacio == 0 || posEspacio == 2 || posEspacio == 6 || posEspacio == 8) {
-      estadosPosibles = 2;
+      
     }
 
     // for ( i:4) 
@@ -79,7 +79,7 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
 
 Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNull) {
   Estado8Puzzle * clon1 = estado->clonar();
-  if (posNull != 0){
+  if (posNull != 0 || posNull != 3 || posNull != 6){
     clon1->board[posNull] =  clon1->board[posNull-1];
     clon1->board[posNull-1] = 0;
   }else{
@@ -90,7 +90,7 @@ Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNul
 
 Estado8Puzzle *Problema8Puzzle::swapDerecha(Estado8Puzzle * estado, int posNull) {
   Estado8Puzzle * clon1 = estado->clonar();
-  if (posNull != 8){
+  if (posNull != 2 || posNull != 5|| posNull != 8){
     clon1->board[posNull] =  clon1->board[posNull+1];
     clon1->board[posNull+1] =  0;
   }else{
