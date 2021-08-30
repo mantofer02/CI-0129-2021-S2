@@ -3,6 +3,7 @@
 #include "Problema.h"
 #include "Problema8Puzzle.h"
 #include "Estado8Puzzle.h"
+#include <cmath>
 
 Problema8Puzzle::Problema8Puzzle() {
 
@@ -74,4 +75,26 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
     if (posEspacio == 4) {estadosPosibles = 4;}
 
   }
+}
+
+Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNull) {
+  Estado8Puzzle * clon1 = estado->clonar();
+  if (posNull != 0){
+    clon1->board[posNull] =  clon1->board[posNull-1];
+    clon1->board[posNull-1] = 0;
+  }else{
+    clon1 = nullptr;
+  }
+  return clon1;
+}
+
+Estado8Puzzle *Problema8Puzzle::swapDerecha(Estado8Puzzle * estado, int posNull) {
+  Estado8Puzzle * clon1 = estado->clonar();
+  if (posNull != 8){
+    clon1->board[posNull] =  clon1->board[posNull+1];
+    clon1->board[posNull+1] =  0;
+  }else{
+    clon1 = nullptr;
+  }
+  return clon1;
 }
