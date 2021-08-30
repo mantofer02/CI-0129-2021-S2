@@ -14,6 +14,10 @@ class Problema8Puzzle : public Problema {
       int heuristica(Estado *);
       int distanciaManhattan(int, int);
       Lista * getSiguientes( Estado * );
+      Estado * swapIzquierda(Estado *, int);
+      Estado * swapDerecha(Estado *, int);
+      Estado * swapAbjo(Estado *, int);
+      Estado * swapArriba(Estado *, int);
 };
 
 #endif

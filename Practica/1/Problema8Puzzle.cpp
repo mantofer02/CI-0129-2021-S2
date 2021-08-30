@@ -65,6 +65,11 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
     if (posEspacio == 0 || posEspacio == 2 || posEspacio == 6 || posEspacio == 8) {
       estadosPosibles = 2;
     }
+
+    // for ( i:4) 
+    // switch ()
+    // newEstado = swapC
+    // 
     
     if (posEspacio == 4) {estadosPosibles = 4;}
 
