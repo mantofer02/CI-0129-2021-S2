@@ -3,6 +3,7 @@
 #include "Problema.h"
 #include "Problema8Puzzle.h"
 #include "Estado8Puzzle.h"
+#include <cmath>
 
 Problema8Puzzle::Problema8Puzzle() {
 
@@ -63,7 +64,7 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
       }
     }
     if (posEspacio == 0 || posEspacio == 2 || posEspacio == 6 || posEspacio == 8) {
-      estadosPosibles = 2;
+      
     }
 
     // for ( i:4) 
@@ -75,6 +76,29 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
 
   }
 }
+
+
+Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNull) {
+  Estado8Puzzle * clon1 = estado->clonar();
+  if (posNull != 0 || posNull != 3 || posNull != 6){
+    clon1->board[posNull] =  clon1->board[posNull-1];
+    clon1->board[posNull-1] = 0;
+  }else{
+    clon1 = nullptr;
+  }
+  return clon1;
+}
+
+Estado8Puzzle *Problema8Puzzle::swapDerecha(Estado8Puzzle * estado, int posNull) {
+  Estado8Puzzle * clon1 = estado->clonar();
+  if (posNull != 2 || posNull != 5|| posNull != 8){
+    clon1->board[posNull] =  clon1->board[posNull+1];
+    clon1->board[posNull+1] =  0;
+  }else{
+    clon1 = nullptr;
+  }
+  return clon1;
+}  
 
 Estado8Puzzle* Problema8Puzzle::swapAbajo(Estado8Puzzle* estado, int posicionEspacio) {
   Estado8Puzzle* resultado = estado->clonar();
@@ -102,4 +126,5 @@ Estado8Puzzle* Problema8Puzzle::swapArriba(Estado8Puzzle* estado, int posicionEs
   }
 
   return resultado;
+
 }
