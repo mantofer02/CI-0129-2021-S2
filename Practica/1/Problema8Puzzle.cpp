@@ -32,6 +32,7 @@ int Problema8Puzzle::heuristica(Estado * estado) {
   Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle *>(estado);
   if (estado8) {
     for (int i = 0; i < 9; ++i) {
+      // std::cout << "VALOR ACTUAL " << valor << std::endl;
       valor += distanciaManhattan(i, estado8->board[i]);
     }
   }
@@ -46,6 +47,9 @@ int Problema8Puzzle::distanciaManhattan(int posicion, int ficha) {
   if (ficha- 1 < 0) {filaIdeal = 2;}
   int colIdeal = (ficha - 1)%3;
   if (ficha - 1 < 0) {colIdeal = 2;}
+
+  std::cout << "FICHA " << ficha << " en posicion " << posicion << std::endl;
+  std::cout << "Manhattan " << abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha) << std::endl;
 
   return (abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha));
 }
