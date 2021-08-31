@@ -51,8 +51,8 @@ int Problema8Puzzle::distanciaManhattan(int posicion, int ficha) {
     colIdeal = 2;
   }
 
-  std::cout << "FICHA " << ficha << " en posicion " << posicion << std::endl;
-  std::cout << "Manhattan " << abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha) << std::endl;
+  // std::cout << "FICHA " << ficha << " en posicion " << posicion << std::endl;
+  // std::cout << "Manhattan " << abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha) << std::endl;
 
   return (abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha));
 }

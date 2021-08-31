@@ -6,27 +6,39 @@
  
 Solucion * SolucionadorSkynet::solucione( Problema * problema){
     Estado  * inicio = problema->getEstadoInicial();
-    Lista * pasos = problema->getSiguientes( inicio );   
-    Solucion * solucionMala = new Solucion( pasos );
+    Lista * pasos = problema->getSiguientes(inicio);
+    Lista * siguienteGen;   
 
     Estado * mejorEstado;
 
+    Lista::Iterador estadoConMenorEuristica = pasos->begin();
+    int menorEuristica = problema->heuristica(*estadoConMenorEuristica); 
     int tengoSolucion = 0;
 
-
-    // while (!tengoSolucion) {
       
-      for (Lista::Iterador it = pasos->begin(); it != pasos->end(); ++it) {
-        std::cout << "Heuristica " << std::endl;
-        std::cout << problema->heuristica(*it) << std::endl;
-        
+    for (Lista::Iterador it = pasos->begin(); it != pasos->end(); ++it) {
+      if (problema->heuristica(*it) < menorEuristica) {
+        menorEuristica = problema->heuristica(*it);
+        estadoConMenorEuristica = it;
       }
+    }
 
+    siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
+    pasos->push_back(*estadoConMenorEuristica);
 
-
-  // }   
-
-  delete inicio;
-   // La unica cosas que no destruyo es la lista de pasos
-  return solucionMala;
+    while (!tengoSolucion) {
+      for (Lista::Iterador it = siguienteGen->begin(); it != siguienteGen->end(); ++it) {
+        if (problema->heuristica(*it) < menorEuristica) {
+          menorEuristica = problema->heuristica(*it);
+          estadoConMenorEuristica = it;
+        }
+      }    
+      siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
+      pasos->push_back(*estadoConMenorEuristica);
+      tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
+    }
+    
+    Solucion * solucionMala = new Solucion( pasos );
+    delete inicio;
+    return solucionMala;
 }
