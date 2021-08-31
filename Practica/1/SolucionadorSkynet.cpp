@@ -14,15 +14,19 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
     int tengoSolucion = 0;
 
 
-    while (!tengoSolucion) {
+    // while (!tengoSolucion) {
       
       for (Lista::Iterador it = pasos->begin(); it != pasos->end(); ++it) {
         std::cout << "Heuristica " << std::endl;
         std::cout << problema->heuristica(*it) << std::endl;
         
       }
-    }   
-    delete inicio;
-    // La unica cosas que no destruyo es la lista de pasos
-    return solucionMala;
+
+
+
+  // }   
+
+  delete inicio;
+   // La unica cosas que no destruyo es la lista de pasos
+  return solucionMala;
 }

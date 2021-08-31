@@ -1,8 +1,6 @@
 #include "Problema8Puzzle.h"
 #include "Lista.h"
 #include "Problema.h"
-#include "Problema8Puzzle.h"
-#include "Estado8Puzzle.h"
 #include <cmath>
 
 Problema8Puzzle::Problema8Puzzle() {
@@ -27,12 +25,14 @@ int Problema8Puzzle::esSolucion(Estado * estado) {
         esUnaSolucion = !(estado8->board[8]) ? 1 : 0;
       }
     }
+    return esUnaSolucion;
 }
 int Problema8Puzzle::heuristica(Estado * estado) {
   int valor = 0;
   Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle *>(estado);
   if (estado8) {
     for (int i = 0; i < 9; ++i) {
+      // std::cout << "VALOR ACTUAL " << valor << std::endl;
       valor += distanciaManhattan(i, estado8->board[i]);
     }
   }
@@ -40,13 +40,19 @@ int Problema8Puzzle::heuristica(Estado * estado) {
 }
 
 int Problema8Puzzle::distanciaManhattan(int posicion, int ficha) {
-  int filaFicha = (int)posicion/3;
-  int colFicha = posicion%3;
+  int filaFicha = (int)posicion / 3;
+  int colFicha = posicion % 3;
 
-  int filaIdeal = ((int)ficha/3) - 1;
-  if (ficha- 1 < 0) {filaIdeal = 2;}
-  int colIdeal = (ficha - 1)%3;
-  if (ficha - 1 < 0) {colIdeal = 2;}
+  int filaIdeal = (int)(ficha - 1) / 3;
+  int colIdeal = (ficha - 1) % 3;
+
+  if (ficha - 1 < 0) {
+    filaIdeal = 2;
+    colIdeal = 2;
+  }
+
+  std::cout << "FICHA " << ficha << " en posicion " << posicion << std::endl;
+  std::cout << "Manhattan " << abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha) << std::endl;
 
   return (abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha));
 }
@@ -63,38 +69,51 @@ Lista *Problema8Puzzle::getSiguientes(Estado * estado) {
         i = 10;
       }
     }
-    siguientes->push_back(swapIzquierda(estado8, posEspacio));
-    siguientes->push_back(swapDerecha(estado8, posEspacio));
-    siguientes->push_back(swapArriba(estado8, posEspacio));
-    siguientes->push_back(swapAbajo(estado8, posEspacio));
+    swapIzquierda(siguientes, estado8, posEspacio);
+    swapDerecha(siguientes, estado8, posEspacio);
+    swapArriba(siguientes, estado8, posEspacio);
+    swapAbajo(siguientes, estado8, posEspacio);
   }
   return siguientes;
 }
 
-Estado8Puzzle *Problema8Puzzle::swapIzquierda(Estado8Puzzle * estado, int posNull) {
-  Estado8Puzzle * clon1 = estado->clonar();
-  if (posNull != 0 || posNull != 3 || posNull != 6){
-    clon1->board[posNull] =  clon1->board[posNull-1];
+void Problema8Puzzle::swapIzquierda(Lista * siguientes, Estado * estado, int posNull) {
+  Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
+  Estado8Puzzle * clon1 = estado8->clonar();
+
+  if (posNull != 0 && posNull != 3 && posNull != 6){
+    std::cout << posNull << std::endl;
+    clon1->board[posNull] =  clon1->board[posNull - 1];
     clon1->board[posNull-1] = 0;
-  }else{
+  } else{
     clon1 = nullptr;
   }
-  return clon1;
+  if (clon1) {
+    std::cout << "Entro Swap Izquierda" << std:: endl;
+    siguientes->push_back(clon1);
+  }
 }
 
-Estado8Puzzle *Problema8Puzzle::swapDerecha(Estado8Puzzle * estado, int posNull) {
-  Estado8Puzzle * clon1 = estado->clonar();
-  if (posNull != 2 || posNull != 5|| posNull != 8){
+void Problema8Puzzle::swapDerecha(Lista * siguientes, Estado * estado, int posNull) {
+  Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
+  Estado8Puzzle * clon1 = estado8->clonar();
+
+  if (posNull != 2 && posNull != 5 && posNull != 8){
     clon1->board[posNull] =  clon1->board[posNull+1];
     clon1->board[posNull+1] =  0;
   }else{
     clon1 = nullptr;
   }
-  return clon1;
+
+  if (clon1) {
+    siguientes->push_back(clon1);
+  }
 }  
 
-Estado8Puzzle* Problema8Puzzle::swapAbajo(Estado8Puzzle* estado, int posicionEspacio) {
-  Estado8Puzzle* resultado = estado->clonar();
+void Problema8Puzzle::swapAbajo(Lista * siguientes, Estado* estado, int posicionEspacio) {
+  Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
+  Estado8Puzzle * resultado = estado8->clonar();
+
   int posicionSuperior = posicionEspacio - 3;
 
   if (posicionSuperior > 0) {
@@ -103,12 +122,15 @@ Estado8Puzzle* Problema8Puzzle::swapAbajo(Estado8Puzzle* estado, int posicionEsp
   } else {
     resultado = nullptr;
   }
-
-  return resultado;
+  if (resultado) {
+    siguientes->push_back(resultado);
+  }
 }
 
-Estado8Puzzle* Problema8Puzzle::swapArriba(Estado8Puzzle* estado, int posicionEspacio) {
-  Estado8Puzzle* resultado = estado->clonar();
+void Problema8Puzzle::swapArriba(Lista * siguientes, Estado* estado, int posicionEspacio) {
+  Estado8Puzzle * estado8 = dynamic_cast< Estado8Puzzle * >(estado);
+  Estado8Puzzle * resultado = estado8->clonar();
+
   int posicionInferior = posicionEspacio + 3;
 
   if (posicionInferior < 9) {
@@ -117,7 +139,7 @@ Estado8Puzzle* Problema8Puzzle::swapArriba(Estado8Puzzle* estado, int posicionEs
   } else {
     resultado = nullptr;
   }
-
-  return resultado;
-
+  if (resultado) {
+    siguientes->push_back(resultado);
+  }
 }

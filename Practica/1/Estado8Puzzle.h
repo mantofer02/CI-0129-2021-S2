@@ -2,7 +2,6 @@
 #define PUZZLE_PROBLEM_STATE
 
 #include "Problema8Puzzle.h"
-
 #include "Estado.h"
 
 class Estado8Puzzle : public Estado {

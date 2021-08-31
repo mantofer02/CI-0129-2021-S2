@@ -47,7 +47,7 @@ ostream& Estado8Puzzle::imprimir(ostream& salida){
       salida << '_';
     }
     salida << "] ";
-    if (!level%3) {
+    if (level%3 == 0) {
       salida << "\n";
     }
     ++level;
