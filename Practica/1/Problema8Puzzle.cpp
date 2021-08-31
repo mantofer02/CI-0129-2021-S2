@@ -40,13 +40,16 @@ int Problema8Puzzle::heuristica(Estado * estado) {
 }
 
 int Problema8Puzzle::distanciaManhattan(int posicion, int ficha) {
-  int filaFicha = (int)posicion/3;
-  int colFicha = posicion%3;
+  int filaFicha = (int)posicion / 3;
+  int colFicha = posicion % 3;
 
-  int filaIdeal = ((int)ficha/3) - 1;
-  if (ficha- 1 < 0) {filaIdeal = 2;}
-  int colIdeal = (ficha - 1)%3;
-  if (ficha - 1 < 0) {colIdeal = 2;}
+  int filaIdeal = (int)(ficha - 1) / 3;
+  int colIdeal = (ficha - 1) % 3;
+
+  if (ficha - 1 < 0) {
+    filaIdeal = 2;
+    colIdeal = 2;
+  }
 
   std::cout << "FICHA " << ficha << " en posicion " << posicion << std::endl;
   std::cout << "Manhattan " << abs(filaIdeal - filaFicha) + abs(colIdeal - colFicha) << std::endl;
