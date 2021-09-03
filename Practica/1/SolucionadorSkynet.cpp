@@ -4,27 +4,33 @@
 #include "Lista.h"
 #include "Problema.h"
  
-Solucion * SolucionadorSkynet::solucione( Problema * problema){
-    Estado  * inicio = problema->getEstadoInicial();
-    Lista * pasos = problema->getSiguientes(inicio);
-    Lista * siguienteGen;   
+Solucion * SolucionadorSkynet::solucione(Problema * problema) {
+    // Obtener estado inicial.
+    Estado * inicio = problema->getEstadoInicial();
+    // Obtener pasos posibles y guardarlos en una lista.
+    Lista * posiblesSiguientes = problema->getSiguientes(inicio);
+    Lista* pasosSolucion = new Lista();
 
+    // Lista de pasos para solucionar el 8Puzzle.
+    Lista * siguienteGen;   
     Estado * mejorEstado;
 
-    Lista::Iterador estadoConMenorEuristica = pasos->begin();
-    int menorEuristica = problema->heuristica(*estadoConMenorEuristica); 
+    // Iterador
+    Lista::Iterador estadoConMenorEuristica = posiblesSiguientes->begin(); 
+    int menorEuristica = problema->heuristica(*estadoConMenorEuristica);
     int tengoSolucion = 0;
 
       
-    for (Lista::Iterador it = pasos->begin(); it != pasos->end(); ++it) {
+    for (Lista::Iterador it = posiblesSiguientes->begin(); it != posiblesSiguientes->end(); ++it) {
       if (problema->heuristica(*it) < menorEuristica) {
         menorEuristica = problema->heuristica(*it);
         estadoConMenorEuristica = it;
       }
     }
 
+    // Ahora vuelve a sacar los siguientes pero del estado con menor eurística.
     siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
-    pasos->push_back(*estadoConMenorEuristica);
+    pasosSolucion->push_back(*estadoConMenorEuristica);
     tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
 
     while (!tengoSolucion) {
@@ -35,11 +41,11 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
         }
       }    
       siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
-      pasos->push_back(*estadoConMenorEuristica);
+      pasosSolucion->push_back(*estadoConMenorEuristica);
       tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
     }
     
-    Solucion * solucionMala = new Solucion( pasos );
+    Solucion * solucionMala = new Solucion( pasosSolucion );
     delete inicio;
     return solucionMala;
 }
