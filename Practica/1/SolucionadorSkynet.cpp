@@ -7,8 +7,7 @@
 Solucion * SolucionadorSkynet::solucione( Problema * problema){
     Estado  * inicio = problema->getEstadoInicial();
     Lista * pasos = problema->getSiguientes(inicio);
-    Lista * siguienteGen;   
-
+    Lista * siguienteGen;
     Estado * mejorEstado;
 
     Lista::Iterador estadoConMenorEuristica = pasos->begin();
@@ -24,7 +23,6 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
     }
 
     siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
-    pasos->push_back(*estadoConMenorEuristica);
     tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
 
     while (!tengoSolucion) {
