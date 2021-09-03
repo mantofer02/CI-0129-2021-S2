@@ -89,7 +89,6 @@ void Problema8Puzzle::swapIzquierda(Lista * siguientes, Estado * estado, int pos
     clon1 = nullptr;
   }
   if (clon1) {
-    std::cout << "Entro Swap Izquierda" << std:: endl;
     siguientes->push_back(clon1);
   }
 }
