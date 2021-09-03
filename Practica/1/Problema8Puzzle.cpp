@@ -82,7 +82,7 @@ void Problema8Puzzle::swapIzquierda(Lista * siguientes, Estado * estado, int pos
   Estado8Puzzle * clon1 = estado8->clonar();
 
   if (posNull != 0 && posNull != 3 && posNull != 6){
-    std::cout << posNull << std::endl;
+    // std::cout << posNull << std::endl;
     clon1->board[posNull] =  clon1->board[posNull - 1];
     clon1->board[posNull-1] = 0;
   } else{

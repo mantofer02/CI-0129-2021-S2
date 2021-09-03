@@ -25,6 +25,7 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
 
     siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
     pasos->push_back(*estadoConMenorEuristica);
+    tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
 
     while (!tengoSolucion) {
       for (Lista::Iterador it = siguienteGen->begin(); it != siguienteGen->end(); ++it) {
