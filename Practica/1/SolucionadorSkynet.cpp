@@ -5,6 +5,7 @@
 #include "Problema.h"
  
 Solucion * SolucionadorSkynet::solucione( Problema * problema){
+    // para commit 
     Estado  * inicio = problema->getEstadoInicial();
     Lista * pasos = problema->getSiguientes(inicio);
     Lista * siguienteGen;
