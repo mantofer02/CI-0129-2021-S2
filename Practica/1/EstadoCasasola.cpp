@@ -43,5 +43,5 @@ int EstadoCasasola::operator==(Estado * otroEstado){
 }
 
 int EstadoCasasola::operator!=(Estado * otroEstado){
-   return !(*this==otroEstado);
+  return !(*this==otroEstado);
 }
