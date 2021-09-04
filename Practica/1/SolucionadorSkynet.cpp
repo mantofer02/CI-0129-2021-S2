@@ -5,37 +5,30 @@
 #include "Problema.h"
  
 Solucion * SolucionadorSkynet::solucione( Problema * problema){
-    // para commit 
     Estado  * inicio = problema->getEstadoInicial();
     Lista * pasos = problema->getSiguientes(inicio);
     Lista * siguienteGen;
-    Estado * mejorEstado;
+    int haySolucion = 0;
 
-    Lista::Iterador estadoConMenorEuristica = pasos->begin();
-    int menorEuristica = problema->heuristica(*estadoConMenorEuristica); 
-    int tengoSolucion = 0;
-
-      
-    for (Lista::Iterador it = pasos->begin(); it != pasos->end(); ++it) {
-      if (problema->heuristica(*it) < menorEuristica) {
-        menorEuristica = problema->heuristica(*it);
-        estadoConMenorEuristica = it;
-      }
-    }
-
-    siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
-    tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
-
-    while (!tengoSolucion) {
-      for (Lista::Iterador it = siguienteGen->begin(); it != siguienteGen->end(); ++it) {
-        if (problema->heuristica(*it) < menorEuristica) {
-          menorEuristica = problema->heuristica(*it);
-          estadoConMenorEuristica = it;
+    Lista::Iterador it = pasos->begin();
+    
+    while (!haySolucion) {
+      if (problema->esSolucion(*it)) {
+        haySolucion = 1;
+        // para meter la ultima, corregir
+        siguienteGen = problema->getSiguientes(*it);
+        for (Lista::Iterador sigIt = siguienteGen->begin(); sigIt != siguienteGen->end(); sigIt++)
+        {
+          pasos->push_back(*sigIt);
         }
-      }    
-      siguienteGen = problema->getSiguientes(*estadoConMenorEuristica);
-      pasos->push_back(*estadoConMenorEuristica);
-      tengoSolucion = problema->esSolucion(*estadoConMenorEuristica);
+      } else {
+        siguienteGen = problema->getSiguientes(*it);
+        for (Lista::Iterador sigIt = siguienteGen->begin(); sigIt != siguienteGen->end(); sigIt++)
+        {
+          pasos->push_back(*sigIt);
+        }
+        it++;
+      }
     }
     
     Solucion * solucionMala = new Solucion( pasos );
