@@ -10,13 +10,14 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
     
     Lista * solucion = new Lista();
     Lista * explorados = new Lista();
+    Lista * siguienteGen;
     Lista * frontera = problema->getSiguientes(inicio);
     Estado * estadoActual = frontera->pop_front();
     
     solucion->push_front(inicio);
     explorados->push_back(inicio);
 
-    
+
 
     int haySolucion = 0;
 
@@ -24,25 +25,27 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
     
     while (!haySolucion) {
       if (explorados->buscar(estadoActual) == explorados->end()) {
-        std::cout << "NOT FAIL" << std::endl;
+        
         if (problema->esSolucion(estadoActual)) {
           haySolucion = 1;
+          explorados->push_back(estadoActual);
         } else {
           siguienteGen = problema->getSiguientes(estadoActual);
-          for (it = siguienteGen->begin(); it != siguienteGen->end(); it++) {
-            frontera->push_back(*it);
+
+          while (!siguienteGen->isEmpty()) {
+            frontera->push_front(siguienteGen->pop_back());
           }
+
           explorados->push_back(estadoActual);
-          solucion->push_back(estadoActual);
-          estadoActual = frontera->pop_back();
+          // solucion->push_back(estadoActual);
+          estadoActual = frontera->pop_front();
         }
       } else {
-        solucion->pop_back();
-        estadoActual = frontera->pop_back();
+        estadoActual = frontera->pop_front();
       }
     }
     
-    Solucion * solucionMala = new Solucion(solucion);
+    Solucion * solucionMala = new Solucion(explorados);
     delete inicio;
     return solucionMala;
 }
