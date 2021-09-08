@@ -16,6 +16,7 @@ class EstadoCasasola : public Estado {
       ostream& imprimir(ostream&);
       int operator==(Estado *);
       int operator!=(Estado *);
+      int sonIguales(Estado *);
 };
 
 

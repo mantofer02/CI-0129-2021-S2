@@ -7,15 +7,7 @@
  
 Solucion * SolucionadorSkynet::solucione( Problema * problema){
     Estado  * inicio = problema->getEstadoInicial();
-    Estado * segundo = problema->getEstadoInicial();
 
-
-    std::cout << "--------------------PRIMERA CORRIDA------------------------" << std::endl;
-    std::cout << (inicio == segundo) << std::endl;
-    std::cout << inicio << std::endl;
-    std::cout << segundo << std::endl;
-    std::cout << "--------------------------------------------" << std::endl;
-    sleep(1000000);
 
     Lista * solucion = new Lista();
     Lista * explorados = new Lista();
@@ -40,16 +32,13 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
           while (!siguienteGen->isEmpty()) {
             frontera->push_front(siguienteGen->pop_back());
           }
-
           explorados->push_back(estadoActual);
-          // solucion->push_back(estadoActual);
         }
       }
       estadoActual = frontera->pop_front();
     }
     
-    //Solucion * solucionMala = new Solucion(hacerListaPasos(explorados, problema));
-     Solucion * solucionMala = new Solucion(explorados);
+    Solucion * solucionMala = new Solucion(hacerListaPasos(explorados, problema));
     delete inicio;
     return solucionMala;
 }
@@ -60,7 +49,6 @@ Lista * SolucionadorSkynet::hacerListaPasos(Lista * explorados, Problema * probl
   Lista *siguienteGen;
   Estado *estadoActual;
   Estado *estadoAux;
-  int stop = 1;
 
   if (!explorados->isEmpty())
   {
@@ -82,24 +70,12 @@ Lista * SolucionadorSkynet::hacerListaPasos(Lista * explorados, Problema * probl
         while (!siguienteGen->isEmpty())
         {
           estadoAux = siguienteGen->pop_back();
-          std::cout << "--------------------------------------------" << std::endl;
-          std::cout << (estadoAux == pasos->front()) << std::endl;
-          std::cout << "--------------------------------------------" << std::endl;
-          // if (estadoAux == pasos->front()) {
-          //   pasos->push_front(estadoActual);
-          // }
-
-          //   if (stop) {
-          //     std::cout << "--------------------------" << std::endl;
-          //     std::cout << siguienteGen->pop_back() << std::endl;
-          //   }
-          //   std::cout << "FRONT" << std::endl;
-          //   std::cout << pasos->front() << std::endl;
-          // }
-          // stop = 0;
+          if (estadoAux->sonIguales(pasos->front())) {
+            pasos->push_front(estadoActual);
+          }
+          }
         }
       }
     }
-  }
   return pasos;
 }

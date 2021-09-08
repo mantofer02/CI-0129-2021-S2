@@ -63,9 +63,6 @@ int Estado8Puzzle::operator==(Estado * otroEstado) {
     for(int i=0; i < 9; ++i){
       if(this->board[i] != ec->board[i]) {
         esIgual = 0;
-        std::cout << this->board[i] << std::endl;
-        std::cout << ec->board[i] << std::endl;
-        std::cout << "YA NO SOY IGUAL" << std::endl;
         i = 10;
       };
     }
@@ -75,4 +72,19 @@ int Estado8Puzzle::operator==(Estado * otroEstado) {
 
 int Estado8Puzzle::operator!=(Estado * otroEstado) {
   return !(*this==otroEstado);
+}
+
+int Estado8Puzzle::sonIguales(Estado * otroEstado) {
+  Estado8Puzzle * ec = dynamic_cast< Estado8Puzzle * >(otroEstado);
+  int esIgual = 0;
+  if(ec) {
+    esIgual = 1;
+    for(int i=0; i < 9; ++i){
+      if(this->board[i] != ec->board[i]) {
+        esIgual = 0;
+        i = 10;
+      };
+    }
+  }
+  return esIgual;
 }

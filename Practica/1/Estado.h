@@ -33,6 +33,7 @@ class Estado {
       virtual ostream& imprimir(ostream&)=0;
       virtual int operator==(Estado *)=0;
       virtual int operator!=(Estado *)=0;
+      virtual int sonIguales(Estado *)=0;
 };
 
 
