@@ -20,8 +20,6 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema){
 
 
     int haySolucion = 0;
-
-    Lista::Iterador it;
     
     while (!haySolucion) {
       if (explorados->buscar(estadoActual) == explorados->end()) {
