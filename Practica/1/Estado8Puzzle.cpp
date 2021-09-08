@@ -11,12 +11,12 @@ Estado8Puzzle::Estado8Puzzle() {
    * en la posicion 2 está la ficha 3, etc...
    */
   
-  this->board[0] = 0;
-  this->board[1] = 1;
-  this->board[2] = 3;
+  this->board[0] = 1;
+  this->board[1] = 2;
+  this->board[2] = 0;
   this->board[3] = 4;
-  this->board[4] = 2;
-  this->board[5] = 5;
+  this->board[4] = 5;
+  this->board[5] = 3;
   this->board[6] = 7;
   this->board[7] = 8;
   this->board[8] = 6;
@@ -60,8 +60,14 @@ int Estado8Puzzle::operator==(Estado * otroEstado) {
   int esIgual = 0;
   if(ec) {
     esIgual = 1;
-    for(int i=0; esIgual && i < 9; ++i){
-      esIgual = this->board[i]== ec->board[i];
+    for(int i=0; i < 9; ++i){
+      if(this->board[i] != ec->board[i]) {
+        esIgual = 0;
+        std::cout << this->board[i] << std::endl;
+        std::cout << ec->board[i] << std::endl;
+        std::cout << "YA NO SOY IGUAL" << std::endl;
+        i = 10;
+      };
     }
   }
   return esIgual;

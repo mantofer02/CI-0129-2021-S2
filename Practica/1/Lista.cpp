@@ -177,6 +177,25 @@ Estado *  Lista::pop_front(){
    return elemento;
 }
 
+Estado *  Lista::front() {
+   Estado * elemento =0;
+   if(this->primera){
+      Celda * victima = primera;
+      elemento = primera->elementoPtr;
+      // primera->elementoPtr = 0; // Quité elemento de la celda
+      // primera = primera->siguiente;
+      // victima->siguiente=0; // Desconectar Celda
+      // delete victima;
+      // if(primera){
+      //    primera->anterior = 0;
+      // }
+      // else{
+      //    ultima = 0;
+      // }
+   }   
+   return elemento;
+}
+
 Estado * Lista::pop_back(){
    Iterador i = rbegin();
    Iterador fin = end();
@@ -185,6 +204,18 @@ Estado * Lista::pop_back(){
       encontrado = *i;
       *i = 0; // desconecta Estado de la lista antes de borrar la celda
       borrar(i);
+   }
+   return encontrado;
+}
+
+Estado * Lista::back(){
+   Iterador i = rbegin();
+   Iterador fin = end();
+   Estado * encontrado = 0;
+   if(i!=fin){
+      encontrado = *i;
+      // *i = 0; // desconecta Estado de la lista antes de borrar la celda
+      // borrar(i);
    }
    return encontrado;
 }

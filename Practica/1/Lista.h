@@ -57,7 +57,9 @@ class Lista {
        int isEmpty();
 
        Estado * pop_front();
+       Estado * front();
        Estado * pop_back();
+       Estado * back();
 
        Lista & push_back(Estado *);  // encadenamiento de métodos      
        Lista & push_front( Estado * );
