@@ -5,30 +5,23 @@
 #include "Problema.h"
 #include <unistd.h>
  
-Solucion * SolucionadorSkynet::solucione( Problema * problema){
+Solucion * SolucionadorSkynet::solucione( Problema * problema) {
     Estado  * inicio = problema->getEstadoInicial();
-
-
-    Lista * solucion = new Lista();
-    Lista * explorados = new Lista();
     Lista * siguienteGen;
+    Lista * explorados = new Lista();
     Lista * frontera = problema->getSiguientes(inicio);
     Estado * estadoActual = frontera->pop_front();
     
-    solucion->push_front(inicio);
+    int haySolucion = problema->esSolucion(inicio);
     explorados->push_back(inicio);
 
-    int haySolucion = 0;
-    
     while (!haySolucion) {
       if (explorados->buscar(estadoActual) == explorados->end()) {
-        
         if (problema->esSolucion(estadoActual)) {
           haySolucion = 1;
           explorados->push_back(estadoActual);
         } else {
           siguienteGen = problema->getSiguientes(estadoActual);
-
           while (!siguienteGen->isEmpty()) {
             frontera->push_front(siguienteGen->pop_back());
           }
@@ -50,32 +43,25 @@ Lista * SolucionadorSkynet::hacerListaPasos(Lista * explorados, Problema * probl
   Estado *estadoActual;
   Estado *estadoAux;
 
-  if (!explorados->isEmpty())
-  {
+  if (!explorados->isEmpty()) {
     estadoActual = explorados->pop_back();
     pasos->push_front(estadoActual);
-
-    while (!explorados->isEmpty())
-    {
-
+    
+    while (!explorados->isEmpty()) {
       estadoActual = explorados->pop_back();
-      if (explorados->isEmpty())
-      {
+      if (explorados->isEmpty()) {
         pasos->push_front(estadoActual);
-      }
-      else
-      {
+      } else {
         siguienteGen = problema->getSiguientes(estadoActual);
-
-        while (!siguienteGen->isEmpty())
-        {
+        while (!siguienteGen->isEmpty()) {
           estadoAux = siguienteGen->pop_back();
           if (estadoAux->sonIguales(pasos->front())) {
             pasos->push_front(estadoActual);
           }
-          }
         }
       }
     }
+
+  }
   return pasos;
 }
