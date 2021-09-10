@@ -4,7 +4,7 @@
 #include "Lista.h"
 #include "Problema.h"
 #include <unistd.h>
- 
+
 Solucion * SolucionadorSkynet::solucione( Problema * problema) {
     Estado  * inicio = problema->getEstadoInicial();
     Lista * siguienteGen;
