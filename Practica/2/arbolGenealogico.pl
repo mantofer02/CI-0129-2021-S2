@@ -30,10 +30,10 @@ es_hija_de(helga, herman).
 es_hija_de(sharon, herman).
 
 es_padre_de(P, H):-
-    hombre(P), es_hijo_de(H, P);es_hija_de(H, P).
+    hombre(P),(es_hijo_de(H, P);es_hija_de(H, P)).
 
 es_madre_de(M, H):-
-    mujer(M), es_hijo_de(H, M);es_hija_de(H, M).
+    mujer(M),(es_hijo_de(H, M); es_hija_de(H, M)).
 
 es_hermano_de(H, X):-
     hombre(H),
@@ -83,3 +83,21 @@ es_ancestro_de(A, D):-
 es_ancestro_de(A, D):-
     ((es_hijo_de(D, P);es_hija_de(D, P)),
     es_ancestro_de(A, P)).
+
+es_tio_de(T, S):-
+    hombre(T), ((es_hermano_de(T, P), es_padre_de(P, S));(es_hermano_de(T, M), es_madre_de(M, S))).
+
+es_tia_de(T, S):-
+    mujer(T), ((es_hermana_de(T, P), es_padre_de(P, S));(es_hermana_de(T, M), es_madre_de(M, S))).
+
+es_sobrino_de(S, T):-
+    hombre(S),((es_padre_de(P, S), es_hermano_de(P,T)); (es_madre_de(M, S),es_hermana_de(M,T))).
+
+es_sobrina_de(S, T):-
+    mujer(S),((es_padre_de(P, S), es_hermano_de(P,T)); (es_madre_de(M, S),es_hermana_de(M,T))).
+
+es_primo_de(P, X):-
+    hombre(P), ((es_sobrino_de(P, Padre), es_padre_de(Padre, X)); (es_sobrino_de(P, Madre), es_madre_de(Madre, X))).
+
+es_prima_de(P, X):-
+    mujer(P), ((es_sobrina_de(P, Padre), es_padre_de(Padre, X)); (es_sobrina_de(P, Madre), es_madre_de(Madre, X))).
