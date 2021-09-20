@@ -45,3 +45,15 @@ int EstadoCasasola::operator==(Estado * otroEstado){
 int EstadoCasasola::operator!=(Estado * otroEstado){
   return !(*this==otroEstado);
 }
+
+int EstadoCasasola::sonIguales(Estado * otroEstado) {
+  EstadoCasasola * ec = dynamic_cast< EstadoCasasola * >(otroEstado);
+    int esIgual = 0;
+    if(ec){
+       esIgual = 1;
+       for(int i=0; esIgual && i<3; ++i){
+          esIgual = this->n[i]== ec->n[i];
+       }
+    }
+    return esIgual;
+}
