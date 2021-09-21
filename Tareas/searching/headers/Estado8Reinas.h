@@ -7,7 +7,7 @@
 #include "Estado.h"
 
 
-class Estado8Reinas
+class Estado8Reinas : public Estado
 {
 private:
 	int tablero[8][8];
