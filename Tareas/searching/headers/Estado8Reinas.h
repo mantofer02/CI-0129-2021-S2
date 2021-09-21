@@ -19,6 +19,7 @@ public:
 	std::ostream& imprimir(std::ostream&);
 	int operator==(Estado*);
 	int operator!=(Estado*);
+	int sonIguales(Estado*);
 };
 
 #endif /* ESTADO_8_REINAS_H */

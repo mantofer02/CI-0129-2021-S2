@@ -96,3 +96,15 @@ int Estado8Reinas::operator!=(Estado* otroEstado)
 {
   return !(*this == otroEstado);
 }
+
+int Estado8Reinas::sonIguales(Estado* otroEstado)
+{
+  Estado8Reinas* copiaEstado = dynamic_cast<Estado8Reinas*>(otroEstado);
+
+  for (int fila = 0; fila < 8; ++fila)
+    for (int columna = 0; columna < 8; ++columna)
+      if (this->tablero[fila][columna] != copiaEstado->tablero[fila][columna])
+        return false;
+
+  return true;
+}
