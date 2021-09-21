@@ -2,7 +2,7 @@
 #define EL_PROBLEMA
 
 #include "Producto.h"
-#include "Estado.h"
+#include "../headers/Estado.h"
 #include "Lista.h"
 
 class Problema : public Producto {      

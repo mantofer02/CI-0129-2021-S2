@@ -1,5 +1,5 @@
-#include "Estado8Puzzle.h"
-#include "Estado.h"
+#include "../headers/Estado8Puzzle.h"
+#include "../headers/Estado.h"
 
 #include<iostream>
 using namespace std;

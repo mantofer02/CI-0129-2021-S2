@@ -1,7 +1,7 @@
-#include "Lista.h"
-#include "Problema.h"
-#include "ProblemaCasasola.h"
-#include "EstadoCasasola.h"
+#include "../headers/Lista.h"
+#include "../headers/Problema.h"
+#include "../headers/ProblemaCasasola.h"
+#include "../headers/EstadoCasasola.h"
 
 ProblemaCasasola::ProblemaCasasola(){
 

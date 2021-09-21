@@ -1,13 +1,13 @@
-#include "Registro.h"
-#include "Fabrica.h"
-#include "Producto.h"
+#include "../headers/Registro.h"
+#include "../headers/Fabrica.h"
+#include "../headers/Problema.h"
 
 // DOS PRODUCTOS ESPECÍFICOS SERÁN Solucionador Problema
-#include "Solucionador.h"
-#include "Problema.h"
+#include "../headers/Solucionador.h"
+#include "../headers/Problema.h"
 
 // Lista de estados desde el inicial hasta la solucion final
-#include "Solucion.h"
+#include "../headers/Solucion.h"
 
 #include <iostream>
 using namespace std;

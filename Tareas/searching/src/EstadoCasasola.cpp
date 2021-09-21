@@ -1,5 +1,5 @@
-#include "EstadoCasasola.h"
-#include "Estado.h"
+#include "../headers/EstadoCasasola.h"
+#include "../headers/Estado.h"
 
 #include<iostream>
 using namespace std;

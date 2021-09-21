@@ -1,5 +1,5 @@
-#include "Lista.h"
-#include "Estado.h"
+#include "../headers/Lista.h"
+#include "../headers/Estado.h"
 #include<iostream>
 using namespace std;
 

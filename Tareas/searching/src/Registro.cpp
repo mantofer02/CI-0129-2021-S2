@@ -1,13 +1,13 @@
-#include "Registro.h"
-#include "Fabrica.h"
+#include "../headers/Registro.h"
+#include "../headers/Fabrica.h"
 // AGREGUE UNA FABRICA DE SOLUCIONADOR Y UNA DE PROBLEMA
 // POR CADA MIEMBRO Z DE SU GRUPO XX EQUIPO YY
 // MIEMBRO 0
-#include "ProblemaCasasolaFactory.h"
-#include "SolucionadorMaloFactory.h"
+#include "../headers/ProblemaCasasolaFactory.h"
+#include "../headers/SolucionadorMaloFactory.h"
 // MIEMBRO 2
-#include "Problema8PuzzleFactory.h"
-#include "SolucionadorSkynetFactory.h"
+#include "../headers/Problema8PuzzleFactory.h"
+#include "../headers/SolucionadorSkynetFactory.h"
 // MIEMBRO 3
 // #include "ProblemXXYY3Factory.h"
 // #include "SolverXXYY3Factory.h"

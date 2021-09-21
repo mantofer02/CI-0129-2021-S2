@@ -1,8 +1,8 @@
-#include "SolucionadorMalo.h"
-#include "Estado.h"
-#include "Solucion.h"
-#include "Lista.h"
-#include "Problema.h"
+#include "../headers/SolucionadorMalo.h"
+#include "../headers/Estado.h"
+#include "../headers/Solucion.h"
+#include "../headers/Lista.h"
+#include "../headers/Problema.h"
  
 Solucion * SolucionadorMalo::solucione( Problema * problema){
    Estado  * inicio = problema->getEstadoInicial();

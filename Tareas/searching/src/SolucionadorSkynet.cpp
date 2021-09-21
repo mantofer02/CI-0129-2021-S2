@@ -1,8 +1,8 @@
-#include "SolucionadorSkynet.h"
-#include "Estado.h"
-#include "Solucion.h"
-#include "Lista.h"
-#include "Problema.h"
+#include "../headers/SolucionadorSkynet.h"
+#include "../headers/Estado.h"
+#include "../headers/Solucion.h"
+#include "../headers/Lista.h"
+#include "../headers/Problema.h"
 #include <unistd.h>
 
 Solucion * SolucionadorSkynet::solucione( Problema * problema) {

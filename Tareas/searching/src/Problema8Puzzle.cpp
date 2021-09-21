@@ -1,6 +1,6 @@
-#include "Problema8Puzzle.h"
-#include "Lista.h"
-#include "Problema.h"
+#include "../headers/Problema8Puzzle.h"
+#include "../headers/Lista.h"
+#include "../headers/Problema.h"
 #include <cmath>
 
 Problema8Puzzle::Problema8Puzzle() {

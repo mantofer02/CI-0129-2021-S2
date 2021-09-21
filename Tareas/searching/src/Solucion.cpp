@@ -1,5 +1,5 @@
-#include "Lista.h"
-#include "Solucion.h"
+#include "../headers/Lista.h"
+#include "../headers/Solucion.h"
 
 Solucion::Solucion(Lista * listaPtr){
    this->lista= listaPtr;
