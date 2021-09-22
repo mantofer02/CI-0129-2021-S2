@@ -1,7 +1,7 @@
 #ifndef TOUR_PROBLEMA
 #define TOUR_PROBLEMA
 
-//#include "ProblemaTour.h"
+#include "ProblemaTour.h"
 #include "Estado.h"
  
 #include <list>
@@ -13,7 +13,7 @@ struct ubicacion{
 };
 
 class EstadoTour : public Estado {
-   //friend class ProblemaTour;
+   friend class ProblemaTour;
 
    private:
       /**
