@@ -32,29 +32,49 @@ std::istream& Estado8Reinas::cargar(std::istream& entrada)
   int filaActual = 0;
   int columnaActual = 0;
   bool stop = false;
+  int espacios[64] = {};
+  int indice = 0;
 
+  while (indice < 64 && !stop)
+  {
+    entrada >> textoEntrada;
+    if (textoEntrada.size() == 1)
+    {
+      espacios[indice++] = atoi(textoEntrada.c_str());
+    }
+    else
+    {
+      std::cerr << "Cada espacio debe ser 0 (espacio vacío) o 1 (reina).\n";
+      stop = true;
+    }
+    textoEntrada.clear();
+  }
+
+  indice = 0;
   for (int fila = 0; fila < 8; ++fila)
   {
     for (int columna = 0; columna < 8 && !stop; ++columna)
     {
-      std::getline(entrada, textoEntrada);
-
-      if (textoEntrada.size() == 1 && (textoEntrada == "0" || textoEntrada == "1"))
+      if (espacios[indice] == 0 || espacios[indice] == 1)
       {
+        this->tablero[fila][columna] = espacios[indice];
 
-        this->tablero[fila][columna] = atoi(textoEntrada.c_str());
-        ++contadorDeReinas;
-
-        if (contadorDeReinas == 8)
+        if (this->tablero[fila][columna] == 1)
         {
-          filaActual = fila;
-          columnaActual = columna;
-          stop = true;
+          ++contadorDeReinas;
+
+          if (contadorDeReinas == 8)
+          {
+            filaActual = fila;
+            columnaActual = columna;
+            stop = true;
+          }
         }
+        ++indice;
       }
       else
       {
-        std::cerr << "Su entrada debe ser 0 (espacio vacío) o 1 (reina).\n";
+        std::cerr << "Cada espacio de su entrada debe ser 0 (espacio vacío) o 1 (reina).\n";
         stop = true;
       }
     }

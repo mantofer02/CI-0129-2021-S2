@@ -70,8 +70,8 @@ int Problema8Reinas::heuristica(Estado* estado)
               ++valorHeuristica;
             }
 
-            filaTemp = fila - 1;
-            columnaTemp = columna + 1;
+            filaTemp = filaTemp - 1;
+            columnaTemp = columnaTemp + 1;
           }
 
           // Diagonal hacia la izquierda y abajo.
@@ -89,8 +89,8 @@ int Problema8Reinas::heuristica(Estado* estado)
               ++valorHeuristica;
             }
 
-            filaTemp = fila + 1;
-            columnaTemp = columna - 1;
+            filaTemp = filaTemp + 1;
+            columnaTemp = columnaTemp - 1;
           }
 
           // Diagonal hacia la izquierda y arriba.
@@ -108,8 +108,8 @@ int Problema8Reinas::heuristica(Estado* estado)
               ++valorHeuristica;
             }
 
-            filaTemp = fila - 1;
-            columnaTemp = columna - 1;
+            filaTemp = filaTemp - 1;
+            columnaTemp = columnaTemp - 1;
           }
 
           // Diagonal hacia la derecha y abajo.
@@ -127,8 +127,8 @@ int Problema8Reinas::heuristica(Estado* estado)
               ++valorHeuristica;
             }
 
-            filaTemp = fila + 1;
-            columnaTemp = columna + 1;
+            filaTemp = filaTemp + 1;
+            columnaTemp = columnaTemp + 1;
           }
         }
       }
@@ -195,13 +195,18 @@ void Problema8Reinas::moverReina(Lista* estadosSiguientes, Estado* estadoActual,
 
   if (copiaEstado != nullptr)
   {
-    if (esEspacioValido(nuevaFila, nuevaColumna)
-        && copiaEstado->tablero[nuevaFila][nuevaColumna] != 1)
-    {
-      copiaEstado->tablero[filaActual][columnaActual] = 0;
-      copiaEstado->tablero[nuevaFila][nuevaColumna] = 1;
-    }
+    Estado8Reinas* estadoClonado = copiaEstado->clonar();
 
-    estadosSiguientes->push_back(copiaEstado);
+    if (estadoClonado != nullptr)
+    {
+      if (esEspacioValido(nuevaFila, nuevaColumna)
+        && estadoClonado->tablero[nuevaFila][nuevaColumna] != 1)
+      {
+        estadoClonado->tablero[filaActual][columnaActual] = 0;
+        estadoClonado->tablero[nuevaFila][nuevaColumna] = 1;
+      }
+
+      estadosSiguientes->push_back(estadoClonado);
+    }
   }
 }
