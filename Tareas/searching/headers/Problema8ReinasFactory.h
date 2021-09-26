@@ -3,9 +3,10 @@
 #include "Fabrica.h"
 #include "Problema8Reinas.h"
 
-class Problema8ReinasFactory : public Fabrica {
-    public:
-       Problema8Reinas * producir();
+class Problema8ReinasFactory : public Fabrica
+{
+public:
+	Problema8Reinas* producir();
 };
 
 #endif
