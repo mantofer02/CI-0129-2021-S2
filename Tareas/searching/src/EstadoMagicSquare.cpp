@@ -68,3 +68,7 @@ ostream& EstadoMagicSquare::imprimir(ostream& salida) {}
 int EstadoMagicSquare::operator==(Estado * otroEstado) {}
 
 int EstadoMagicSquare::operator!=(Estado * otroEstado) {}
+
+int EstadoMagicSquare::sonIguales(Estado *) {
+  
+}
