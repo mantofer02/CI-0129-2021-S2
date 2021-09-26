@@ -204,9 +204,9 @@ void Problema8Reinas::moverReina(Lista* estadosSiguientes, Estado* estadoActual,
       {
         estadoClonado->tablero[filaActual][columnaActual] = 0;
         estadoClonado->tablero[nuevaFila][nuevaColumna] = 1;
-      }
 
-      estadosSiguientes->push_back(estadoClonado);
+        estadosSiguientes->push_back(estadoClonado);
+      }
     }
   }
 }
