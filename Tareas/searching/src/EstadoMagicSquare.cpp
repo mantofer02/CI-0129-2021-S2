@@ -61,14 +61,61 @@ EstadoMagicSquare * EstadoMagicSquare::clonar() {
   return nuevo;
 }
 
-istream& EstadoMagicSquare::cargar(istream& entrada) {}
+istream& EstadoMagicSquare::cargar(istream& entrada) {
+  // no hace nada
+}
 
-ostream& EstadoMagicSquare::imprimir(ostream& salida) {}
+ostream& EstadoMagicSquare::imprimir(ostream& salida) {
+  for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+      salida << "[";
+      if (this->board[i][j] == 0) {
+        salida << " ";
+      } else {
+        salida << this->board[i][j];
+      }
+      salida << "]";
+    }
+    salida << endl; 
+  }
+}
 
-int EstadoMagicSquare::operator==(Estado * otroEstado) {}
+int EstadoMagicSquare::operator==(Estado * otroEstado) {
+  EstadoMagicSquare * ec = dynamic_cast< EstadoMagicSquare * >(otroEstado);
+  int esIgual = 0;
+  if(ec && (ec->getSum() == this->getSum())) {
+    esIgual = 1;
+    for(int i=0; i < SIZE; ++i) {
+      for (int j = 0; j < SIZE; j++) {
+        if (this->board[i][j] != ec->board[i][j]) {
+          esIgual = 0;
+          j = SIZE;
+          i = SIZE;
+        }
+      }
+    }
+  }
+  return esIgual;
+}
 
-int EstadoMagicSquare::operator!=(Estado * otroEstado) {}
+int EstadoMagicSquare::operator!=(Estado * otroEstado) {
+  return !sonIguales(otroEstado);
+}
 
-int EstadoMagicSquare::sonIguales(Estado *) {
-  
+int EstadoMagicSquare::sonIguales(Estado * otroEstado) {
+  EstadoMagicSquare * ec = dynamic_cast< EstadoMagicSquare * >(otroEstado);
+  int esIgual = 0;
+  if(ec && (ec->getSum() == this->getSum())) {
+    esIgual = 1;
+    for(int i=0; i < SIZE; ++i) {
+      for (int j = 0; j < SIZE; j++) {
+        if (this->board[i][j] != ec->board[i][j]) {
+          esIgual = 0;
+          j = SIZE;
+          i = SIZE;
+        }
+      }
+    }
+  }
+  return esIgual;
 }
