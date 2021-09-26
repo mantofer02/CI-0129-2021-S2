@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
- #include "Problema.h"
+#include "Problema.h"
 #include "Lista.h"
 #include "Estado8Puzzle.h"
 
