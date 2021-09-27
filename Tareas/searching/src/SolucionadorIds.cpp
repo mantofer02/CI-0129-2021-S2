@@ -25,17 +25,16 @@ Solucion* SolucionadorIds::buscarEnProfundidadLimitada(Problema* problema, int l
 
 Solucion* SolucionadorIds::buscarRecursivo(Estado* estadoActual, Problema* problema, int limite) {
 	// Probablemente falta una lista de pasos de la solucion como parametro.
-	if (problema->esSolucion(estadoActual))
-	{
+	if (problema->esSolucion(estadoActual)) {
+
 		// Retornar solucion.
-	}
-	else if (limite == 0)
-	{
+
+	} else if (limite == 0) {
+
 		// Retornar cutoff (null).
 		return nullptr;
-	}
-	else
-	{
+
+	} else {
 		bool huboCorte = false;
 
 		// Insertar codigo aqui xdDdxd
