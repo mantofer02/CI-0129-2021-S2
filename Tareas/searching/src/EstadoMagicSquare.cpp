@@ -37,6 +37,15 @@ int ** EstadoMagicSquare::initBoard() {
     }
   }
 
+  //this->board[0][0] = 2;
+  // this->board[0][1] = 7;
+  // this->board[0][2] = 6;
+  // this->board[1][0] = 9;
+  // this->board[1][1] = 5;
+  // this->board[1][2] = 1;
+  // this->board[2][0] = 4;
+  // this->board[2][1] = 3;
+
   return board;
 }
 

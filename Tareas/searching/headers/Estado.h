@@ -24,10 +24,11 @@ class Estado {
    }
 
    public:
+      int generacion;
+
       virtual ~Estado(){};
 
       virtual Estado * clonar()=0;
-
       // Todo estado tiene que poder cargar e imprimir
       virtual istream& cargar(istream&)=0;
       virtual ostream& imprimir(ostream&)=0;

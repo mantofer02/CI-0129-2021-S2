@@ -11,12 +11,12 @@ Estado8Puzzle::Estado8Puzzle() {
    * en la posicion 2 está la ficha 3, etc...
    */
   
-  this->board[0] = 1;
-  this->board[1] = 2;
-  this->board[2] = 0;
+  this->board[0] = 0;
+  this->board[1] = 1;
+  this->board[2] = 3;
   this->board[3] = 4;
-  this->board[4] = 5;
-  this->board[5] = 3;
+  this->board[4] = 2;
+  this->board[5] = 5;
   this->board[6] = 7;
   this->board[7] = 8;
   this->board[8] = 6;

@@ -6,6 +6,7 @@
 #include "EstadoMagicSquare.h"
 
 #define DIAGONALS 2
+#define CASTIGO 1000
 
 class ProblemaMagicSquare : public Problema {
    public:

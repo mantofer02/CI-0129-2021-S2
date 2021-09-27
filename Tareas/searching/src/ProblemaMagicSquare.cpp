@@ -86,13 +86,27 @@ int ProblemaMagicSquare::heuristica(Estado * estado) {
     int sum = estadoMS->getSum();
 
     for (int i = 0; i < SIZE; i++) {
-      sumaParcial += abs(checkRows(estadoMS, i) - sum);        
-      sumaParcial += abs(checkColumns(estadoMS, i) - sum); 
+      if (sum - checkRows(estadoMS, i) < 0) {
+        sumaParcial += CASTIGO;
+      } else {
+        sumaParcial += sum - checkRows(estadoMS, i);
+      }
+
+      if (sum - checkColumns(estadoMS, i) < 0) {
+        sumaParcial += CASTIGO;
+      } else {
+        sumaParcial += sum - checkColumns(estadoMS, i);
+      }
     }
       
     for (int d = 0; d < DIAGONALS; d++) {
-      sumaParcial += abs(checkDiagonals(estadoMS, d) - sum);
+       if (sum - checkDiagonals(estadoMS, d) < 0) {
+        sumaParcial += CASTIGO;
+      } else {
+        sumaParcial += sum - checkDiagonals(estadoMS, d);
+      }
     }
+    valor += sumaParcial;
   }
   return valor;
 }
@@ -123,10 +137,10 @@ Lista *ProblemaMagicSquare::getSiguientes(Estado * estado) {
               clon->invalidateNumbers();
               clon->validNumbers[k] = false;
 
-              std::cout << "ESTADO OG" << std::endl;
-              std::cout << estadoMS << std::endl;
-              std::cout << "ESTADO HIJO" << std::endl;
-              std::cout << clon << std::endl;
+              // std::cout << "ESTADO OG" << std::endl;
+              // std::cout << estadoMS << std::endl;
+              //std::cout << "ESTADO HIJO" << std::endl;
+              //std::cout << clon << std::endl;
 
               siguientes->push_back(clon);
             }
