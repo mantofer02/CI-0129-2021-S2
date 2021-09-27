@@ -9,6 +9,7 @@
 #include "../headers/Problema8PuzzleFactory.h"
 #include "../headers/SolucionadorSkynetFactory.h"
 #include "../headers/SolucionadorAStarFactory.h"
+#include "../headers/SolucionadorIdaStarFactory.h"
 
 // MIEMBRO 3
 #include "../headers/Problema8ReinasFactory.h"
@@ -44,6 +45,7 @@ Registro::Registro(){
    this->add("MagicSquare", new ProblemaMagicSquareFactory());
    
    this->add("AStar", new SolucionadorAStarFactory());
+   this->add("IDAStar", new SolucionadorIdaStarFactory());
    // Registran los del miembro 3 del equipo YY del grupo XX
    // ... agregar lineas aqui
 }
