@@ -3,6 +3,9 @@
 
 #include "Problema.h"
 #include "Lista.h"
+#include "EstadoMagicSquare.h"
+
+#define DIAGONALS 2
 
 class ProblemaMagicSquare : public Problema {
    public:
@@ -10,7 +13,10 @@ class ProblemaMagicSquare : public Problema {
       Estado * getEstadoInicial();
       int esSolucion( Estado * );
       int heuristica(Estado *);
-      Lista * getSiguientes( Estado * );      
+      Lista * getSiguientes( Estado * );
+      int checkRows(Estado *, int);
+      int checkColumns(Estado *, int);
+      int checkDiagonals(Estado *, int);
 };
 
 

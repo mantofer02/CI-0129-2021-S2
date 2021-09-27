@@ -3,7 +3,7 @@
 
 #include "ProblemaMagicSquare.h"
 #include "Estado.h"
-#define SIZE 4
+#define SIZE 3
 
 class EstadoMagicSquare : public Estado {
    friend class ProblemaMagicSquare;
@@ -25,6 +25,7 @@ class EstadoMagicSquare : public Estado {
       int operator==(Estado *);
       int operator!=(Estado *);
       int sonIguales(Estado *);
+      void invalidateNumbers();
 };
 
 

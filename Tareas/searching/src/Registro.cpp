@@ -10,6 +10,7 @@
 #include "../headers/SolucionadorSkynetFactory.h"
 // MIEMBRO 3
 #include "../headers/Problema8ReinasFactory.h"
+#include "../headers/ProblemaMagicSquareFactory.h"
 // #include "ProblemXXYY3Factory.h"
 // #include "SolverXXYY3Factory.h"
 
@@ -38,6 +39,7 @@ Registro::Registro(){
    this->add("Skynet", new SolucionadorSkynetFactory() );
 
    this->add("8Reinas", new Problema8ReinasFactory());
+   this->add("MagicSquare", new ProblemaMagicSquareFactory());
    // Registran los del miembro 3 del equipo YY del grupo XX
    // ... agregar lineas aqui
 }

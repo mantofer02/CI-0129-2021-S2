@@ -4,6 +4,8 @@ EstadoMagicSquare::EstadoMagicSquare() {
   this->numbers = initNumbers();
   this->sum = getSum();
   this->validNumbers = initValidNumbers();
+  this->board = initBoard();
+  this->invalidateNumbers();
 }
 
 EstadoMagicSquare::~EstadoMagicSquare() {
@@ -58,6 +60,10 @@ EstadoMagicSquare * EstadoMagicSquare::clonar() {
     }
   }
 
+  for (int k = 0; k < SIZE*SIZE; k++) {
+    nuevo->validNumbers[k] = this->validNumbers[k];
+  }
+
   return nuevo;
 }
 
@@ -68,13 +74,13 @@ istream& EstadoMagicSquare::cargar(istream& entrada) {
 ostream& EstadoMagicSquare::imprimir(ostream& salida) {
   for (int i = 0; i < SIZE; i++) {
     for (int j = 0; j < SIZE; j++) {
-      salida << "[";
+      salida << "[ ";
       if (this->board[i][j] == 0) {
         salida << " ";
       } else {
         salida << this->board[i][j];
       }
-      salida << "]";
+      salida << " ]";
     }
     salida << endl; 
   }
@@ -118,4 +124,17 @@ int EstadoMagicSquare::sonIguales(Estado * otroEstado) {
     }
   }
   return esIgual;
+}
+
+void EstadoMagicSquare::invalidateNumbers() {
+  int value = 0;
+
+  for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+      if (this->board[i][j] != 0) {
+        value = this->board[i][j];
+        this->validNumbers[value - 1] = false;
+      } 
+    }
+  }
 }
