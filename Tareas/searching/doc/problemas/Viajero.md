@@ -8,6 +8,8 @@
 
 ## Descripción de Problema
 
+El problema del viajero consiste en dónde un viajero debe de llegar a cierta ciudad cruzando sobre un set de ciudades definidas. 
+
 ![alt text]()
 
 ## Implementación del Problema
