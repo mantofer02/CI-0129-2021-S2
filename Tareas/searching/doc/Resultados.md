@@ -42,5 +42,22 @@ Herramienta utilizada: `valgrind`
 
 Como se puede evidenciar, los resultados no son muy provechosos. No se pudo obtener una medida de tiempo de todos los problemas, y para calcular el uso de memoria se tuvo que acotar las soluciones. No consideramos que los algoritmos estén implementados de una forma erroneo, sin embargo si consideramos que no están de la forma más optima. Como se puede evidenciar. aunque los datos estén acotados, el algoritmo de A* tiene la tendencia de consumir más espacio, ya que al generar estados y contemplar la función `f(n) = h(n) + g(n)` no considera 2 estados iguales como estados repetidos.
 
+## Conclusiones
+
+### Áreas de Mejoras
+
+Previamente mencinamos que no consideramos que los algoritmos estén mal implementados, nuestra conclusión es que el cálculo de la heurístas y la naturaleza de los problemas puede mejorar.
+
+![terminal](../assets/Sung.jpeg)
+
+Se probó los algoritmos con un problema y un estado de otro grupo de la clase. Este problema poseé un branching factor menor a los de `TSP` y `Magic Numbers`. Como se puede evidenciar, si llega a una solución, y la hace con un timepo razonable.
+
+**Créditos problema adicional:**
+
+Sung Jae Moon | B85176
+
+### Recomendaciones
+
+La recomendación como grupo es volverse a replantear el diseño, el calcúlo de la heurística y la creación de siguientes de los problemas `TSP` y `MagicSquare`
 
 [Inicio](../../README.md)

@@ -6,6 +6,7 @@
   - [Enunciado](#enunciado)
 - [Diseño de la Tarea](#diseño-de-la-tarea)
 - [Manual de Usuario](#manual-de-usuario)
+- [Resultados](#resultados)
 - [Créditos](#créditos)
 
 ## Descripción del Problema
@@ -57,13 +58,34 @@ Solucionadores:
 - [`A*`](doc/algoritmos/AStar.md)
 - [`IDA*`](doc/algoritmos/IDAStar.md)
 
-- Ejecución: `searching.out nombre_problema nombre_solucionador`
+Ejecución:
 
+
+`searching.out nombre_problema nombre_solucionador`
+
+
+## Resultados
+[Resultados](doc/Resultados.md)
 
 ## Créditos
 
 Marco Ferraro | **B82957**
+  
+- Estado y Problema 8Puzzle
+- Estado y Problema Magic Square
+- Solucionador Ancho Primero (Skynet)
+- Solucionador A*
+- Documentación
 
 Gabriel Revillat | **B86524**
 
+- Estado y Problema 8Puzzle
+- Estado y Problema 8 Reinas
+- Solucionador Ancho Primero (Skynet)
+- Solucionador IDA*
+
 Steven Nuñez | **B95614**
+
+- Estado y Problema 8Puzzle
+- Estado y Problema TSP
+- Solucionador Ancho Primero (Skynet)
