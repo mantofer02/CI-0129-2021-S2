@@ -14,6 +14,7 @@
 // MIEMBRO 3
 #include "../headers/Problema8ReinasFactory.h"
 #include "../headers/ProblemaMagicSquareFactory.h"
+#include "../headers/ProblemaTSPFactory.h"
 // #include "ProblemXXYY3Factory.h"
 // #include "SolverXXYY3Factory.h"
 
