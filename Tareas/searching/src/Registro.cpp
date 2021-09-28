@@ -44,6 +44,7 @@ Registro::Registro(){
 
    this->add("8Reinas", new Problema8ReinasFactory());
    this->add("MagicSquare", new ProblemaMagicSquareFactory());
+   this->add("TSP", new ProblemaTSPFactory());
    
    this->add("AStar", new SolucionadorAStarFactory());
    this->add("IDAStar", new SolucionadorIdaStarFactory());

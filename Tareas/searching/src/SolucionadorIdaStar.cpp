@@ -34,8 +34,8 @@ Solucion* SolucionadorIdaStar::solucione(Problema * problema) {
 int SolucionadorIdaStar::buscar(Problema* problema, std::list<Estado*>* camino,
 																int costoEstadoActual, int limite) {
 	Estado* estadoActual = camino->back();
-	// std::cout << estadoActual << '\n';
-	// std::cout << "Heuristica: " << problema->heuristica(estadoActual) << '\n';
+	std::cout << estadoActual << '\n';
+	std::cout << "Heuristica: " << problema->heuristica(estadoActual) << '\n';
 	Lista* estadosSiguientes = problema->getSiguientes(estadoActual);
 	int costo = costoEstadoActual + problema->heuristica(estadoActual);
 

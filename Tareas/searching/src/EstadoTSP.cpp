@@ -14,7 +14,9 @@ EstadoTSP::EstadoTSP() {
   //Generacion del mapa
   srand(time(NULL));
   int columna;
+  list <int> recorridoSol;
 
+  list <int> :: iterator it;
   for (int fila = 0; fila < 10; ++fila){
     for (int columna = 0; columna < 10; ++columna){
       this->mapa[fila][columna] = 0;
@@ -24,16 +26,22 @@ EstadoTSP::EstadoTSP() {
 
   for (int fila = 0; fila < 10; ++fila){
       for (int rellenar = 0; rellenar < 3; ++rellenar){
-          
           do{
-            columna = rand() % 9;
-          }while(columna == fila || (this->mapa[fila][columna] == 1));
+            columna = rand() % 10;
+            if(rellenar == 1){
+                it = find ( recorridoSol.begin() , recorridoSol.end() , columna);
+            }
+
+          }while(columna == fila || (this->mapa[fila][columna] == 1 || it == recorridoSol.end()));
           if(fila == 0 && rellenar == 1){
             this->recorrido[0][columna] = 1;
+            recorridoSol.push_back(columna);
           }
           this->mapa[fila][columna] = 1;
+         recorridoSol.push_back(columna);
       }
   }
+
 }
 
 EstadoTSP * EstadoTSP::clonar() {
@@ -67,19 +75,18 @@ ostream& EstadoTSP::imprimir(ostream& salida){
         }
         salida << '\n';
   }
+  
+  salida << "!!!MAPA!!!"<<'\n';
 
-  cout << "------------" <<endl;
   for (int fila = 0; fila < 10; ++fila) {
-    salida << fila+1 << "--> \t";
-       for (int columna = 0; columna < 10; ++columna) {
-            salida << " [ ";
-            salida << this->mapa[fila][columna];
-            salida << " ] ";
-        }
-        salida << '\n';
+      salida << fila+1 << "--> \t";
+        for (int columna = 0; columna < 10; ++columna) {
+              salida << " [ ";
+              salida << this->mapa[fila][columna];
+              salida << " ] ";
+          }
+          salida << '\n';
   }
-
-
   return salida;
 }
 
