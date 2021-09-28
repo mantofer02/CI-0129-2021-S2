@@ -11,58 +11,45 @@
 
 Solucion * SolucionadorAStar::solucione(Problema * problema) {
   Estado * inicio = problema->getEstadoInicial();
-  inicio->generacion = 1;
-
-  int * pesos = new int(2);
-
-
   std::multimap<int , Estado*> mapaGeneral;
 
 
+
+  inicio->setGeneracion(0);
+
+  mapaGeneral.insert(std::make_pair(problema->heuristica(inicio), (inicio)));
+
   int menorEuristica = problema->heuristica(inicio);
-  int peorEuristica = menorEuristica; 
 
   Estado * estadoMenorEuristica = inicio;
-  Estado * copiaEstadoMenorE = inicio;
   Estado * aux;
 
   //Lista * listaGeneral = new Lista();
   Lista * pasos = new Lista();
-  
+
   Lista * siguienteGen = problema->getSiguientes(inicio);
   
-  while (!siguienteGen->isEmpty())
-  {
-    aux = siguienteGen->front();
-    aux->generacion = inicio->generacion + 1;
-    mapaGeneral.insert(std::make_pair(problema->heuristica(aux) + aux->generacion, (siguienteGen->pop_front())));
-  }
-
-
+  int i = 0;
   auto it = mapaGeneral.begin();
+  int haySolucion = 0;
 
-  while (!problema->esSolucion(it->second)) {
-    cout << it->first << endl;
-    cout << "----------------------" << endl;
-    cout << it->second << endl;
-  
+  while (!haySolucion) {
+    haySolucion = problema->esSolucion(it->second);
 
-    siguienteGen = problema->getSiguientes(estadoMenorEuristica);
-    std::cout << "gen del OG" << estadoMenorEuristica->generacion << std::endl;
-    while (!siguienteGen->isEmpty()) {
-      aux = siguienteGen->front();
-      aux->generacion = estadoMenorEuristica->generacion + 1;
-      std::cout << " gen del HIJO" << aux->generacion << std::endl;
-      mapaGeneral.insert(std::make_pair(problema->heuristica(aux) + aux->generacion, (siguienteGen->pop_front())));
-    }
-    
-    usleep(1000000);
+    if (haySolucion == 0) {
+      siguienteGen = problema->getSiguientes(it->second);
+      while (!siguienteGen->isEmpty()) {
+          aux = siguienteGen->front();
+          aux->setGeneracion(it->second->getGeneracion() + 1);
+          mapaGeneral.insert(std::make_pair(problema->heuristica(aux) + aux->getGeneracion(), (siguienteGen->pop_front())));
+      }
+    i++;
     mapaGeneral.erase(mapaGeneral.begin());
     it = mapaGeneral.begin();
+    }
   }
 
   pasos->push_back(it->second);
   Solucion * solucionMala = new Solucion(pasos);
   return solucionMala;
 }
-

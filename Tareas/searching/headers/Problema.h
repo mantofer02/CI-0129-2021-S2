@@ -5,7 +5,7 @@
 #include "../headers/Estado.h"
 #include "Lista.h"
 
-class Problema : public Producto {      
+class Problema : public Producto {
    public:
       // Retorna el estado inicial del problema
       virtual Estado * getEstadoInicial()=0;

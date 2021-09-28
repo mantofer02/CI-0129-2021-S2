@@ -22,9 +22,17 @@ class Estado {
        }
        return salida;
    }
+    private:
+      int generacion;
 
    public:
-      int generacion;
+    int getGeneracion() {
+      return generacion;
+    }
+
+    void setGeneracion(int n) {
+      this->generacion = n;
+    }
 
       virtual ~Estado(){};
 
