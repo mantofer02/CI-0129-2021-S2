@@ -47,15 +47,15 @@ Para ejecutar el archivo, se debe de ingresar de parámetros el nombre de un pro
 Problemas:
 
 - [`8Puzzle`](doc/problemas/8Puzzle.md)
-- `8Reinas`
-- `MagicSquare`
-- `TSP`
+- [`8Reinas`](doc/problemas/8Reinas.md)
+- [`MagicSquare`](doc/problemas/MagicSquare.md)
+- [`TSP`](doc/problemas/Viajero.md)
 
 Solucionadores:
 
-- `AnchoPrimero`
-- `AStar`
-- `IDAStar`
+- [`AnchoPrimero`](doc/algoritmos/AnchoPrimero.md)
+- [`A*`](doc/algoritmos/AStar.md)
+- [`IDA*`](doc/algoritmos/IDAStar.md)
 
 - Ejecución: `searching.out nombre_problema nombre_solucionador`
 

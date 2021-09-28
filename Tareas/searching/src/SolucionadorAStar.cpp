@@ -8,8 +8,15 @@
 #include <utility>
 #include <cstdlib>
 #include <unistd.h>
+#include <time.h>
+typedef struct timespec walltime_t;
 
 Solucion * SolucionadorAStar::solucione(Problema * problema) {
+  walltime_t start;
+  walltime_t finish;
+
+  clock_gettime(CLOCK_MONOTONIC, &start);
+  
   Estado * inicio = problema->getEstadoInicial();
   std::multimap<int , Estado*> mapaGeneral;
 
@@ -50,6 +57,13 @@ Solucion * SolucionadorAStar::solucione(Problema * problema) {
   }
 
   pasos->push_back(it->second);
+
+  clock_gettime(CLOCK_MONOTONIC, &finish);
+  double elapsed = (finish.tv_sec - start.tv_sec);
+  elapsed += (finish.tv_nsec - start.tv_sec ) / 1000000000.0;
+
+  printf("Execution time: %lfs\n", elapsed);
+
   Solucion * solucionMala = new Solucion(pasos);
   return solucionMala;
 }

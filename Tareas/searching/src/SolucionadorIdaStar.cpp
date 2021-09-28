@@ -3,8 +3,16 @@
 #include "../headers/Solucion.h"
 #include "../headers/Lista.h"
 #include "../headers/Problema.h"
+#include <time.h>
+typedef struct timespec walltime_t;
 
 Solucion* SolucionadorIdaStar::solucione(Problema * problema) {
+  walltime_t start;
+  walltime_t finish;
+
+  clock_gettime(CLOCK_MONOTONIC, &start);
+
+
 
 	std::list<Estado*>* camino = new std::list<Estado*>();
 	Lista* caminoSolucion = new Lista();
@@ -28,14 +36,22 @@ Solucion* SolucionadorIdaStar::solucione(Problema * problema) {
 		limite = resultado;
 	}
 
+  clock_gettime(CLOCK_MONOTONIC, &finish);
+  double elapsed = (finish.tv_sec - start.tv_sec);
+  elapsed += (finish.tv_nsec - start.tv_sec ) / 1000000000.0;
+  cout << "Elapsed time " << elapsed << endl;
 	return nullptr;
 }
 
 int SolucionadorIdaStar::buscar(Problema* problema, std::list<Estado*>* camino,
 																int costoEstadoActual, int limite) {
 	Estado* estadoActual = camino->back();
-	std::cout << estadoActual << '\n';
-	std::cout << "Heuristica: " << problema->heuristica(estadoActual) << '\n';
+	
+  // std::cout << estadoActual << '\n';
+	// std::cout << "Heuristica: " << problema->heuristica(estadoActual) << '\n';
+
+
+
 	Lista* estadosSiguientes = problema->getSiguientes(estadoActual);
 	int costo = costoEstadoActual + problema->heuristica(estadoActual);
 
