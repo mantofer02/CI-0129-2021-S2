@@ -35,7 +35,7 @@ Solucion * SolucionadorAStar::solucione(Problema * problema) {
 
   while (!haySolucion) {
     haySolucion = problema->esSolucion(it->second);
-
+    
     if (haySolucion == 0) {
       siguienteGen = problema->getSiguientes(it->second);
       while (!siguienteGen->isEmpty()) {
