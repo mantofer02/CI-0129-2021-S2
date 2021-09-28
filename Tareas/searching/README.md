@@ -45,12 +45,19 @@ Para compilar el poyecto, se puede correr el `Makefile` siempre y cuando sea baj
 Para ejecutar el archivo, se debe de ingresar de parámetros el nombre de un problema y de un solucionador.
 
 Problemas:
-  - `8Puzzle`
-  - `8Reinas`
-  - `MagicSquare`
-  
 
-* Ejecucion: `a.exe 8Pasos Skynet`
+- [`8Puzzle`](doc/problemas/8Puzzle.md)
+- `8Reinas`
+- `MagicSquare`
+- `TSP`
+
+Solucionadores:
+
+- `AnchoPrimero`
+- `AStar`
+- `IDAStar`
+
+- Ejecución: `searching.out nombre_problema nombre_solucionador`
 
 
 ## Créditos
