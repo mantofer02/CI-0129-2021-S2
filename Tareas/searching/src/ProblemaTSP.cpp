@@ -14,11 +14,23 @@ Estado * ProblemaTSP::getEstadoInicial(){
 int ProblemaTSP::esSolucion( Estado * estado){
    int esUnaSolucion = 1;//asumo que si
    int vecesRecorridas = 0;
+   list <int> listaVisitados;
+   list <int> :: iterator it;
    EstadoTSP * estadoT = dynamic_cast< EstadoTSP * >(estado);
    for(int filas = 0; filas < 10; filas++){
+      //cout  << "NOSRAIDEAAN" << endl;
       for(int columnas = 0; columnas < 10; columnas++){
+         //cout  << "RUSTT" << endl;
          if(estadoT->recorrido[filas][columnas]==1){
             vecesRecorridas++;
+         }
+         it = find ( listaVisitados.begin() , listaVisitados.end() , columnas) ;
+         if(it == listaVisitados.end()){
+            listaVisitados.push_back(columnas);
+         }else{
+            esUnaSolucion = 0;
+            filas = 10;
+            columnas = 10;
          }
       }
       if(vecesRecorridas != 1){
@@ -32,12 +44,23 @@ int ProblemaTSP::esSolucion( Estado * estado){
 
 int ProblemaTSP::heuristica(Estado * estado){
    int faltantes = 10; 
+   list <int> listaVisitados;
+   list <int> :: iterator it;
    EstadoTSP * estadoT = dynamic_cast< EstadoTSP * >(estado);
    for(int filas = 0; filas < 10; filas++){
       for(int columnas = 0; columnas < 10; columnas++){
          if(estadoT->recorrido[filas][columnas]==1){
-            faltantes--;
-            columnas = 10;
+            it = find ( listaVisitados.begin() , listaVisitados.end() , columnas) ;
+            if(it == listaVisitados.end()){
+               faltantes--;
+               columnas = 10;
+               listaVisitados.push_back(columnas);
+            }else{
+               faltantes = 10; 
+               columnas = 10;
+               filas = 10;
+            }
+            
          }
       }
    }
@@ -54,13 +77,21 @@ Lista * ProblemaTSP::getSiguientes( Estado * estado){
    
    if(estadoT){
       for(int filas = 0; filas < 10; filas++){
+         //cout  << "AYUDADENTROOOO" << endl;
          for(int columnas = 0; columnas < 10; columnas++ ){
+            //cout  << "AYUDAMASADENTROOOO" << endl;
             if(estadoT->recorrido[filas][columnas] == 1){
-               it = find ( listaVisitados.begin() , listaVisitados.end() , columnas) ;
+               //cout  << "TRAMAZON" << endl;
+               it = find ( listaVisitados.begin() , listaVisitados.end() , filas) ;
                if(it == listaVisitados.end()){
+                  //cout  << "CASA" << endl;
                   listaVisitados.push_back(filas);
                   if(columnas != 0){
+                     //cout  << "SOLA" << endl;
                      filas = columnas-1;
+                  }else{
+                     //cout  << "MIA" << endl;
+                     filas = columnas;
                   }
                }
                visitado = 1;
