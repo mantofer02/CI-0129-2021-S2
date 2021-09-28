@@ -20,6 +20,6 @@ Para implementar este problema, se genera un estado inicial en dónde se ponen 8
 
 ### Heurística
 
-Para el cálculo de la heurísta se hace un método que maneja 
+Para el cálculo de la heurísta se hace un método que maneja un método que para cada reina saca una medida de que tan vulnerable se encuentra.
 
 [Inicio](../../README.md)
