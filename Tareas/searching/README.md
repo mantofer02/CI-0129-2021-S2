@@ -32,11 +32,24 @@ Para la elaboración de esta tarea se cambio la estructura del proyecto de su pr
 
 - `src/` Carpeta en dónde se encuentra la implementación de los `.h` respectivos.
 
-
+- `tests/` Carpeta de material de apoyo. Acá se encuentra imagenes de ejemplos de los problemas de juguete de este proyecto.
 
 ## Manual de Usuario
 
-* Compilación: `g++ *.cpp`
+Este proyecto incluye un archivo `Makefile` proporcionado por el profesor Jeisson Hidalgo de la **ECCI** de la **UCR**.
+
+Para compilar el poyecto, se puede correr el `Makefile` siempre y cuando sea bajo un sistema operativo `UNIX`.
+
+- Compilación: `make`
+
+Para ejecutar el archivo, se debe de ingresar de parámetros el nombre de un problema y de un solucionador.
+
+Problemas:
+  - `8Puzzle`
+  - `8Reinas`
+  - `MagicSquare`
+  
+
 * Ejecucion: `a.exe 8Pasos Skynet`
 
 

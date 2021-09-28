@@ -39,8 +39,8 @@ Registro::Registro(){
    this->add("MaloSolver", new SolucionadorMaloFactory() );
   
    // Registran los del miembro 2 del equipo YY del grupo XX
-   this->add("8Pasos", new Problema8PuzzleFactory() );
-   this->add("Skynet", new SolucionadorSkynetFactory() );
+   this->add("8Puzzle", new Problema8PuzzleFactory() );
+   this->add("AnchoPrimero", new SolucionadorSkynetFactory() );
 
    this->add("8Reinas", new Problema8ReinasFactory());
    this->add("MagicSquare", new ProblemaMagicSquareFactory());
