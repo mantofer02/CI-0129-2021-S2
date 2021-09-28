@@ -2,9 +2,9 @@
 
 ## Tabla de contenidos
 
-- [Descripción del Problema](#descripci-n-del-problema)
-- [Implementación del Problema](#implementaci-n-del-problema)
-  - [Heurística](#heur-stica)
+- [Descripción del Problema](#descripción-del-problema)
+- [Implementación del Problema](#implementación-del-problema)
+  - [Heurística](#heurística)
 
 ## Descripción de Problema
 

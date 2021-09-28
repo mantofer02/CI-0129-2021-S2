@@ -2,7 +2,7 @@
 
 ## Tabla de contenidos
 
-- [Descripción del Problema](#descripci-n-del-problema)
+- [Descripción del Problema](#descripción-del-problema)
   - [Enunciado](#enunciado)
 - [Diseño de la Tarea](#diseño-de-la-tarea)
 - [Manual de Usuario](#manual-de-usuario)
