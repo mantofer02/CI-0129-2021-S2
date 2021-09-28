@@ -1,16 +1,15 @@
-# Problema 8Puzzle
+# Solucionador Ancho Primero
+
 
 ## Tabla de contenidos
 
-- [Descripción del Problema](#descripción-del-problema)
-- [Implementación del Problema](#implementación-del-problema)
-  - [Heurística](#heurística)
+- [Implementación del Algoritmo](#implementación-del-algoritmo)
 
-## Descripción de Problema
+## Implementación del Algoritmo
 
-![alt text]()
+Para implementar este algoritmo de búsqueda se utiliza una lista de estado explorados. Estamos utilizando el concepto de nodo **abierto** y nodo **cerrado**.  Además, mantemenos una lista del recorrido hasta el momento.
 
-## Implementación del Problema
-### Heurística
+Para montar una lista de solución se implementó otro método que elimina los estados inecesarios de la lista de recorrido.
+
 
 [Inicio](../../README.md)
