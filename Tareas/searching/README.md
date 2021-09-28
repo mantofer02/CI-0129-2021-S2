@@ -43,5 +43,7 @@ Para la elaboración de esta tarea se cambio la estructura del proyecto de su pr
 ## Créditos
 
 Marco Ferraro | **B82957**
+
 Gabriel Revillat | **B86524**
+
 Steven Nuñez | **B95614**
