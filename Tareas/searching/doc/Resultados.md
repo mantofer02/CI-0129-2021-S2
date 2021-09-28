@@ -15,7 +15,7 @@
 | 8Puzzle      |    38.09832s  |   *  |   0.87432s **   |
 | 8Reinas      |       *       |   *  |   15.43341s   |
 | Magic Square |       *       |   *  |   *   |
-| TSP          |       *       |   *  |   *   |
+| TSP          |       2.276s       |   0.031s  |   0.293s   |
 
 #### Leyenda Tiempo
 
