@@ -16,7 +16,7 @@ Los algritmos de búsqueda informados utilizan una medida conocida como la **heu
 
 ### Enunciado
 
-  [Tarea Search Avanzada](assets\TareaSearchAvanzada.pdf)
+  [Tarea Search Avanzada](assets/TareaSearchAvanzada.pdf)
 
 ### Diseño de la Tarea
 
