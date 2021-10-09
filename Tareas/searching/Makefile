@@ -4,7 +4,8 @@
 CC=cc
 XC=g++
 DEFS=
-FLAGS=$(strip -Wall -Wextra $(DEFS))
+#FLAGS=$(strip -Wall -Wextra $(DEFS))
+FLAGS=
 FLAGC=$(FLAGS) -std=gnu11
 FLAGX=$(FLAGS) -std=gnu++11
 LIBS=

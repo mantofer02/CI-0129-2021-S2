@@ -4,8 +4,17 @@
 #include "../headers/Lista.h"
 #include "../headers/Problema.h"
 #include <unistd.h>
+#include <time.h>
+typedef struct timespec walltime_t;
 
 Solucion * SolucionadorSkynet::solucione( Problema * problema) {
+    walltime_t start;
+    walltime_t finish;
+
+    clock_gettime(CLOCK_MONOTONIC, &start);
+
+
+
     Estado  * inicio = problema->getEstadoInicial();
     Lista * siguienteGen;
     Lista * explorados = new Lista();
@@ -31,6 +40,12 @@ Solucion * SolucionadorSkynet::solucione( Problema * problema) {
       estadoActual = frontera->pop_front();
     }
     
+    clock_gettime(CLOCK_MONOTONIC, &finish);
+    double elapsed = (finish.tv_sec - start.tv_sec);
+    elapsed += (finish.tv_nsec - start.tv_sec ) / 1000000000.0;
+
+    printf("Execution time: %lfs\n", elapsed);
+
     Solucion * solucionMala = new Solucion(hacerListaPasos(explorados, problema));
     delete inicio;
     return solucionMala;

@@ -1,16 +1,12 @@
-# Problema 8Puzzle
+# Solucionador IDA*
 
 ## Tabla de contenidos
 
-- [Descripción del Problema](#descripción-del-problema)
-- [Implementación del Problema](#implementación-del-problema)
-  - [Heurística](#heurística)
+- [Implementación del Algoritmo](#implementación-del-algoritmo)
 
-## Descripción de Problema
+## Implementación del Algoritmo
 
-![alt text]()
-
-## Implementación del Problema
-### Heurística
+A diferencia del A*, el IDA* utiliza la pila de recusión para "simular" el uso de una estructura.
+Este algoritmo es recursivo e informado, por lo tanto llama en la pila de recursión la creación de los estados más prometedores; los de menor heurística.
 
 [Inicio](../../README.md)
