@@ -1,0 +1,6077 @@
+@relation 'MovieUSAGermanyTesting-weka.filters.unsupervised.attribute.NominalToString-Clast-weka.filters.unsupervised.attribute.StringToWordVector-R2-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 2 -min 1 -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute country {USA,Germany}
+@attribute & numeric
+@attribute - numeric
+@attribute '- Il' numeric
+@attribute '- La' numeric
+@attribute '- The' numeric
+@attribute '- Un' numeric
+@attribute '- Una' numeric
+@attribute 101 numeric
+@attribute 2 numeric
+@attribute 3 numeric
+@attribute '3 -' numeric
+@attribute 4 numeric
+@attribute 5 numeric
+@attribute A numeric
+@attribute Action numeric
+@attribute Again numeric
+@attribute Alamo numeric
+@attribute All numeric
+@attribute America numeric
+@attribute American numeric
+@attribute Angeles numeric
+@attribute Annie numeric
+@attribute Another numeric
+@attribute Are numeric
+@attribute A¨ numeric
+@attribute 'A¨ un' numeric
+@attribute Be numeric
+@attribute Before numeric
+@attribute Begins numeric
+@attribute Bianca numeric
+@attribute Big numeric
+@attribute Black numeric
+@attribute Blood numeric
+@attribute Blue numeric
+@attribute Boy numeric
+@attribute Boys numeric
+@attribute Bride numeric
+@attribute Broadway numeric
+@attribute Casa numeric
+@attribute Chicago numeric
+@attribute Christmas numeric
+@attribute City numeric
+@attribute College numeric
+@attribute Company numeric
+@attribute D numeric
+@attribute Dance numeric
+@attribute Dark numeric
+@attribute Day numeric
+@attribute Dead numeric
+@attribute Dean numeric
+@attribute Der numeric
+@attribute Die numeric
+@attribute Dio numeric
+@attribute Dog numeric
+@attribute Dollar numeric
+@attribute Down numeric
+@attribute Dr numeric
+@attribute Dream numeric
+@attribute Dreams numeric
+@attribute Earth numeric
+@attribute Eva numeric
+@attribute Evil numeric
+@attribute Eyes numeric
+@attribute Family numeric
+@attribute Father numeric
+@attribute Fear numeric
+@attribute Film numeric
+@attribute Finn numeric
+@attribute Frankenstein numeric
+@attribute Fu numeric
+@attribute Game numeric
+@attribute Games numeric
+@attribute Gets numeric
+@attribute Girl numeric
+@attribute Girls numeric
+@attribute Go numeric
+@attribute 'Go to' numeric
+@attribute Goes numeric
+@attribute 'Goes to' numeric
+@attribute Good numeric
+@attribute Goodbye numeric
+@attribute Gun numeric
+@attribute Head numeric
+@attribute Hell numeric
+@attribute Henry numeric
+@attribute Her numeric
+@attribute Holiday numeric
+@attribute Hollywood numeric
+@attribute Home numeric
+@attribute I numeric
+@attribute II numeric
+@attribute III numeric
+@attribute Il numeric
+@attribute 'Il principe' numeric
+@attribute 'Il ragazzo' numeric
+@attribute 'Il re' numeric
+@attribute 'Il regno' numeric
+@attribute 'Il ribelle' numeric
+@attribute 'Il ritorno' numeric
+@attribute 'Il romanzo' numeric
+@attribute 'Il sapore' numeric
+@attribute 'Il segno' numeric
+@attribute 'Il segreto' numeric
+@attribute 'Il sentiero' numeric
+@attribute 'Il sergente' numeric
+@attribute 'Il signore' numeric
+@attribute 'Il silenzio' numeric
+@attribute 'Il sogno' numeric
+@attribute 'Il sole' numeric
+@attribute 'Il suo' numeric
+@attribute 'Il tempo' numeric
+@attribute 'Il terrore' numeric
+@attribute 'Il tesoro' numeric
+@attribute 'Il treno' numeric
+@attribute 'Il vampiro' numeric
+@attribute 'Il vendicatore' numeric
+@attribute 'Il viaggio' numeric
+@attribute 'Il villaggio' numeric
+@attribute 'Il volo' numeric
+@attribute Illicit numeric
+@attribute Im numeric
+@attribute Impact numeric
+@attribute Impossible numeric
+@attribute In numeric
+@attribute 'In Old' numeric
+@attribute 'In amore' numeric
+@attribute 'In corsa' numeric
+@attribute 'In fuga' numeric
+@attribute 'In the' numeric
+@attribute 'In viaggio' numeric
+@attribute Incontri numeric
+@attribute Incontro numeric
+@attribute Incubo numeric
+@attribute Inferno numeric
+@attribute Inganno numeric
+@attribute Inheritance numeric
+@attribute Innamorarsi numeric
+@attribute Innamorati numeric
+@attribute Inner numeric
+@attribute Inside numeric
+@attribute 'Inside Out' numeric
+@attribute Insieme numeric
+@attribute Into numeric
+@attribute 'Into the' numeric
+@attribute Intrigo numeric
+@attribute Invasion numeric
+@attribute 'Invasion of' numeric
+@attribute Invito numeric
+@attribute Io numeric
+@attribute 'Io e' numeric
+@attribute 'Io sono' numeric
+@attribute Irene numeric
+@attribute Iron numeric
+@attribute 'Iron Man' numeric
+@attribute Is numeric
+@attribute Island numeric
+@attribute It numeric
+@attribute J numeric
+@attribute Jack numeric
+@attribute James numeric
+@attribute Jane numeric
+@attribute Jerry numeric
+@attribute Jersey numeric
+@attribute Jess numeric
+@attribute 'Jess il' numeric
+@attribute Jesse numeric
+@attribute Jesus numeric
+@attribute Jim numeric
+@attribute Jimmy numeric
+@attribute Joe numeric
+@attribute John numeric
+@attribute Johnny numeric
+@attribute Jones numeric
+@attribute Joshua numeric
+@attribute Journey numeric
+@attribute Joy numeric
+@attribute Julie numeric
+@attribute Jungle numeric
+@attribute Jurassic numeric
+@attribute Just numeric
+@attribute 'Just Another' numeric
+@attribute 'Just a' numeric
+@attribute Justice numeric
+@attribute Karate numeric
+@attribute Keep numeric
+@attribute Kelly numeric
+@attribute Kettle numeric
+@attribute Kickboxer numeric
+@attribute Kid numeric
+@attribute Kids numeric
+@attribute Kill numeric
+@attribute 'Kill Me' numeric
+@attribute 'Kill the' numeric
+@attribute Killer numeric
+@attribute Killers numeric
+@attribute Killing numeric
+@attribute King numeric
+@attribute 'King of' numeric
+@attribute Kiss numeric
+@attribute 'Kiss Me' numeric
+@attribute 'Kiss the' numeric
+@attribute Kissing numeric
+@attribute Knock numeric
+@attribute Kong numeric
+@attribute Krampus numeric
+@attribute Kung numeric
+@attribute 'Kung Fu' numeric
+@attribute L numeric
+@attribute 'L A' numeric
+@attribute La numeric
+@attribute 'La baia' numeric
+@attribute 'La ballata' numeric
+@attribute 'La bambola' numeric
+@attribute 'La banda' numeric
+@attribute 'La battaglia' numeric
+@attribute 'La bella' numeric
+@attribute 'La belva' numeric
+@attribute 'La canzone' numeric
+@attribute 'La carica' numeric
+@attribute 'La casa' numeric
+@attribute 'La chiave' numeric
+@attribute 'La cittA ' numeric
+@attribute 'La conquista' numeric
+@attribute 'La corsa' numeric
+@attribute 'La crociera' numeric
+@attribute 'La donna' numeric
+@attribute 'La famiglia' numeric
+@attribute 'La febbre' numeric
+@attribute 'La figlia' numeric
+@attribute 'La fine' numeric
+@attribute 'La finestra' numeric
+@attribute 'La follia' numeric
+@attribute 'La foresta' numeric
+@attribute 'La fortuna' numeric
+@attribute 'La freccia' numeric
+@attribute 'La fuga' numeric
+@attribute 'La gang' numeric
+@attribute 'La grande' numeric
+@attribute 'La guerra' numeric
+@attribute 'La legge' numeric
+@attribute 'La leggenda' numeric
+@attribute 'La lunga' numeric
+@attribute 'La maledizione' numeric
+@attribute 'La mano' numeric
+@attribute 'La maschera' numeric
+@attribute 'La mia' numeric
+@attribute 'La moglie' numeric
+@attribute 'La morte' numeric
+@attribute 'La mummia' numeric
+@attribute 'La musica' numeric
+@attribute 'La nave' numeric
+@attribute 'La notte' numeric
+@attribute 'La pantera' numeric
+@attribute 'La piA¹' numeric
+@attribute 'La piccola' numeric
+@attribute 'La porta' numeric
+@attribute 'La preda' numeric
+@attribute 'La prigioniera' numeric
+@attribute 'La prima' numeric
+@attribute 'La principessa' numeric
+@attribute 'La prova' numeric
+@attribute 'La ragazza' numeric
+@attribute 'La rapina' numeric
+@attribute 'La regina' numeric
+@attribute 'La regola' numeric
+@attribute 'La ribelle' numeric
+@attribute 'La rivincita' numeric
+@attribute 'La rivolta' numeric
+@attribute 'La rosa' numeric
+@attribute 'La scelta' numeric
+@attribute 'La scomparsa' numeric
+@attribute 'La seconda' numeric
+@attribute 'La setta' numeric
+@attribute 'La sfida' numeric
+@attribute 'La signora' numeric
+@attribute 'La spada' numeric
+@attribute 'La spia' numeric
+@attribute 'La sposa' numeric
+@attribute 'La squadra' numeric
+@attribute 'La stella' numeric
+@attribute 'La stirpe' numeric
+@attribute 'La storia' numeric
+@attribute 'La strada' numeric
+@attribute 'La terra' numeric
+@attribute 'La tragedia' numeric
+@attribute 'La trappola' numeric
+@attribute 'La truffa' numeric
+@attribute 'La valle' numeric
+@attribute 'La vedova' numeric
+@attribute 'La vendetta' numeric
+@attribute 'La vera' numeric
+@attribute 'La veritA ' numeric
+@attribute 'La via' numeric
+@attribute 'La vita' numeric
+@attribute 'La voce' numeric
+@attribute Ladies numeric
+@attribute Ladri numeric
+@attribute Lady numeric
+@attribute Lake numeric
+@attribute Land numeric
+@attribute 'Land of' numeric
+@attribute Las numeric
+@attribute 'Las Vegas' numeric
+@attribute Lassie numeric
+@attribute Last numeric
+@attribute Laura numeric
+@attribute Law numeric
+@attribute Le numeric
+@attribute 'Le 5' numeric
+@attribute 'Le ali' numeric
+@attribute 'Le avventure' numeric
+@attribute 'Le colline' numeric
+@attribute 'Le donne' numeric
+@attribute 'Le due' numeric
+@attribute 'Le ragazze' numeric
+@attribute 'Le regole' numeric
+@attribute 'Le spie' numeric
+@attribute 'Le tre' numeric
+@attribute 'Le vie' numeric
+@attribute League numeric
+@attribute Leather numeric
+@attribute Leben numeric
+@attribute Left numeric
+@attribute Legacy numeric
+@attribute Legend numeric
+@attribute 'Legend of' numeric
+@attribute Legion numeric
+@attribute Lego numeric
+@attribute Lei numeric
+@attribute Let numeric
+@attribute Lethal numeric
+@attribute Lettera numeric
+@attribute Letters numeric
+@attribute Liebe numeric
+@attribute Life numeric
+@attribute Light numeric
+@attribute Lights numeric
+@attribute Like numeric
+@attribute Linea numeric
+@attribute Lisa numeric
+@attribute Little numeric
+@attribute 'Little Miss' numeric
+@attribute Live numeric
+@attribute Living numeric
+@attribute Lo numeric
+@attribute 'Lo sceriffo' numeric
+@attribute 'Lo specchio' numeric
+@attribute 'Lo spettro' numeric
+@attribute 'Lo squalo' numeric
+@attribute 'Lo strangolatore' numeric
+@attribute 'Lo strano' numeric
+@attribute Loaded numeric
+@attribute Logan numeric
+@attribute Lola numeric
+@attribute London numeric
+@attribute Lone numeric
+@attribute Lonely numeric
+@attribute Long numeric
+@attribute Lontano numeric
+@attribute 'Lontano da' numeric
+@attribute Looking numeric
+@attribute 'Looking for' numeric
+@attribute Lord numeric
+@attribute Los numeric
+@attribute 'Los Angeles' numeric
+@attribute Lost numeric
+@attribute 'Lost in' numeric
+@attribute Love numeric
+@attribute 'Love &' numeric
+@attribute 'Love Is' numeric
+@attribute 'Love and' numeric
+@attribute 'Love in' numeric
+@attribute Lovely numeric
+@attribute Lovers numeric
+@attribute Loving numeric
+@attribute Low numeric
+@attribute Luce numeric
+@attribute Luci numeric
+@attribute Lucky numeric
+@attribute Lucy numeric
+@attribute Lui numeric
+@attribute Luna numeric
+@attribute 'Luna di' numeric
+@attribute M numeric
+@attribute Ma numeric
+@attribute 'Ma and' numeric
+@attribute Mac numeric
+@attribute Machine numeric
+@attribute Mad numeric
+@attribute Madame numeric
+@attribute Made numeric
+@attribute 'Made in' numeric
+@attribute Magic numeric
+@attribute Mai numeric
+@attribute Maisie numeric
+@attribute Make numeric
+@attribute Malibu numeric
+@attribute Mamma numeric
+@attribute 'Mamma ho' numeric
+@attribute Man numeric
+@attribute 'Man of' numeric
+@attribute Manhattan numeric
+@attribute Mani numeric
+@attribute Maniac numeric
+@attribute Maria numeric
+@attribute Marinai numeric
+@attribute Mariti numeric
+@attribute Married numeric
+@attribute Mars numeric
+@attribute Mary numeric
+@attribute Massacre numeric
+@attribute Matrimonio numeric
+@attribute Max numeric
+@attribute Maximum numeric
+@attribute Maze numeric
+@attribute Me numeric
+@attribute 'Me Again' numeric
+@attribute 'Me and' numeric
+@attribute Meet numeric
+@attribute 'Meet the' numeric
+@attribute Mein numeric
+@attribute Meine numeric
+@attribute Memorial numeric
+@attribute Men numeric
+@attribute 'Men in' numeric
+@attribute Mercy numeric
+@attribute Mexican numeric
+@attribute Mi numeric
+@attribute Mia numeric
+@attribute 'Mia moglie' numeric
+@attribute Miami numeric
+@attribute Michael numeric
+@attribute Mickey numeric
+@attribute Midnight numeric
+@attribute Mike numeric
+@attribute Miles numeric
+@attribute Millennium numeric
+@attribute Million numeric
+@attribute 'Million Dollar' numeric
+@attribute Mind numeric
+@attribute Miracolo numeric
+@attribute Mirror numeric
+@attribute 'Mirror Mirror' numeric
+@attribute Miss numeric
+@attribute Missing numeric
+@attribute Mission numeric
+@attribute 'Mission Impossible' numeric
+@attribute Missione numeric
+@attribute Money numeric
+@attribute Monster numeric
+@attribute Monsters numeric
+@attribute Movie numeric
+@attribute Mr numeric
+@attribute My numeric
+@attribute Name numeric
+@attribute 'Name of' numeric
+@attribute Natale numeric
+@attribute New numeric
+@attribute 'New York' numeric
+@attribute Night numeric
+@attribute Old numeric
+@attribute Order numeric
+@attribute Out numeric
+@attribute Pa numeric
+@attribute 'Pa Kettle' numeric
+@attribute Parigi numeric
+@attribute Park numeric
+@attribute People numeric
+@attribute Reno numeric
+@attribute S numeric
+@attribute San numeric
+@attribute Santa numeric
+@attribute Satana numeric
+@attribute Sex numeric
+@attribute Shark numeric
+@attribute Sky numeric
+@attribute Son numeric
+@attribute Spitfire numeric
+@attribute Star numeric
+@attribute Story numeric
+@attribute Street numeric
+@attribute Summer numeric
+@attribute Tarzan numeric
+@attribute Texas numeric
+@attribute The numeric
+@attribute There numeric
+@attribute Time numeric
+@attribute Tom numeric
+@attribute Un numeric
+@attribute Una numeric
+@attribute Up numeric
+@attribute Us numeric
+@attribute Vegas numeric
+@attribute West numeric
+@attribute White numeric
+@attribute Woman numeric
+@attribute Women numeric
+@attribute Woods numeric
+@attribute World numeric
+@attribute X numeric
+@attribute Year numeric
+@attribute York numeric
+@attribute You numeric
+@attribute Your numeric
+@attribute Zorro numeric
+@attribute a numeric
+@attribute 'a Parigi' numeric
+@attribute accanto numeric
+@attribute ad numeric
+@attribute ai numeric
+@attribute al numeric
+@attribute ali numeric
+@attribute alla numeric
+@attribute alle numeric
+@attribute allegra numeric
+@attribute alto numeric
+@attribute amanti numeric
+@attribute amare numeric
+@attribute amico numeric
+@attribute amore numeric
+@attribute and numeric
+@attribute 'and Pa' numeric
+@attribute 'and the' numeric
+@attribute assassina numeric
+@attribute at numeric
+@attribute 'at the' numeric
+@attribute avventura numeric
+@attribute avventure numeric
+@attribute 'avventure di' numeric
+@attribute baia numeric
+@attribute ballata numeric
+@attribute bambola numeric
+@attribute banda numeric
+@attribute 'banda dei' numeric
+@attribute 'banda di' numeric
+@attribute bandito numeric
+@attribute battaglia numeric
+@attribute 'battaglia di' numeric
+@attribute bella numeric
+@attribute belva numeric
+@attribute bestia numeric
+@attribute bianca numeric
+@attribute bionda numeric
+@attribute bottega numeric
+@attribute brucia numeric
+@attribute by numeric
+@attribute calda numeric
+@attribute campione numeric
+@attribute canzone numeric
+@attribute carica numeric
+@attribute 'carica dei' numeric
+@attribute carne numeric
+@attribute casa numeric
+@attribute 'casa dei' numeric
+@attribute 'casa del' numeric
+@attribute caso numeric
+@attribute cavalcata numeric
+@attribute cerca numeric
+@attribute che numeric
+@attribute 'che non' numeric
+@attribute 'che scotta' numeric
+@attribute 'che uccide' numeric
+@attribute chiave numeric
+@attribute cielo numeric
+@attribute circo numeric
+@attribute cittA  numeric
+@attribute 'cittA  che' numeric
+@attribute 'cittA  del' numeric
+@attribute 'cittA  della' numeric
+@attribute colline numeric
+@attribute 'colline hanno' numeric
+@attribute con numeric
+@attribute 'con il' numeric
+@attribute 'con la' numeric
+@attribute conquista numeric
+@attribute contro numeric
+@attribute corre numeric
+@attribute 'corre sul' numeric
+@attribute corsa numeric
+@attribute croce numeric
+@attribute crociera numeric
+@attribute cuore numeric
+@attribute da numeric
+@attribute dal numeric
+@attribute dannati numeric
+@attribute danza numeric
+@attribute degli numeric
+@attribute 'degli orrori' numeric
+@attribute dei numeric
+@attribute 'dei dannati' numeric
+@attribute 'dei giganti' numeric
+@attribute 'dei morti' numeric
+@attribute del numeric
+@attribute 'del Dr' numeric
+@attribute 'del West' numeric
+@attribute 'del campione' numeric
+@attribute 'del circo' numeric
+@attribute 'del cuore' numeric
+@attribute 'del delitto' numeric
+@attribute 'del destino' numeric
+@attribute 'del diavolo' numeric
+@attribute 'del dottor' numeric
+@attribute 'del generale' numeric
+@attribute 'del gioco' numeric
+@attribute 'del giorno' numeric
+@attribute 'del male' numeric
+@attribute 'del mare' numeric
+@attribute 'del mio' numeric
+@attribute 'del mistero' numeric
+@attribute 'del mondo' numeric
+@attribute 'del peccato' numeric
+@attribute 'del silenzio' numeric
+@attribute 'del successo' numeric
+@attribute 'del terrore' numeric
+@attribute delitto numeric
+@attribute della numeric
+@attribute 'della cittA ' numeric
+@attribute 'della foresta' numeric
+@attribute 'della giungla' numeric
+@attribute 'della jungla' numeric
+@attribute 'della morte' numeric
+@attribute 'della paura' numeric
+@attribute 'della porta' numeric
+@attribute 'della signora' numeric
+@attribute 'della vendetta' numeric
+@attribute 'della violenza' numeric
+@attribute 'della vita' numeric
+@attribute delle numeric
+@attribute dello numeric
+@attribute der numeric
+@attribute des numeric
+@attribute deserto numeric
+@attribute destino numeric
+@attribute deve numeric
+@attribute di numeric
+@attribute 'di Broadway' numeric
+@attribute 'di Chicago' numeric
+@attribute 'di Eva' numeric
+@attribute 'di Frankenstein' numeric
+@attribute 'di San' numeric
+@attribute 'di Satana' numeric
+@attribute 'di Tarzan' numeric
+@attribute 'di Zorro' numeric
+@attribute 'di ferro' numeric
+@attribute 'di fuoco' numeric
+@attribute 'di mezzanotte' numeric
+@attribute 'di miele' numeric
+@attribute 'di sangue' numeric
+@attribute 'di un' numeric
+@attribute 'di una' numeric
+@attribute 'di vetro' numeric
+@attribute diavolo numeric
+@attribute die numeric
+@attribute dolce numeric
+@attribute domani numeric
+@attribute donna numeric
+@attribute 'donna che' numeric
+@attribute 'donna del' numeric
+@attribute donne numeric
+@attribute dorme numeric
+@attribute dottor numeric
+@attribute due numeric
+@attribute e numeric
+@attribute 'e gli' numeric
+@attribute 'e i' numeric
+@attribute 'e il' numeric
+@attribute 'e la' numeric
+@attribute 'e lo' numeric
+@attribute 'e una' numeric
+@attribute estate numeric
+@attribute facce numeric
+@attribute famiglia numeric
+@attribute fantasma numeric
+@attribute fatale numeric
+@attribute febbre numeric
+@attribute 'febbre del' numeric
+@attribute felicitA  numeric
+@attribute femmina numeric
+@attribute ferro numeric
+@attribute figlia numeric
+@attribute 'figlia del' numeric
+@attribute 'figlia di' numeric
+@attribute film numeric
+@attribute fine numeric
+@attribute finestra numeric
+@attribute fiume numeric
+@attribute follia numeric
+@attribute fondo numeric
+@attribute for numeric
+@attribute foresta numeric
+@attribute fortuna numeric
+@attribute forza numeric
+@attribute freccia numeric
+@attribute from numeric
+@attribute frusta numeric
+@attribute fuga numeric
+@attribute 'fuga di' numeric
+@attribute fuoco numeric
+@attribute gang numeric
+@attribute gangster numeric
+@attribute generale numeric
+@attribute giganti numeric
+@attribute gioco numeric
+@attribute giorno numeric
+@attribute giovane numeric
+@attribute giungla numeric
+@attribute gli numeric
+@attribute 'gli occhi' numeric
+@attribute gloria numeric
+@attribute grande numeric
+@attribute 'grande avventura' numeric
+@attribute guerra numeric
+@attribute 'guerra dei' numeric
+@attribute 'guerra di' numeric
+@attribute guerriero numeric
+@attribute ha numeric
+@attribute hanno numeric
+@attribute 'hanno gli' numeric
+@attribute ho numeric
+@attribute i numeric
+@attribute 'i suoi' numeric
+@attribute il numeric
+@attribute 'il bandito' numeric
+@attribute 'il fiume' numeric
+@attribute in numeric
+@attribute 'in America' numeric
+@attribute 'in a' numeric
+@attribute 'in the' numeric
+@attribute infernale numeric
+@attribute innamorata numeric
+@attribute invisibile numeric
+@attribute ist numeric
+@attribute jungla numeric
+@attribute la numeric
+@attribute 'la bestia' numeric
+@attribute 'la vita' numeric
+@attribute lago numeric
+@attribute le numeric
+@attribute legge numeric
+@attribute 'legge dei' numeric
+@attribute 'legge del' numeric
+@attribute leggenda numeric
+@attribute 'leggenda del' numeric
+@attribute 'leggenda di' numeric
+@attribute legione numeric
+@attribute lei numeric
+@attribute libertA  numeric
+@attribute linea numeric
+@attribute lo numeric
+@attribute luna numeric
+@attribute lunga numeric
+@attribute lupo numeric
+@attribute magica numeric
+@attribute male numeric
+@attribute maledetta numeric
+@attribute maledizione numeric
+@attribute mamma numeric
+@attribute mano numeric
+@attribute mare numeric
+@attribute marito numeric
+@attribute maschera numeric
+@attribute 'maschera di' numeric
+@attribute me numeric
+@attribute mezzanotte numeric
+@attribute mia numeric
+@attribute 'mia vita' numeric
+@attribute miele numeric
+@attribute mille numeric
+@attribute mio numeric
+@attribute mistero numeric
+@attribute mogli numeric
+@attribute moglie numeric
+@attribute 'moglie del' numeric
+@attribute mondo numeric
+@attribute montagna numeric
+@attribute mortale numeric
+@attribute morte numeric
+@attribute morti numeric
+@attribute 'morti viventi' numeric
+@attribute mostro numeric
+@attribute mummia numeric
+@attribute musica numeric
+@attribute 'musica del' numeric
+@attribute nave numeric
+@attribute nel numeric
+@attribute 'nel cuore' numeric
+@attribute nella numeric
+@attribute nera numeric
+@attribute nero numeric
+@attribute nome numeric
+@attribute non numeric
+@attribute nostra numeric
+@attribute notte numeric
+@attribute 'notte dei' numeric
+@attribute 'notte del' numeric
+@attribute nuova numeric
+@attribute occhi numeric
+@attribute oder numeric
+@attribute of numeric
+@attribute 'of a' numeric
+@attribute 'of the' numeric
+@attribute on numeric
+@attribute 'on the' numeric
+@attribute orrori numeric
+@attribute pantera numeric
+@attribute paura numeric
+@attribute pazza numeric
+@attribute pazzo numeric
+@attribute peccato numeric
+@attribute pelle numeric
+@attribute per numeric
+@attribute 'per la' numeric
+@attribute perfetta numeric
+@attribute pericolosa numeric
+@attribute piA¹ numeric
+@attribute piano numeric
+@attribute piccola numeric
+@attribute pietra numeric
+@attribute pista numeric
+@attribute pistola numeric
+@attribute poliziotto numeric
+@attribute pon numeric
+@attribute porta numeric
+@attribute 'porta accanto' numeric
+@attribute potere numeric
+@attribute preda numeric
+@attribute prigioniera numeric
+@attribute prima numeric
+@attribute principe numeric
+@attribute principessa numeric
+@attribute professore numeric
+@attribute promessa numeric
+@attribute prova numeric
+@attribute quarto numeric
+@attribute quattro numeric
+@attribute qui numeric
+@attribute ragazza numeric
+@attribute 'ragazza del' numeric
+@attribute 'ragazza della' numeric
+@attribute 'ragazza di' numeric
+@attribute ragazze numeric
+@attribute 'ragazze di' numeric
+@attribute ragazzo numeric
+@attribute ragno numeric
+@attribute rapina numeric
+@attribute re numeric
+@attribute 're dei' numeric
+@attribute 're del' numeric
+@attribute 're della' numeric
+@attribute regina numeric
+@attribute 'regina dei' numeric
+@attribute regno numeric
+@attribute regola numeric
+@attribute regole numeric
+@attribute ribelle numeric
+@attribute rischio numeric
+@attribute ritorno numeric
+@attribute 'ritorno dei' numeric
+@attribute 'ritorno del' numeric
+@attribute 'ritorno di' numeric
+@attribute rivincita numeric
+@attribute rivolta numeric
+@attribute romanzo numeric
+@attribute 'romanzo di' numeric
+@attribute rosa numeric
+@attribute rossa numeric
+@attribute rosso numeric
+@attribute sangue numeric
+@attribute sapore numeric
+@attribute scandalo numeric
+@attribute scelta numeric
+@attribute sceriffo numeric
+@attribute scomparsa numeric
+@attribute 'scomparsa di' numeric
+@attribute sconosciuto numeric
+@attribute scotta numeric
+@attribute seconda numeric
+@attribute segno numeric
+@attribute 'segno della' numeric
+@attribute segreta numeric
+@attribute segreto numeric
+@attribute 'segreto del' numeric
+@attribute 'segreto di' numeric
+@attribute selvaggio numeric
+@attribute sempre numeric
+@attribute sentiero numeric
+@attribute 'sentiero della' numeric
+@attribute senza numeric
+@attribute 'senza legge' numeric
+@attribute 'senza nome' numeric
+@attribute sergente numeric
+@attribute serpente numeric
+@attribute setta numeric
+@attribute sette numeric
+@attribute sfida numeric
+@attribute sguardo numeric
+@attribute si numeric
+@attribute signora numeric
+@attribute signore numeric
+@attribute silenzio numeric
+@attribute sirena numeric
+@attribute sogni numeric
+@attribute sogno numeric
+@attribute 'sogno di' numeric
+@attribute sole numeric
+@attribute solitario numeric
+@attribute sono numeric
+@attribute sorelle numeric
+@attribute spada numeric
+@attribute specchio numeric
+@attribute 'specchio della' numeric
+@attribute sperone numeric
+@attribute spettro numeric
+@attribute spia numeric
+@attribute spiaggia numeric
+@attribute spie numeric
+@attribute sposa numeric
+@attribute squadra numeric
+@attribute squalo numeric
+@attribute stanza numeric
+@attribute stella numeric
+@attribute stelle numeric
+@attribute stirpe numeric
+@attribute storia numeric
+@attribute 'storia del' numeric
+@attribute 'storia di' numeric
+@attribute strada numeric
+@attribute strangolatore numeric
+@attribute strano numeric
+@attribute studente numeric
+@attribute su numeric
+@attribute sua numeric
+@attribute successo numeric
+@attribute sul numeric
+@attribute sulla numeric
+@attribute suo numeric
+@attribute suoi numeric
+@attribute tempo numeric
+@attribute tenebre numeric
+@attribute terra numeric
+@attribute terrore numeric
+@attribute terzo numeric
+@attribute tesoro numeric
+@attribute 'tesoro dei' numeric
+@attribute 'tesoro di' numeric
+@attribute the numeric
+@attribute 'the Dark' numeric
+@attribute 'the Dead' numeric
+@attribute 'the Jungle' numeric
+@attribute 'the Name' numeric
+@attribute 'the Sky' numeric
+@attribute ti numeric
+@attribute tipo numeric
+@attribute to numeric
+@attribute 'to the' numeric
+@attribute tragedia numeric
+@attribute trappola numeric
+@attribute tre numeric
+@attribute treno numeric
+@attribute truffa numeric
+@attribute tua numeric
+@attribute tuo numeric
+@attribute uccide numeric
+@attribute umana numeric
+@attribute un numeric
+@attribute una numeric
+@attribute und numeric
+@attribute uno numeric
+@attribute uomini numeric
+@attribute uomo numeric
+@attribute va numeric
+@attribute vacanza numeric
+@attribute vagabondo numeric
+@attribute valle numeric
+@attribute 'valle dei' numeric
+@attribute 'valle del' numeric
+@attribute vampiro numeric
+@attribute vedova numeric
+@attribute vendetta numeric
+@attribute 'vendetta del' numeric
+@attribute 'vendetta di' numeric
+@attribute vendicatore numeric
+@attribute vento numeric
+@attribute vera numeric
+@attribute 'vera storia' numeric
+@attribute verde numeric
+@attribute vergine numeric
+@attribute veritA  numeric
+@attribute verso numeric
+@attribute vetro numeric
+@attribute vi numeric
+@attribute via numeric
+@attribute 'via del' numeric
+@attribute viaggio numeric
+@attribute 'viaggio di' numeric
+@attribute vie numeric
+@attribute 'vie della' numeric
+@attribute villaggio numeric
+@attribute violenza numeric
+@attribute vita numeric
+@attribute 'vita A¨' numeric
+@attribute 'vita di' numeric
+@attribute viventi numeric
+@attribute vizio numeric
+@attribute voce numeric
+@attribute volo numeric
+@attribute von numeric
+@attribute vs numeric
+@attribute with numeric
+@attribute zoo numeric
+
+@data
+{93 1,94 1,587 1,829 1}
+{93 1,94 1,565 1,593 1,597 1,829 1}
+{93 1,94 1,628 1,659 1,829 1}
+{93 1,94 1,628 1,829 1}
+{93 1,94 1,628 1,829 1}
+{93 1,94 1,635 1,829 1}
+{93 1,94 1,663 1,666 1,722 1,829 1}
+{93 1,94 1,715 1,829 1}
+{93 1,94 1,829 1}
+{93 1,94 1,829 1}
+{93 1,94 1,829 1,930 1}
+{93 1,94 1,829 1,930 1}
+{93 1,94 1,829 1}
+{93 1}
+{93 1}
+{93 1,831 1}
+{93 1,831 1}
+{93 1,593 1}
+{93 1,593 1,613 1,933 1}
+{93 1,616 1,622 1,806 1}
+{93 1,970 1}
+{93 1}
+{93 1,593 1}
+{93 1}
+{93 1}
+{0 Germany,93 1,834 1}
+{93 1,834 1,953 1}
+{93 1,834 1,970 1}
+{93 1}
+{93 1,825 1}
+{93 1,635 1}
+{93 1,95 1,559 1,843 1}
+{93 1,95 1,843 1}
+{93 1,95 1,593 1,607 1,759 1,843 1}
+{93 1,95 1,508 1,616 1,623 1,823 1,824 1,843 1}
+{93 1,95 1,663 1,666 1,722 1,821 1,843 1}
+{93 1,95 1,843 1,934 1}
+{93 1,731 1}
+{93 1,789 1,844 1}
+{93 1,628 1,958 1}
+{93 1,635 1}
+{0 Germany,93 1}
+{93 1}
+{93 1,628 1}
+{93 1,96 1,587 1,846 1}
+{93 1,96 1,587 1,846 1}
+{93 1,96 1,587 1,846 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,589 1,635 1,846 1,847 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,589 1,846 1,847 1}
+{93 1,96 1,593 1,846 1,848 1}
+{93 1,96 1,593 1,846 1,848 1}
+{93 1,96 1,521 1,593 1,846 1,848 1}
+{93 1,96 1,593 1,846 1,848 1}
+{93 1,96 1,593 1,846 1,848 1}
+{93 1,96 1,616 1,620 1,733 1,846 1,849 1}
+{93 1,96 1,616 1,846 1,849 1}
+{93 1,96 1,616 1,846 1,849 1}
+{93 1,96 1,616 1,846 1,849 1}
+{93 1,96 1,616 1,846 1,849 1}
+{93 1,96 1,628 1,846 1}
+{93 1,96 1,156 1,635 1,846 1}
+{93 1,96 1,663 1,667 1,734 1,846 1}
+{93 1,96 1,846 1}
+{93 1,96 1,846 1}
+{93 1}
+{93 1,96 1,846 1}
+{93 1,96 1,846 1,973 1}
+{93 1}
+{93 1,97 1,589 1,852 1}
+{93 1,97 1,593 1,698 1,852 1}
+{93 1,97 1,593 1,614 1,852 1,941 1}
+{93 1,97 1,852 1}
+{93 1}
+{93 1,98 1,855 1}
+{93 1,98 1,855 1}
+{93 1,98 1,635 1,855 1}
+{93 1,98 1,566 1,725 1,855 1}
+{93 1,815 1}
+{93 1,589 1}
+{93 1,616 1,618 1,690 1}
+{93 1,616 1,618 1,690 1}
+{93 1,635 1,649 1,965 1}
+{93 1}
+{93 1,587 1}
+{93 1}
+{93 1,593 1}
+{93 1,628 1,939 1}
+{93 1,593 1,613 1,933 1}
+{93 1}
+{93 1,99 1,587 1,857 1}
+{93 1,99 1,589 1,592 1,778 1,779 1,857 1,858 1,1003 1}
+{9 1,93 1,99 1,589 1,592 1,778 1,779 1,857 1,858 1,1003 1}
+{10 1,93 1,99 1,589 1,592 1,778 1,779 1,857 1,858 1,1003 1}
+{93 1,99 1,589 1,857 1,858 1}
+{93 1,99 1,589 1,857 1,858 1}
+{93 1,99 1,589 1,857 1,858 1}
+{93 1,99 1,548 1,593 1,596 1,857 1,859 1}
+{93 1,99 1,500 1,593 1,602 1,661 1,857 1,859 1}
+{93 1,99 1,593 1,857 1,859 1}
+{93 1,99 1,593 1,752 1,857 1,859 1}
+{93 1,99 1,593 1,616 1,780 1,857 1,859 1}
+{93 1,99 1,593 1,857 1,859 1}
+{93 1,99 1,593 1,857 1,859 1}
+{93 1,99 1,593 1,857 1,859 1,977 1}
+{93 1,99 1,616 1,672 1,857 1}
+{93 1,99 1,616 1,857 1}
+{93 1,99 1,616 1,857 1}
+{93 1,99 1,629 1,857 1}
+{32 1,93 1,99 1,635 1,857 1,860 1}
+{93 1,99 1,189 1,635 1,663 1,857 1,860 1}
+{93 1,99 1,635 1,857 1,860 1}
+{93 1,99 1,164 1,165 1,536 1,635 1,722 1,723 1,857 1,860 1}
+{93 1,99 1,170 1,635 1,857 1,860 1}
+{93 1,99 1,635 1,857 1,860 1}
+{93 1,99 1,304 1,635 1,857 1,860 1}
+{93 1,99 1,410 1,635 1,857 1,860 1}
+{0 Germany,93 1,99 1,453 1,635 1,857 1,860 1}
+{93 1,99 1,635 1,857 1,860 1}
+{93 1,635 1}
+{93 1,635 1}
+{93 1}
+{93 1,663 1,668 1,749 1}
+{25 1,93 1,678 1}
+{93 1}
+{93 1,100 1,635 1,863 1,864 1}
+{93 1,100 1,635 1,863 1,864 1}
+{93 1,100 1,635 1,863 1,864 1}
+{93 1,100 1,635 1,650 1,863 1,864 1,966 1,1000 1}
+{93 1}
+{93 1}
+{93 1}
+{93 1,616 1,622 1,806 1}
+{0 Germany,93 1,810 1,935 1}
+{93 1}
+{93 1,635 1,868 1}
+{93 1}
+{93 1,101 1,593 1,599 1,615 1,869 1}
+{93 1,101 1,593 1,868 1,869 1}
+{93 1,101 1,593 1,613 1,869 1,933 1}
+{2 1,93 1,101 1,616 1,869 1,897 1}
+{93 1,101 1,635 1,649 1,869 1,965 1}
+{93 1,635 1}
+{93 1}
+{93 1,102 1,587 1,878 1}
+{93 1,102 1,593 1,878 1}
+{93 1,102 1,593 1,611 1,809 1,878 1}
+{93 1,102 1,580 1,616 1,878 1,879 1}
+{93 1,102 1,616 1,878 1,879 1}
+{93 1,102 1,616 1,739 1,878 1,879 1}
+{2 1,93 1,102 1,616 1,878 1,879 1}
+{93 1,102 1,505 1,635 1,643 1,878 1}
+{93 1,102 1,505 1,635 1,643 1,878 1}
+{93 1,103 1,587 1,881 1}
+{93 1,103 1,589 1,797 1,881 1,937 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,593 1,737 1,881 1,882 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,593 1,608 1,769 1,881 1,882 1,933 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,593 1,881 1,882 1}
+{0 Germany,93 1,103 1,593 1,881 1,882 1,936 1}
+{93 1,103 1,593 1,881 1,882 1}
+{93 1,103 1,616 1,881 1,901 1}
+{93 1,103 1,616 1,881 1,909 1}
+{93 1,103 1,616 1,881 1,898 1}
+{93 1,103 1,628 1,881 1}
+{93 1,103 1,635 1,881 1,883 1}
+{93 1,103 1,170 1,635 1,881 1,883 1}
+{93 1,103 1,410 1,635 1,881 1,883 1}
+{93 1,103 1,635 1,881 1,883 1}
+{93 1,103 1,635 1,881 1,883 1}
+{93 1,103 1,635 1,881 1,883 1}
+{93 1,103 1,472 1,635 1,881 1,883 1}
+{93 1,103 1,635 1,650 1,656 1,881 1,883 1,966 1}
+{93 1,103 1,552 1,881 1,935 1}
+{93 1,884 1}
+{93 1,884 1}
+{93 1,616 1,687 1}
+{93 1,616 1}
+{93 1,616 1,626 1,999 1}
+{93 1,104 1,517 1,587 1,886 1}
+{93 1,104 1,589 1,886 1}
+{93 1,104 1,593 1,886 1,906 1}
+{93 1,104 1,616 1,709 1,886 1,887 1}
+{93 1,104 1,616 1,845 1,886 1,887 1}
+{93 1,104 1,616 1,625 1,886 1,887 1,979 1}
+{93 1,104 1,616 1,625 1,886 1,887 1,979 1}
+{93 1,104 1,616 1,626 1,886 1,887 1,999 1}
+{93 1,104 1,886 1,906 1}
+{0 Germany,93 1,635 1}
+{93 1,105 1,891 1}
+{93 1,105 1,891 1}
+{93 1,105 1,891 1}
+{93 1,105 1,635 1,644 1,679 1,891 1}
+{93 1,105 1,635 1,645 1,698 1,891 1}
+{93 1,105 1,635 1,891 1}
+{93 1,105 1,891 1}
+{93 1,105 1,891 1}
+{93 1,105 1,502 1,891 1}
+{93 1,892 1}
+{93 1,635 1,645 1,698 1,892 1}
+{93 1}
+{93 1}
+{93 1,809 1}
+{93 1}
+{93 1,725 1,971 1}
+{93 1}
+{93 1,106 1,587 1,899 1}
+{93 1,106 1,593 1,606 1,754 1,899 1}
+{93 1,106 1,616 1,621 1,777 1,899 1}
+{93 1,106 1,628 1,899 1}
+{93 1,106 1,628 1,899 1}
+{93 1,106 1,629 1,899 1,1010 1}
+{93 1,106 1,663 1,667 1,734 1,898 1,899 1}
+{93 1,106 1,663 1,667 1,734 1,898 1,899 1}
+{93 1,106 1,663 1,667 1,734 1,899 1,901 1}
+{93 1,106 1,725 1,899 1}
+{93 1,106 1,506 1,899 1}
+{93 1}
+{93 1,107 1,587 1,900 1}
+{93 1,107 1,593 1,632 1,900 1}
+{0 Germany,93 1,107 1,749 1,900 1}
+{93 1,107 1,572 1,574 1,734 1,736 1,897 1,900 1,1000 1}
+{93 1,593 1,1004 1}
+{40 1,93 1,635 1,637 1}
+{93 1,635 1,644 1,679 1}
+{93 1}
+{93 1}
+{93 1,593 1,601 1,652 1}
+{2 1,93 1,108 1,593 1,607 1,759 1,903 1}
+{93 1,108 1,566 1,616 1,617 1,673 1,903 1}
+{93 1,108 1,635 1,903 1,904 1}
+{93 1,108 1,635 1,903 1,904 1}
+{93 1,108 1,635 1,650 1,670 1,903 1,904 1,966 1}
+{93 1,108 1,635 1,650 1,670 1,793 1,903 1,904 1,966 1}
+{93 1,109 1,506 1,764 1,905 1}
+{2 1,93 1,109 1,434 1,506 1,764 1,905 1}
+{25 1,93 1,109 1,905 1,921 1,966 1}
+{93 1,109 1,582 1,785 1,786 1,905 1}
+{93 1,109 1,787 1,905 1,920 1}
+{93 1,109 1,516 1,905 1}
+{93 1,109 1,655 1,905 1}
+{93 1,484 1,593 1,906 1}
+{93 1,635 1,906 1}
+{93 1}
+{93 1,473 1,593 1,602 1,661 1,789 1}
+{93 1}
+{93 1,616 1}
+{93 1,616 1,627 1,1000 1}
+{93 1,635 1}
+{93 1}
+{93 1}
+{93 1}
+{93 1}
+{93 1,673 1}
+{93 1,110 1,936 1}
+{25 1,93 1,110 1,790 1,936 1}
+{93 1,110 1,936 1,979 1}
+{93 1,110 1,635 1,656 1,936 1,953 1}
+{93 1,110 1,936 1}
+{93 1,593 1}
+{9 1,93 1,593 1}
+{2 1,5 1,9 1,93 1,485 1}
+{93 1,453 1,635 1}
+{93 1,616 1}
+{93 1,616 1}
+{93 1}
+{93 1,635 1}
+{93 1}
+{93 1}
+{93 1,593 1,602 1,661 1}
+{93 1,635 1,645 1,698 1}
+{93 1,111 1,589 1,938 1}
+{93 1,111 1,635 1,938 1}
+{93 1,111 1,635 1,938 1}
+{25 1,93 1,111 1,897 1,938 1}
+{93 1,635 1}
+{93 1}
+{93 1,112 1,511 1,635 1,816 1,941 1}
+{93 1,112 1,577 1,578 1,934 1,941 1}
+{93 1,112 1,577 1,578 1,686 1,934 1,941 1}
+{93 1,112 1,750 1,941 1}
+{93 1,112 1,589 1,941 1}
+{93 1,112 1,565 1,593 1,597 1,941 1}
+{93 1,112 1,593 1,612 1,900 1,941 1}
+{93 1,112 1,484 1,593 1,941 1}
+{93 1,112 1,628 1,941 1}
+{40 1,93 1,112 1,635 1,637 1,941 1}
+{69 1,93 1,112 1,635 1,639 1,941 1}
+{93 1,112 1,593 1,797 1,941 1}
+{93 1,112 1,774 1,934 1,941 1}
+{93 1,704 1,942 1}
+{93 1,942 1}
+{93 1}
+{0 Germany,93 1,113 1,943 1}
+{93 1,113 1,587 1,943 1}
+{93 1,113 1,589 1,943 1,944 1}
+{93 1,113 1,589 1,943 1,944 1}
+{93 1,113 1,589 1,943 1,944 1}
+{93 1,113 1,589 1,943 1,944 1}
+{93 1,113 1,593 1,943 1}
+{93 1,113 1,593 1,686 1,943 1}
+{93 1,113 1,593 1,628 1,943 1}
+{93 1,113 1,616 1,943 1}
+{93 1,113 1,189 1,635 1,943 1,945 1}
+{93 1,113 1,635 1,943 1,945 1}
+{93 1,113 1,635 1,943 1,945 1}
+{93 1,113 1,471 1,635 1,640 1,943 1,945 1}
+{93 1,113 1,635 1,943 1,945 1}
+{93 1,113 1,635 1,943 1,945 1}
+{93 1,113 1,943 1}
+{93 1,113 1,635 1,881 1,883 1,943 1}
+{93 1,113 1,483 1,635 1,642 1,881 1,883 1,943 1}
+{93 1,113 1,943 1}
+{0 Germany,93 1,593 1,602 1,661 1}
+{93 1,593 1,610 1,774 1,808 1,815 1}
+{93 1,635 1,797 1}
+{93 1,635 1}
+{93 1,593 1,606 1,754 1}
+{93 1}
+{93 1,589 1}
+{17 1,93 1,635 1}
+{93 1,635 1}
+{93 1,616 1,627 1,1000 1}
+{93 1}
+{93 1,816 1}
+{93 1,114 1,593 1,857 1,959 1}
+{93 1,114 1,673 1,959 1}
+{93 1,114 1,506 1,959 1}
+{93 1,114 1,722 1,811 1,959 1}
+{93 1}
+{93 1,729 1}
+{93 1,616 1,627 1,1000 1}
+{93 1,789 1}
+{0 Germany,2 1,5 1,93 1,485 1}
+{93 1,519 1,769 1,785 1,962 1}
+{93 1,896 1,962 1}
+{93 1,566 1,616 1,617 1,973 1}
+{93 1,616 1,618 1,690 1,973 1}
+{93 1,663 1,667 1,734 1,973 1}
+{93 1,593 1,693 1}
+{93 1,115 1,977 1}
+{93 1,115 1,977 1}
+{93 1,115 1,593 1,607 1,759 1,977 1}
+{93 1,115 1,593 1,867 1,977 1}
+{93 1}
+{93 1}
+{0 Germany,93 1,635 1}
+{93 1,663 1,666 1,722 1,759 1}
+{93 1,593 1,611 1,809 1}
+{93 1}
+{93 1,116 1,982 1}
+{93 1,116 1,982 1}
+{93 1,116 1,484 1,593 1,982 1}
+{93 1,116 1,164 1,165 1,536 1,635 1,722 1,723 1,982 1}
+{93 1,116 1,982 1}
+{93 1}
+{93 1,298 1,635 1}
+{93 1,983 1}
+{0 Germany,93 1,593 1,983 1}
+{93 1,663 1,666 1,722 1,983 1}
+{93 1}
+{93 1,616 1,622 1,806 1}
+{93 1}
+{93 1,117 1,994 1}
+{93 1,117 1,628 1,841 1,994 1}
+{0 Germany,93 1,117 1,635 1,994 1,995 1}
+{93 1,117 1,635 1,994 1,995 1}
+{93 1}
+{0 Germany,93 1,117 1,635 1,677 1,734 1,757 1,989 1,994 1,995 1}
+{93 1,117 1,635 1,994 1,995 1}
+{93 1,117 1,635 1,994 1,995 1}
+{0 Germany,93 1,117 1,635 1,994 1,995 1}
+{0 Germany,93 1,117 1,994 1}
+{93 1,553 1,635 1}
+{93 1,118 1,628 1,998 1}
+{93 1,118 1,593 1,610 1,774 1,808 1,815 1,998 1}
+{93 1,118 1,593 1,610 1,774 1,808 1,815 1,998 1}
+{93 1}
+{93 1}
+{93 1}
+{93 1,616 1}
+{0 Germany,93 1,593 1,601 1,652 1}
+{93 1,934 1}
+{93 1}
+{93 1,810 1,935 1}
+{93 1,119 1,616 1,1006 1}
+{93 1,119 1,616 1,1006 1}
+{93 1,119 1,616 1,1006 1}
+{93 1,119 1,635 1,1006 1}
+{93 1,589 1}
+{93 1,593 1}
+{93 1,494 1,593 1}
+{}
+{}
+{}
+{962 1}
+{120 1}
+{120 1}
+{120 1}
+{9 1,59 1,120 1}
+{120 1,374 1}
+{}
+{}
+{776 1}
+{}
+{}
+{799 1}
+{0 Germany,121 1,1007 1}
+{0 Germany,121 1,630 1}
+{0 Germany,121 1}
+{0 Germany,121 1}
+{0 Germany,121 1}
+{0 Germany,121 1}
+{0 Germany,121 1}
+{0 Germany,2 1,121 1}
+{0 Germany,121 1}
+{799 1,801 1,946 1}
+{}
+{462 1}
+{}
+{}
+{74 1}
+{559 1}
+{}
+{14 1,208 1,209 1}
+{0 Germany,71 1}
+{}
+{}
+{325 1,326 1,485 1,799 1}
+{}
+{}
+{}
+{60 1,122 1}
+{122 1}
+{122 1}
+{506 1,722 1,962 1}
+{674 1}
+{}
+{}
+{}
+{59 1}
+{}
+{516 1,725 1,815 1}
+{754 1}
+{593 1}
+{}
+{}
+{}
+{123 1}
+{123 1,451 1}
+{}
+{452 1,485 1}
+{}
+{635 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{32 1}
+{}
+{}
+{}
+{0 Germany,2 1,382 1,448 1,467 1}
+{}
+{1 1,124 1,463 1}
+{10 1,124 1,298 1,379 1,934 1}
+{124 1,126 1,520 1,663 1,712 1,725 1}
+{25 1,124 1,126 1,520 1}
+{124 1,126 1,520 1,854 1}
+{124 1,126 1,520 1,897 1}
+{124 1}
+{124 1}
+{124 1,506 1}
+{124 1,734 1,811 1,812 1}
+{124 1,558 1,635 1}
+{124 1,558 1,635 1}
+{124 1,453 1,558 1,635 1}
+{124 1,127 1,572 1,573 1,579 1,652 1,722 1}
+{124 1,127 1,572 1,573 1,579 1,722 1,905 1}
+{124 1,127 1,576 1,579 1,722 1,938 1}
+{124 1,127 1,579 1,734 1,736 1,811 1,812 1,1000 1}
+{44 1,124 1}
+{0 Germany,124 1}
+{59 1,124 1}
+{2 1,3 1,93 1,124 1,587 1}
+{44 1,124 1}
+{124 1,510 1,688 1}
+{124 1,511 1,582 1,688 1}
+{124 1,511 1,582 1,688 1}
+{124 1,128 1,302 1,303 1,493 1,506 1,696 1}
+{124 1,128 1,506 1,696 1,835 1}
+{0 Germany,124 1,128 1,506 1,696 1}
+{124 1,128 1,696 1}
+{124 1,128 1,584 1,696 1}
+{124 1,128 1,584 1,696 1}
+{124 1,128 1,696 1,734 1,747 1,811 1,812 1}
+{124 1,128 1,696 1,811 1,958 1}
+{124 1,572 1,574 1,734 1,750 1}
+{44 1,80 1,124 1}
+{2 1,86 1,124 1,746 1}
+{0 Germany,124 1}
+{0 Germany,124 1}
+{124 1,466 1,506 1,507 1}
+{124 1,799 1}
+{124 1}
+{65 1,124 1,454 1,799 1}
+{124 1,686 1,722 1,724 1}
+{124 1,775 1,961 1}
+{124 1}
+{124 1,454 1}
+{0 Germany,124 1,454 1}
+{124 1,454 1}
+{53 1,124 1,635 1,790 1}
+{124 1,125 1,461 1}
+{124 1,125 1,461 1}
+{124 1,125 1,461 1}
+{124 1,125 1,461 1}
+{0 Germany,124 1}
+{124 1}
+{124 1,635 1,1000 1}
+{124 1,572 1,573 1,722 1}
+{124 1,635 1}
+{124 1,792 1,1000 1}
+{124 1,460 1}
+{124 1}
+{124 1,663 1,725 1}
+{124 1,199 1,434 1,506 1,799 1,800 1}
+{124 1,799 1}
+{124 1,799 1}
+{124 1}
+{124 1}
+{124 1,129 1,946 1}
+{33 1,124 1,129 1,946 1}
+{124 1,129 1,946 1}
+{47 1,124 1,129 1,946 1,947 1}
+{47 1,124 1,129 1,946 1,947 1}
+{47 1,124 1,129 1,946 1,947 1}
+{49 1,124 1,129 1,460 1,799 1,946 1,948 1}
+{124 1,129 1,946 1}
+{124 1,129 1,946 1}
+{63 1,124 1,129 1,194 1,506 1,799 1,800 1,946 1}
+{64 1,124 1,129 1,946 1}
+{124 1,129 1,946 1}
+{124 1,129 1,946 1}
+{124 1,129 1,946 1}
+{124 1,129 1,799 1,801 1,946 1}
+{83 1,124 1,129 1,300 1,301 1,799 1,801 1,946 1}
+{124 1,129 1,946 1}
+{124 1,129 1,449 1,946 1}
+{124 1,129 1,455 1,456 1,799 1,946 1,950 1}
+{124 1,129 1,455 1,456 1,799 1,946 1,950 1}
+{0 Germany,124 1,129 1,197 1,455 1,456 1,799 1,801 1,946 1,950 1}
+{0 Germany,124 1,129 1,197 1,455 1,456 1,799 1,801 1,946 1,950 1}
+{42 1,124 1,129 1,946 1}
+{124 1,129 1,489 1,635 1,759 1,946 1}
+{124 1,129 1,946 1}
+{124 1,129 1,498 1,946 1}
+{124 1}
+{124 1,487 1}
+{124 1}
+{124 1,957 1}
+{124 1,897 1,958 1}
+{124 1,130 1,572 1,574 1,734 1,994 1}
+{124 1,130 1,572 1,994 1}
+{124 1,130 1,572 1,966 1,994 1}
+{124 1,130 1,722 1,811 1,994 1}
+{124 1,130 1,989 1,994 1}
+{124 1,130 1,722 1,759 1,989 1,994 1}
+{2 1,5 1,124 1,130 1,485 1,903 1,965 1,989 1,994 1}
+{124 1}
+{63 1,124 1,504 1}
+{124 1,504 1}
+{59 1,124 1,504 1}
+{0 Germany,124 1,631 1}
+{}
+{}
+{74 1,178 1,946 1,949 1}
+{0 Germany}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{509 1,516 1,856 1}
+{725 1,828 1}
+{814 1}
+{525 1}
+{525 1}
+{725 1}
+{}
+{}
+{131 1}
+{131 1,509 1}
+{131 1,593 1,834 1,953 1}
+{131 1,593 1,942 1,953 1}
+{131 1}
+{302 1,303 1,493 1,506 1}
+{506 1}
+{132 1,506 1}
+{132 1,466 1,506 1,507 1}
+{132 1,572 1,573 1,722 1,754 1}
+{132 1,674 1}
+{132 1}
+{132 1,655 1,888 1}
+{132 1,734 1}
+{}
+{}
+{133 1}
+{133 1}
+{133 1,729 1}
+{133 1,776 1}
+{}
+{509 1,516 1,856 1}
+{2 1,34 1,47 1}
+{91 1}
+{92 1}
+{}
+{}
+{48 1}
+{48 1}
+{2 1,48 1}
+{173 1,593 1,635 1,663 1,666 1,722 1,852 1}
+{173 1,663 1,666 1,722 1}
+{}
+{}
+{729 1,819 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{635 1}
+{635 1}
+{635 1}
+{}
+{506 1}
+{952 1}
+{}
+{}
+{759 1,934 1}
+{}
+{2 1,7 1,490 1}
+{}
+{}
+{29 1,146 1,485 1}
+{}
+{811 1,885 1}
+{961 1}
+{}
+{}
+{134 1}
+{134 1}
+{134 1}
+{134 1,506 1}
+{134 1}
+{134 1,635 1,645 1,698 1}
+{134 1,725 1}
+{134 1,632 1,785 1}
+{134 1,688 1,934 1}
+{134 1,986 1}
+{}
+{2 1,345 1}
+{}
+{}
+{}
+{}
+{}
+{25 1,582 1,635 1,722 1,815 1}
+{582 1,593 1,598 1}
+{}
+{135 1}
+{42 1,135 1,509 1}
+{135 1}
+{135 1,674 1}
+{135 1,674 1}
+{135 1}
+{135 1}
+{}
+{}
+{506 1,971 1}
+{}
+{946 1}
+{136 1}
+{136 1}
+{136 1}
+{136 1}
+{}
+{}
+{1 1}
+{}
+{}
+{137 1}
+{137 1,402 1,506 1}
+{137 1,506 1}
+{138 1}
+{138 1}
+{138 1,725 1}
+{138 1}
+{808 1}
+{42 1,139 1}
+{139 1}
+{139 1}
+{537 1,635 1}
+{}
+{}
+{}
+{0 Germany}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{814 1}
+{140 1}
+{140 1}
+{71 1,140 1}
+{140 1}
+{140 1,400 1}
+{140 1,400 1}
+{140 1}
+{140 1,141 1,463 1}
+{140 1,141 1,463 1}
+{140 1,141 1,463 1}
+{140 1,141 1,463 1}
+{140 1,946 1}
+{140 1,946 1}
+{140 1,946 1}
+{2 1,734 1,988 1}
+{}
+{}
+{142 1,466 1,506 1,507 1}
+{142 1,556 1,811 1}
+{142 1,692 1,811 1}
+{142 1,692 1,811 1}
+{142 1,655 1,722 1,989 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{64 1}
+{}
+{2 1}
+{191 1,954 1}
+{799 1}
+{}
+{}
+{}
+{}
+{}
+{2 1,564 1,785 1}
+{}
+{}
+{}
+{}
+{321 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{918 1}
+{2 1}
+{}
+{}
+{}
+{}
+{946 1,1009 1}
+{977 1}
+{572 1,574 1,734 1}
+{2 1,143 1,479 1}
+{143 1}
+{143 1,144 1,799 1,946 1}
+{143 1,144 1,946 1}
+{143 1,144 1,946 1}
+{143 1,144 1,946 1}
+{143 1,144 1,946 1}
+{2 1,143 1,144 1,946 1}
+{143 1,144 1,498 1,946 1}
+{}
+{2 1,635 1,722 1,1004 1}
+{2 1,4 1,210 1,251 1,755 1,784 1}
+{511 1}
+{635 1,825 1}
+{145 1,506 1}
+{88 1,145 1,506 1}
+{145 1,506 1}
+{145 1,725 1}
+{145 1}
+{145 1}
+{0 Germany,145 1}
+{0 Germany,145 1,799 1}
+{0 Germany,145 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{146 1}
+{0 Germany,146 1}
+{24 1,60 1,146 1,485 1}
+{60 1,139 1,146 1,694 1}
+{146 1,147 1,468 1,799 1,801 1,946 1}
+{33 1,146 1,147 1,799 1,801 1,946 1}
+{146 1,147 1,479 1,799 1,801 1,946 1}
+{146 1,147 1,799 1,801 1,946 1}
+{14 1,146 1,470 1}
+{146 1,500 1}
+{587 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{0 Germany}
+{954 1}
+{148 1,506 1,572 1,615 1}
+{148 1,509 1}
+{148 1,509 1,966 1}
+{148 1,513 1,586 1}
+{12 1}
+{13 1}
+{149 1}
+{1 1,149 1}
+{0 Germany,149 1}
+{149 1}
+{149 1}
+{149 1}
+{22 1,149 1,150 1,663 1}
+{149 1,150 1,663 1}
+{149 1,150 1,663 1,664 1,707 1}
+{149 1,150 1,663 1,666 1,722 1}
+{149 1,150 1,663 1,667 1,734 1}
+{149 1,150 1,663 1,667 1,734 1,765 1,837 1}
+{149 1,150 1,663 1,667 1,734 1}
+{149 1,150 1,663 1}
+{149 1,150 1,663 1}
+{149 1,719 1}
+{149 1,506 1,791 1}
+{0 Germany,149 1,791 1,836 1,907 1}
+{149 1,791 1,907 1,914 1,966 1}
+{149 1,151 1,907 1}
+{149 1,151 1,734 1,739 1,907 1}
+{149 1,151 1,742 1,907 1}
+{149 1,151 1,907 1}
+{149 1,151 1,907 1}
+{149 1,151 1,907 1,965 1}
+{149 1,151 1,907 1}
+{149 1,151 1,907 1,979 1}
+{149 1,952 1}
+{149 1,952 1}
+{149 1,704 1}
+{149 1,663 1,760 1,991 1}
+{149 1,991 1}
+{149 1,991 1}
+{149 1,734 1,765 1,766 1,1000 1}
+{149 1,663 1,667 1,734 1,745 1}
+{53 1,149 1,663 1}
+{149 1,734 1}
+{149 1,663 1,665 1,720 1,721 1,746 1,937 1}
+{9 1,149 1,663 1}
+{1 1,149 1,152 1,763 1}
+{149 1}
+{149 1,593 1,846 1,848 1}
+{149 1}
+{149 1,663 1}
+{149 1,150 1,663 1,666 1,722 1}
+{149 1,150 1,659 1,663 1,738 1}
+{}
+{}
+{635 1}
+{635 1}
+{1 1}
+{0 Germany}
+{152 1}
+{152 1,487 1,725 1}
+{0 Germany,725 1}
+{635 1,663 1,666 1,722 1,922 1}
+{2 1,63 1,635 1,648 1,868 1}
+{24 1,63 1}
+{}
+{654 1,734 1}
+{88 1,506 1,971 1}
+{0 Germany,153 1}
+{153 1,154 1,400 1}
+{153 1,154 1,400 1}
+{9 1,153 1,154 1,400 1}
+{10 1,153 1,154 1,400 1}
+{0 Germany,153 1}
+{}
+{66 1}
+{400 1}
+{0 Germany}
+{}
+{0 Germany,732 1}
+{}
+{155 1,157 1,180 1,416 1}
+{155 1,454 1}
+{82 1,155 1,504 1,506 1,725 1}
+{155 1,474 1,486 1}
+{}
+{}
+{0 Germany,1 1}
+{298 1,799 1,801 1,946 1}
+{156 1,476 1,725 1,728 1,946 1,951 1}
+{156 1,424 1,799 1}
+{156 1,799 1}
+{156 1,366 1,799 1,801 1,946 1}
+{156 1}
+{}
+{799 1}
+{799 1}
+{49 1,799 1,801 1,946 1,948 1}
+{}
+{}
+{2 1,514 1}
+{787 1}
+{}
+{}
+{8 1}
+{}
+{}
+{}
+{}
+{635 1}
+{18 1,157 1}
+{157 1,694 1}
+{157 1,460 1,525 1}
+{157 1,338 1,368 1}
+{157 1}
+{157 1,802 1}
+{157 1,725 1}
+{14 1,157 1,208 1,209 1,725 1}
+{157 1}
+{155 1,157 1}
+{157 1}
+{157 1,725 1,728 1,946 1}
+{157 1}
+{157 1}
+{452 1}
+{}
+{}
+{}
+{}
+{632 1,635 1,645 1,698 1}
+{73 1,946 1}
+{158 1}
+{158 1}
+{158 1}
+{159 1}
+{0 Germany,159 1}
+{1 1,159 1}
+{159 1,521 1,523 1,946 1}
+{159 1,635 1}
+{159 1,593 1}
+{159 1,635 1}
+{159 1,700 1}
+{159 1,663 1}
+{159 1,663 1}
+{159 1}
+{78 1,159 1}
+{159 1,722 1}
+{159 1,722 1}
+{159 1,725 1,728 1,946 1}
+{159 1,749 1}
+{159 1,355 1}
+{159 1,799 1}
+{2 1,4 1,159 1,210 1,261 1,833 1}
+{54 1,159 1,946 1}
+{159 1,194 1,946 1}
+{159 1,946 1}
+{2 1,4 1,210 1,273 1,587 1,893 1}
+{2 1}
+{}
+{}
+{}
+{1 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{0 Germany}
+{0 Germany}
+{0 Germany,631 1}
+{}
+{}
+{}
+{}
+{}
+{521 1,523 1,946 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{50 1,52 1,160 1,343 1}
+{160 1,495 1}
+{35 1}
+{24 1,521 1}
+{49 1,155 1}
+{161 1,521 1}
+{82 1,161 1,506 1}
+{161 1,506 1}
+{1 1,155 1,161 1,495 1}
+{}
+{}
+{}
+{73 1,408 1}
+{173 1}
+{521 1}
+{0 Germany,653 1}
+{0 Germany}
+{}
+{}
+{}
+{155 1,408 1}
+{799 1}
+{1 1,88 1}
+{521 1}
+{}
+{0 Germany,2 1,51 1}
+{}
+{}
+{518 1,559 1,560 1,656 1,657 1,734 1,791 1}
+{797 1,865 1}
+{2 1,3 1,93 1,593 1,601 1,652 1}
+{2 1,3 1,9 1,93 1,593 1,601 1,652 1}
+{10 1}
+{536 1,593 1,722 1}
+{749 1,855 1}
+{725 1}
+{}
+{156 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{0 Germany,630 1}
+{}
+{335 1,521 1,523 1,799 1,946 1}
+{}
+{0 Germany}
+{}
+{1 1,162 1,488 1}
+{162 1,663 1}
+{0 Germany,162 1}
+{162 1}
+{}
+{36 1,163 1}
+{74 1,163 1}
+{163 1,183 1}
+{163 1,411 1}
+{}
+{164 1}
+{164 1,165 1,536 1,722 1,723 1}
+{160 1,166 1,525 1}
+{160 1,166 1}
+{}
+{167 1}
+{167 1}
+{85 1,167 1}
+{0 Germany,167 1}
+{167 1,452 1,468 1,485 1}
+{2 1,25 1,167 1}
+{167 1}
+{167 1,410 1,521 1}
+{167 1,946 1}
+{}
+{0 Germany,2 1,732 1,798 1}
+{}
+{}
+{}
+{168 1,616 1,619 1,663 1,664 1,706 1,707 1,969 1}
+{168 1,616 1,620 1,733 1}
+{168 1,635 1}
+{168 1}
+{0 Germany,168 1,630 1,967 1}
+{168 1,749 1}
+{169 1}
+{169 1,521 1}
+{2 1,83 1,169 1,946 1,954 1,955 1}
+{50 1,169 1}
+{88 1,169 1}
+{169 1,722 1}
+{2 1,169 1}
+{169 1}
+{169 1,189 1,946 1}
+{2 1,169 1,725 1}
+{169 1}
+{}
+{}
+{}
+{449 1}
+{}
+{}
+{155 1,335 1,504 1}
+{496 1,946 1}
+{2 1,149 1,151 1,836 1,907 1}
+{}
+{}
+{}
+{170 1}
+{170 1}
+{170 1,576 1,722 1}
+{170 1,722 1}
+{170 1}
+{170 1}
+{170 1,197 1,946 1}
+{}
+{}
+{634 1}
+{}
+{171 1}
+{171 1,525 1,526 1,946 1}
+{171 1,410 1,663 1}
+{85 1,171 1}
+{171 1,476 1,725 1,728 1,946 1,951 1}
+{171 1}
+{171 1}
+{0 Germany,171 1}
+{171 1}
+{2 1,9 1,171 1}
+{2 1,10 1,11 1,171 1}
+{171 1,479 1,485 1}
+{172 1}
+{172 1,725 1}
+{172 1}
+{172 1,635 1,777 1}
+{172 1}
+{172 1}
+{82 1,172 1}
+{172 1}
+{172 1}
+{172 1,722 1}
+{172 1,749 1}
+{172 1,469 1}
+{172 1,414 1}
+{172 1}
+{}
+{722 1}
+{}
+{}
+{}
+{2 1}
+{}
+{416 1,454 1}
+{616 1,663 1,666 1,722 1,846 1,849 1}
+{}
+{93 1,716 1}
+{}
+{}
+{489 1,589 1,683 1}
+{0 Germany}
+{0 Germany}
+{}
+{}
+{}
+{}
+{799 1,801 1,946 1}
+{}
+{174 1}
+{174 1}
+{174 1}
+{174 1}
+{14 1,50 1,160 1,174 1,799 1}
+{}
+{506 1,799 1,800 1}
+{175 1,689 1}
+{175 1,694 1,946 1}
+{175 1,954 1}
+{60 1,175 1,799 1,801 1,946 1,954 1,955 1}
+{175 1,460 1,799 1,801 1,946 1,954 1,955 1}
+{176 1}
+{176 1,725 1,728 1,946 1}
+{176 1}
+{2 1,582 1,593 1,598 1}
+{}
+{}
+{}
+{0 Germany,2 1,67 1}
+{199 1}
+{199 1}
+{521 1}
+{477 1,521 1}
+{}
+{48 1}
+{}
+{799 1}
+{}
+{482 1,521 1,523 1,946 1}
+{}
+{0 Germany}
+{}
+{2 1,4 1,210 1,233 1,589 1,690 1}
+{74 1}
+{}
+{500 1}
+{1 1,177 1}
+{159 1,177 1,521 1}
+{177 1}
+{0 Germany,89 1,177 1}
+{}
+{0 Germany}
+{}
+{}
+{2 1,706 1,787 1}
+{2 1,5 1,485 1}
+{}
+{}
+{36 1,463 1}
+{}
+{176 1,689 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{0 Germany}
+{37 1,178 1}
+{178 1}
+{178 1}
+{178 1,400 1}
+{178 1}
+{0 Germany}
+{}
+{}
+{54 1}
+{}
+{179 1}
+{42 1,179 1}
+{179 1}
+{179 1,467 1}
+{92 1,179 1,467 1}
+{179 1}
+{179 1}
+{179 1}
+{179 1,499 1}
+{2 1,3 1,93 1,97 1,179 1,499 1,852 1}
+{58 1,180 1,182 1,506 1}
+{180 1,182 1,506 1}
+{180 1,182 1,199 1,506 1}
+{180 1,182 1,341 1,474 1,506 1}
+{180 1}
+{23 1,48 1,180 1,181 1}
+{23 1,74 1,90 1,180 1,181 1,802 1,803 1,946 1}
+{23 1,180 1,181 1}
+{23 1,180 1,181 1,480 1}
+{28 1,180 1}
+{28 1,76 1,90 1,180 1}
+{180 1}
+{84 1,157 1,180 1,689 1,799 1,946 1}
+{0 Germany,180 1}
+{76 1,180 1,330 1}
+{180 1,338 1,477 1,946 1}
+{180 1,361 1}
+{180 1,361 1}
+{180 1,199 1}
+{180 1,460 1}
+{180 1}
+{180 1}
+{81 1,180 1}
+{180 1,368 1}
+{183 1}
+{183 1}
+{155 1,183 1,440 1}
+{183 1,320 1}
+{183 1,320 1,946 1,1008 1}
+{183 1,320 1,799 1}
+{}
+{506 1}
+{487 1}
+{}
+{124 1,129 1,799 1,946 1}
+{0 Germany}
+{}
+{}
+{}
+{}
+{0 Germany,1007 1}
+{715 1,829 1}
+{}
+{}
+{}
+{}
+{0 Germany}
+{0 Germany,51 1}
+{0 Germany}
+{722 1}
+{}
+{}
+{}
+{0 Germany}
+{}
+{0 Germany,630 1,732 1}
+{0 Germany}
+{2 1,3 1,93 1}
+{}
+{}
+{}
+{0 Germany}
+{0 Germany,2 1,51 1}
+{}
+{0 Germany}
+{}
+{}
+{2 1,159 1,663 1,720 1}
+{}
+{42 1}
+{}
+{0 Germany}
+{184 1}
+{12 1,184 1,189 1}
+{2 1,4 1,91 1,184 1,189 1,210 1,282 1,924 1}
+{2 1,4 1,92 1,184 1,189 1,210 1,274 1,895 1}
+{0 Germany,946 1,1008 1}
+{}
+{}
+{0 Germany}
+{0 Germany}
+{0 Germany,2 1,10 1,11 1}
+{0 Germany}
+{1 1}
+{}
+{81 1}
+{}
+{0 Germany}
+{2 1,3 1,93 1}
+{}
+{}
+{0 Germany}
+{185 1,725 1}
+{185 1,454 1}
+{185 1,946 1}
+{185 1,337 1,946 1}
+{185 1}
+{185 1,504 1}
+{44 1}
+{}
+{}
+{0 Germany,322 1}
+{0 Germany}
+{0 Germany,474 1,732 1}
+{0 Germany,334 1}
+{0 Germany}
+{0 Germany,967 1}
+{}
+{1 1,186 1}
+{186 1,416 1,521 1}
+{186 1,946 1}
+{467 1}
+{1 1,44 1}
+{}
+{}
+{}
+{35 1}
+{}
+{}
+{}
+{954 1}
+{}
+{485 1}
+{194 1,946 1}
+{2 1,3 1,93 1,188 1,715 1}
+{2 1,4 1,188 1,210 1,290 1,593 1,715 1,979 1,980 1}
+{2 1,9 1,188 1,811 1,965 1}
+{2 1,10 1,11 1,188 1,403 1,635 1,818 1}
+{188 1}
+{}
+{776 1}
+{54 1,946 1}
+{}
+{34 1,189 1}
+{189 1}
+{189 1}
+{189 1}
+{189 1}
+{189 1}
+{189 1}
+{}
+{722 1}
+{}
+{2 1,3 1,93 1}
+{190 1}
+{19 1,190 1,725 1,726 1}
+{190 1,451 1,1008 1}
+{190 1,499 1}
+{}
+{}
+{}
+{}
+{}
+{2 1,191 1}
+{2 1,9 1,191 1}
+{191 1,485 1}
+{191 1,546 1}
+{191 1}
+{191 1,416 1,689 1}
+{71 1,191 1}
+{191 1}
+{191 1}
+{2 1,16 1,191 1,192 1,416 1,417 1,662 1}
+{191 1,192 1,416 1}
+{191 1,192 1,416 1}
+{191 1,192 1,416 1}
+{27 1,191 1}
+{191 1}
+{191 1}
+{191 1}
+{191 1}
+{191 1,193 1,400 1,946 1}
+{191 1,193 1,946 1}
+{191 1,193 1,946 1}
+{191 1,193 1,946 1}
+{191 1}
+{2 1,194 1,635 1,649 1,965 1}
+{194 1}
+{194 1}
+{194 1}
+{194 1}
+{194 1,546 1}
+{41 1,194 1}
+{0 Germany,194 1}
+{194 1}
+{194 1,635 1}
+{194 1}
+{194 1}
+{194 1,802 1}
+{58 1,89 1,194 1}
+{194 1}
+{194 1}
+{87 1,194 1}
+{47 1,194 1,725 1,728 1,946 1,947 1}
+{194 1}
+{170 1,194 1}
+{194 1}
+{194 1}
+{194 1}
+{194 1,416 1}
+{194 1,452 1}
+{194 1}
+{194 1,799 1}
+{194 1}
+{194 1}
+{194 1}
+{194 1}
+{194 1,888 1}
+{194 1,475 1}
+{194 1,734 1}
+{194 1}
+{194 1}
+{194 1,946 1}
+{194 1}
+{194 1}
+{}
+{}
+{195 1}
+{195 1}
+{195 1}
+{722 1,789 1}
+{20 1,196 1}
+{196 1}
+{56 1,196 1}
+{196 1,368 1,689 1}
+{196 1}
+{196 1}
+{196 1}
+{2 1,196 1,416 1}
+{196 1,453 1}
+{196 1}
+{196 1}
+{196 1}
+{78 1,79 1,84 1,954 1}
+{}
+{}
+{}
+{}
+{298 1}
+{298 1}
+{0 Germany}
+{2 1,3 1,93 1,96 1,197 1,593 1,610 1,774 1,846 1,848 1}
+{197 1}
+{197 1,521 1,523 1,799 1,801 1,946 1}
+{197 1}
+{197 1}
+{197 1}
+{159 1,197 1}
+{186 1,197 1}
+{14 1,186 1,197 1,470 1,799 1,801 1,946 1}
+{197 1,204 1}
+{197 1,204 1}
+{9 1,197 1,204 1}
+{70 1,197 1,206 1,207 1}
+{197 1}
+{197 1}
+{197 1,198 1,799 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1,198 1,799 1,801 1,946 1}
+{178 1,197 1,198 1,799 1,801 1,946 1,949 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1,198 1,424 1,799 1,801 1,946 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1,198 1,799 1,801 1,946 1}
+{197 1}
+{799 1}
+{799 1,801 1,946 1}
+{}
+{799 1,801 1,946 1}
+{}
+{2 1}
+{}
+{}
+{0 Germany,2 1}
+{}
+{0 Germany}
+{199 1}
+{1 1,199 1}
+{191 1,199 1,521 1}
+{0 Germany,199 1,521 1}
+{81 1,199 1}
+{72 1,199 1}
+{81 1,86 1,199 1}
+{199 1}
+{199 1}
+{199 1,200 1,416 1}
+{16 1,199 1,200 1,416 1,417 1}
+{16 1,199 1,200 1,416 1,417 1}
+{199 1,200 1,416 1}
+{191 1,192 1,199 1,200 1,416 1}
+{199 1,799 1,801 1,946 1}
+{199 1,201 1,946 1}
+{37 1,199 1,201 1,946 1}
+{37 1,199 1,201 1,946 1}
+{199 1,201 1,476 1,946 1,951 1}
+{81 1,199 1}
+{521 1}
+{689 1}
+{202 1}
+{202 1}
+{202 1}
+{202 1,802 1,803 1,946 1}
+{557 1,710 1,734 1}
+{20 1,74 1}
+{}
+{}
+{730 1,837 1}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{}
+{411 1}
+{87 1}
+{}
+{}
+{799 1}
+{49 1,799 1,801 1,946 1,948 1}
+{}
+{799 1}
+{42 1,799 1,801 1,946 1}
+{521 1}
+{203 1}
+{203 1}
+{}
+{}
+{}
+{}
+{504 1}
+{}
+{2 1,635 1}
+{18 1,20 1}
+{}
+{}
+{0 Germany,630 1,653 1,798 1}
+{0 Germany}
+{0 Germany}
+{0 Germany,9 1}
+{2 1,729 1}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{}
+{156 1,204 1}
+{}
+{0 Germany}
+{0 Germany,798 1}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{}
+{0 Germany}
+{2 1,774 1,965 1}
+{2 1,3 1,93 1,780 1}
+{0 Germany,589 1,663 1,666 1,722 1}
+{635 1}
+{576 1}
+{205 1}
+{205 1}
+{25 1,205 1,457 1,791 1,885 1}
+{41 1,205 1,485 1}
+{205 1,485 1}
+{205 1,485 1}
+{0 Germany,2 1,308 1,616 1}
+{}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{}
+{}
+{}
+{663 1,667 1,734 1,753 1,909 1}
+{0 Germany,653 1,798 1}
+{2 1,3 1,93 1}
+{946 1}
+{0 Germany,631 1}
+{}
+{70 1,206 1,207 1,521 1}
+{70 1,206 1,207 1}
+{70 1,170 1,206 1,207 1}
+{70 1,206 1,207 1}
+{9 1,70 1,206 1,207 1}
+{206 1}
+{206 1}
+{0 Germany,2 1,322 1}
+{0 Germany}
+{541 1,628 1,734 1,735 1}
+{0 Germany,967 1}
+{}
+{}
+{}
+{208 1,689 1}
+{2 1,14 1,21 1,208 1,209 1,364 1,365 1,506 1}
+{14 1,208 1,209 1}
+{14 1,208 1,209 1}
+{14 1,45 1,158 1,208 1,209 1}
+{14 1,208 1,209 1}
+{14 1,208 1,209 1}
+{14 1,208 1,209 1}
+{14 1,208 1,209 1}
+{14 1,90 1,208 1,209 1,503 1}
+{14 1,45 1,208 1,209 1,339 1}
+{14 1,208 1,296 1,954 1}
+{90 1,208 1}
+{210 1,914 1}
+{210 1}
+{210 1}
+{210 1,211 1,530 1,593 1}
+{210 1,211 1,530 1,616 1,622 1,806 1}
+{61 1,210 1,211 1,530 1,635 1,638 1}
+{210 1,211 1,530 1,635 1}
+{210 1,211 1,530 1,635 1}
+{210 1,212 1,531 1,589 1,958 1}
+{210 1,212 1,531 1,566 1,616 1,617 1,790 1,888 1,890 1}
+{210 1,212 1,531 1,635 1}
+{210 1,212 1,531 1,635 1}
+{210 1,212 1,531 1,635 1}
+{210 1}
+{210 1,785 1}
+{210 1,213 1,524 1,532 1}
+{9 1,210 1,213 1,524 1,532 1}
+{210 1,213 1,532 1,559 1,562 1,963 1}
+{210 1,213 1,532 1,593 1,601 1,652 1}
+{0 Germany,210 1,213 1,532 1,552 1,635 1}
+{210 1,213 1,532 1,635 1}
+{210 1,213 1,532 1,788 1}
+{0 Germany,210 1,214 1,533 1}
+{0 Germany,210 1,214 1,533 1,534 1,589 1}
+{0 Germany,2 1,210 1,214 1,533 1,534 1,589 1,811 1,968 1}
+{0 Germany,210 1,214 1,533 1,534 1,589 1}
+{210 1,214 1,533 1,534 1,589 1}
+{210 1,214 1,533 1,534 1,589 1}
+{210 1,214 1,533 1,534 1,589 1}
+{210 1,214 1,533 1,534 1,589 1}
+{210 1,214 1,533 1,534 1,589 1,958 1}
+{2 1,210 1,214 1,533 1,593 1}
+{210 1,214 1,533 1,616 1,695 1,788 1}
+{210 1,214 1,533 1,628 1,635 1}
+{9 1,210 1,214 1,533 1,628 1,635 1}
+{210 1,214 1,533 1,535 1,635 1}
+{210 1,214 1,533 1,535 1,635 1}
+{160 1,166 1,210 1,214 1,533 1,535 1,635 1}
+{210 1,214 1,302 1,303 1,493 1,533 1,535 1,635 1}
+{210 1,214 1,533 1}
+{210 1}
+{210 1,593 1,977 1}
+{210 1,663 1,666 1,722 1}
+{210 1,215 1,537 1,585 1,589 1,590 1}
+{210 1,215 1,537 1,589 1,591 1,702 1}
+{210 1,215 1,537 1,589 1}
+{210 1,215 1,537 1,589 1,593 1}
+{17 1,210 1,215 1,537 1,538 1,635 1}
+{210 1,215 1,537 1,538 1,635 1}
+{210 1,215 1,537 1,538 1,635 1}
+{210 1,215 1,537 1,538 1,635 1}
+{210 1,216 1,539 1}
+{210 1,216 1,539 1,785 1}
+{210 1,216 1,527 1,539 1}
+{210 1,216 1,539 1,629 1}
+{210 1,216 1,539 1,635 1}
+{210 1,216 1,458 1,459 1,502 1,539 1,635 1}
+{210 1,216 1,539 1,541 1,663 1,667 1,734 1,735 1}
+{210 1,216 1,539 1,541 1,663 1,667 1,734 1,735 1}
+{210 1,216 1,539 1,541 1,663 1,667 1,734 1,735 1}
+{210 1,216 1,539 1}
+{0 Germany,210 1,216 1,539 1,755 1}
+{210 1,216 1,539 1,826 1}
+{210 1,217 1,540 1}
+{210 1,217 1,540 1,593 1}
+{210 1,217 1,540 1,593 1}
+{210 1,217 1,540 1,964 1}
+{210 1,541 1}
+{210 1,541 1,964 1}
+{210 1,543 1,635 1}
+{210 1,543 1}
+{210 1}
+{210 1,730 1}
+{}
+{210 1}
+{210 1,589 1}
+{42 1,210 1,635 1}
+{210 1,544 1,593 1}
+{9 1,210 1,544 1,593 1}
+{10 1,210 1,544 1,593 1}
+{210 1,593 1,601 1,652 1}
+{210 1,635 1,649 1,705 1,965 1,977 1}
+{210 1,940 1}
+{210 1}
+{0 Germany,2 1,210 1,635 1}
+{210 1,589 1}
+{210 1,547 1,793 1}
+{210 1}
+{210 1}
+{210 1,616 1}
+{210 1,593 1}
+{210 1,716 1}
+{210 1}
+{210 1,218 1,549 1,593 1,686 1}
+{210 1,218 1,549 1,616 1,757 1}
+{2 1,210 1,218 1,549 1,616 1,627 1,1000 1}
+{38 1,210 1,218 1,549 1,635 1,636 1}
+{210 1,218 1,549 1,635 1}
+{210 1}
+{210 1,219 1,550 1,587 1}
+{8 1,210 1,219 1,550 1,551 1,589 1}
+{2 1,8 1,25 1,210 1,219 1,550 1,551 1,589 1,734 1,984 1}
+{2 1,6 1,210 1,219 1,489 1,550 1,551 1,589 1,635 1}
+{210 1,219 1,550 1,551 1,589 1}
+{210 1,219 1,550 1,551 1,589 1}
+{210 1,219 1,550 1,551 1,589 1}
+{210 1,219 1,550 1,628 1,768 1}
+{210 1,552 1,652 1,663 1,666 1,722 1}
+{210 1,552 1,663 1,668 1,749 1,912 1}
+{210 1,589 1}
+{210 1,755 1}
+{210 1}
+{210 1,220 1,553 1}
+{210 1,220 1,553 1}
+{9 1,210 1,220 1,553 1}
+{210 1,220 1,553 1}
+{210 1,220 1,553 1,587 1,588 1,804 1}
+{210 1,220 1,553 1,587 1}
+{210 1,220 1,553 1,587 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1,902 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,554 1,589 1,894 1}
+{210 1,220 1,553 1,554 1,589 1,902 1}
+{210 1,220 1,553 1,554 1,589 1}
+{210 1,220 1,553 1,555 1,593 1}
+{0 Germany,210 1,220 1,553 1,555 1,593 1}
+{210 1,220 1,553 1,555 1,593 1}
+{210 1,220 1,553 1,555 1,593 1,601 1,652 1}
+{210 1,220 1,553 1,555 1,593 1}
+{210 1,220 1,553 1,555 1,593 1}
+{210 1,220 1,553 1,555 1,593 1}
+{210 1,220 1,553 1,555 1,593 1,614 1,941 1}
+{210 1,220 1,553 1,616 1,927 1}
+{210 1,220 1,553 1,616 1,927 1}
+{210 1,220 1,553 1,616 1,621 1,777 1}
+{210 1,220 1,553 1,628 1}
+{210 1,220 1,553 1,628 1}
+{210 1,220 1,553 1,635 1}
+{210 1,220 1,553 1,635 1}
+{210 1,220 1,553 1,635 1,663 1}
+{210 1,220 1,553 1,788 1}
+{210 1,220 1,553 1,866 1}
+{210 1,220 1,553 1}
+{210 1,220 1,553 1,635 1}
+{210 1,220 1,553 1,593 1,737 1,934 1,938 1}
+{210 1,220 1,553 1,935 1}
+{210 1,220 1,553 1,570 1}
+{210 1,635 1}
+{210 1,587 1,588 1,804 1}
+{210 1,542 1}
+{210 1,593 1,606 1,754 1}
+{210 1,557 1,589 1}
+{210 1,557 1,593 1,614 1,941 1}
+{210 1,557 1,616 1,625 1,979 1}
+{210 1}
+{210 1}
+{210 1,221 1,563 1,593 1}
+{210 1,221 1,563 1,566 1,616 1,617 1}
+{210 1,221 1,563 1,635 1,651 1,990 1}
+{210 1,221 1,563 1,753 1}
+{210 1,221 1,563 1}
+{25 1,210 1,222 1,566 1}
+{210 1,222 1,566 1}
+{210 1,222 1,566 1}
+{210 1,222 1,559 1,566 1,567 1,806 1}
+{210 1,222 1,559 1,566 1,567 1,806 1}
+{210 1,222 1,559 1,560 1,566 1,567 1,660 1,791 1}
+{210 1,222 1,559 1,561 1,566 1,567 1,876 1}
+{210 1,222 1,566 1,768 1}
+{210 1,222 1,566 1,589 1}
+{210 1,222 1,566 1,589 1}
+{210 1,222 1,566 1,589 1}
+{210 1,222 1,566 1,568 1,593 1}
+{210 1,222 1,566 1,568 1,593 1,611 1,809 1}
+{210 1,222 1,566 1,568 1,593 1}
+{210 1,222 1,566 1,568 1,593 1}
+{210 1,222 1,566 1,568 1,593 1,614 1,941 1}
+{210 1,222 1,566 1,568 1,593 1,1004 1}
+{210 1,222 1,566 1,569 1,616 1,622 1,806 1}
+{210 1,222 1,566 1,569 1,616 1,622 1,806 1}
+{210 1,222 1,566 1,569 1,616 1}
+{210 1,222 1,566 1,569 1,616 1}
+{210 1,222 1,566 1,628 1,659 1}
+{210 1,222 1,566 1,753 1}
+{210 1,222 1,566 1,755 1}
+{210 1,222 1,566 1}
+{210 1,222 1,566 1,788 1}
+{210 1,222 1,566 1}
+{210 1,222 1,566 1}
+{210 1,222 1,566 1,827 1}
+{210 1,222 1,566 1}
+{210 1,222 1,566 1,739 1,888 1,889 1}
+{210 1,222 1,566 1}
+{210 1,222 1,566 1}
+{0 Germany,210 1,587 1}
+{42 1,210 1,485 1}
+{210 1,589 1}
+{0 Germany,210 1,635 1}
+{210 1}
+{53 1,210 1,635 1}
+{210 1,589 1,592 1,778 1,779 1,1003 1}
+{210 1,593 1}
+{210 1,616 1,677 1}
+{210 1,635 1}
+{210 1,635 1}
+{25 1,210 1}
+{210 1,964 1}
+{210 1,964 1}
+{210 1,616 1,624 1,898 1}
+{210 1,587 1}
+{210 1,589 1}
+{210 1,635 1}
+{210 1,553 1,635 1}
+{210 1,223 1,494 1,575 1,593 1,595 1}
+{210 1,223 1,494 1,575 1,593 1,595 1}
+{210 1,223 1,575 1,616 1}
+{210 1,223 1,575 1,629 1}
+{210 1}
+{0 Germany,210 1}
+{210 1}
+{210 1,635 1}
+{210 1,224 1,506 1,579 1,635 1}
+{210 1,224 1,579 1,616 1,621 1,777 1}
+{210 1,224 1,579 1,635 1}
+{210 1,224 1,579 1,593 1,610 1,774 1,807 1,815 1}
+{210 1}
+{210 1,635 1,846 1}
+{210 1,635 1}
+{210 1}
+{210 1,654 1,815 1}
+{210 1,589 1}
+{210 1,593 1,905 1}
+{210 1,635 1}
+{210 1}
+{210 1,593 1}
+{210 1,593 1,607 1,673 1,759 1}
+{210 1,580 1,635 1}
+{210 1,580 1,635 1}
+{210 1,225 1,581 1,593 1,599 1,615 1}
+{210 1,225 1,581 1,593 1}
+{210 1,225 1,581 1,593 1,614 1,941 1}
+{210 1,225 1,581 1,616 1,621 1,777 1}
+{210 1,225 1,581 1,628 1,841 1}
+{210 1,587 1}
+{210 1}
+{210 1}
+{210 1,584 1}
+{210 1,635 1,765 1}
+{210 1,542 1}
+{210 1,635 1}
+{210 1,663 1,666 1,722 1}
+{210 1,586 1,616 1,627 1,1000 1}
+{210 1,586 1,635 1}
+{210 1,586 1}
+{210 1,635 1}
+{210 1,866 1}
+{210 1}
+{210 1,593 1,613 1,933 1}
+{210 1,986 1}
+{57 1,210 1,593 1,594 1,833 1}
+{210 1,616 1,621 1,777 1}
+{210 1,635 1}
+{210 1,793 1}
+{210 1,593 1,610 1,774 1}
+{0 Germany,210 1,730 1}
+{210 1}
+{210 1}
+{210 1,514 1,899 1}
+{210 1}
+{210 1,616 1,654 1}
+{210 1,510 1,654 1,791 1,1000 1}
+{210 1}
+{210 1,593 1,600 1,633 1}
+{25 1,210 1,226 1,656 1}
+{210 1,226 1,656 1}
+{210 1,226 1,559 1,656 1,657 1}
+{0 Germany,210 1,226 1,559 1,656 1,657 1,719 1}
+{210 1,226 1,559 1,656 1,657 1,749 1}
+{210 1,226 1,518 1,559 1,560 1,634 1,656 1,657 1,791 1,897 1}
+{210 1,226 1,559 1,656 1,657 1,662 1}
+{210 1,226 1,559 1,656 1,657 1}
+{210 1,226 1,559 1,656 1,657 1}
+{210 1,226 1,536 1,593 1,656 1,658 1}
+{210 1,226 1,593 1,600 1,633 1,656 1,658 1}
+{210 1,226 1,593 1,656 1,658 1,700 1}
+{210 1,226 1,593 1,605 1,656 1,658 1,704 1}
+{210 1,226 1,593 1,605 1,656 1,658 1,704 1}
+{210 1,226 1,593 1,656 1,658 1}
+{210 1,226 1,593 1,656 1,658 1}
+{210 1,226 1,593 1,656 1,658 1}
+{210 1,226 1,593 1,656 1,658 1}
+{210 1,226 1,593 1,656 1,658 1,903 1}
+{210 1,226 1,494 1,593 1,595 1,656 1,658 1}
+{210 1,226 1,566 1,616 1,617 1,656 1}
+{210 1,226 1,616 1,619 1,656 1,706 1}
+{210 1,226 1,616 1,656 1,915 1}
+{210 1,226 1,635 1,645 1,656 1,698 1}
+{210 1,226 1,466 1,635 1,656 1}
+{210 1,226 1,635 1,656 1}
+{210 1,226 1,656 1}
+{210 1,226 1,656 1,663 1,666 1,722 1,780 1}
+{210 1,226 1,656 1,663 1,667 1,678 1,734 1}
+{210 1,226 1,656 1,663 1,668 1,749 1,913 1}
+{210 1,226 1,656 1}
+{210 1,226 1,656 1}
+{210 1,226 1,656 1,673 1}
+{210 1,226 1,656 1,725 1,986 1}
+{210 1,226 1,656 1,731 1}
+{210 1,506 1}
+{210 1,226 1,656 1}
+{210 1,226 1,656 1,939 1}
+{210 1,226 1,656 1,813 1}
+{210 1,226 1,656 1}
+{210 1,226 1,656 1,844 1}
+{210 1,226 1,520 1,656 1,888 1}
+{210 1,226 1,656 1}
+{210 1,635 1,1000 1,1002 1}
+{210 1,494 1,635 1,1000 1,1002 1}
+{210 1,739 1}
+{210 1,988 1}
+{210 1,628 1,771 1}
+{210 1}
+{210 1,227 1,672 1}
+{9 1,210 1,227 1,672 1}
+{210 1,227 1,524 1,635 1,672 1}
+{210 1,227 1,672 1}
+{210 1,227 1,672 1}
+{210 1,227 1,593 1,672 1,831 1}
+{210 1,227 1,616 1,619 1,672 1,706 1}
+{210 1,227 1,672 1}
+{210 1,227 1,672 1}
+{38 1,210 1,227 1,635 1,636 1,672 1}
+{210 1,227 1,672 1}
+{210 1,227 1,672 1}
+{2 1,7 1,210 1,227 1,490 1,672 1,725 1,782 1,1000 1,1007 1}
+{210 1,593 1}
+{210 1,895 1}
+{210 1}
+{0 Germany,210 1,228 1,593 1,675 1,676 1}
+{210 1,228 1,593 1,599 1,615 1,675 1,676 1}
+{210 1,228 1,593 1,604 1,675 1,676 1,703 1}
+{210 1,228 1,593 1,675 1,676 1}
+{210 1,228 1,593 1,675 1,676 1}
+{210 1,677 1,791 1,897 1}
+{210 1,589 1,678 1}
+{210 1,635 1,678 1}
+{210 1,628 1}
+{210 1,628 1,828 1}
+{210 1,593 1,611 1,809 1}
+{210 1,552 1,663 1,667 1,734 1}
+{210 1,635 1,760 1,769 1}
+{210 1,635 1}
+{210 1,616 1}
+{210 1,229 1,593 1,680 1,681 1}
+{210 1,229 1,593 1,603 1,680 1,681 1,701 1}
+{210 1,229 1,593 1,608 1,680 1,681 1,769 1}
+{210 1,229 1,593 1,680 1,681 1}
+{210 1,229 1,616 1,620 1,680 1,733 1}
+{210 1,229 1,616 1,620 1,680 1,733 1}
+{210 1,229 1,629 1,680 1}
+{210 1,229 1,629 1,680 1,872 1}
+{210 1,229 1,635 1,680 1,682 1}
+{210 1,229 1,635 1,680 1,682 1}
+{69 1,210 1,229 1,635 1,639 1,680 1,682 1}
+{210 1,229 1,635 1,680 1,682 1}
+{210 1,229 1,635 1,680 1,682 1}
+{210 1,229 1,635 1,680 1,682 1}
+{210 1,229 1,680 1}
+{210 1,230 1,684 1}
+{0 Germany,25 1,210 1,230 1,684 1,722 1,769 1}
+{210 1,230 1,593 1,604 1,684 1,703 1}
+{210 1,230 1,593 1,610 1,684 1,774 1}
+{210 1,230 1,616 1,624 1,684 1,898 1}
+{210 1,230 1,616 1,624 1,684 1,898 1}
+{210 1,230 1,635 1,649 1,684 1,965 1}
+{210 1,230 1,616 1,684 1}
+{210 1,231 1,583 1,616 1,685 1}
+{210 1,231 1,685 1}
+{9 1,210 1,231 1,564 1,685 1,934 1}
+{210 1,231 1,685 1,934 1}
+{210 1,231 1,615 1,685 1,934 1}
+{210 1,564 1,593 1}
+{61 1,210 1,635 1,638 1}
+{210 1,593 1,602 1,661 1}
+{210 1,232 1,593 1,612 1,687 1,900 1}
+{210 1,232 1,616 1,687 1}
+{210 1,232 1,635 1,687 1}
+{85 1,210 1,232 1,635 1,687 1}
+{210 1}
+{210 1,233 1,589 1,690 1,902 1}
+{210 1,233 1,690 1}
+{210 1,233 1,690 1}
+{210 1,233 1,690 1}
+{210 1,589 1}
+{25 1,210 1,234 1,543 1,691 1}
+{25 1,210 1,234 1,678 1,691 1}
+{25 1,210 1,234 1,513 1,691 1,722 1,823 1}
+{210 1,234 1,635 1,691 1}
+{210 1,234 1,691 1,897 1}
+{210 1,548 1,593 1,596 1,692 1}
+{210 1,616 1,692 1}
+{210 1,692 1,731 1}
+{210 1,589 1}
+{210 1}
+{210 1}
+{210 1,235 1,693 1}
+{210 1,235 1,693 1}
+{210 1,235 1,693 1,787 1}
+{210 1,235 1,693 1,788 1}
+{210 1,593 1,605 1,704 1}
+{210 1}
+{210 1}
+{210 1,739 1,888 1,889 1}
+{210 1,635 1,645 1,695 1,698 1}
+{210 1,505 1,635 1,643 1,695 1,788 1}
+{210 1}
+{210 1,236 1,696 1}
+{210 1,236 1,635 1,696 1,697 1}
+{210 1,236 1,635 1,696 1,697 1}
+{210 1,236 1,353 1,635 1,696 1,697 1}
+{210 1,236 1,635 1,696 1,697 1}
+{210 1,236 1,483 1,635 1,642 1,696 1,697 1}
+{210 1,593 1}
+{210 1,483 1,635 1,642 1}
+{210 1,964 1}
+{210 1,635 1,644 1,679 1}
+{210 1,729 1}
+{210 1,587 1,588 1,804 1}
+{210 1,237 1,699 1}
+{210 1,237 1,559 1,560 1,699 1,791 1}
+{210 1,237 1,589 1,699 1}
+{210 1,237 1,589 1,699 1}
+{210 1,237 1,589 1,699 1}
+{210 1,237 1,593 1,699 1}
+{210 1,237 1,616 1,699 1,866 1}
+{210 1,237 1,635 1,699 1}
+{210 1}
+{210 1,572 1,574 1,695 1,734 1}
+{210 1,663 1,667 1,734 1}
+{210 1,559 1,561 1,876 1,934 1}
+{210 1}
+{210 1,496 1,635 1}
+{210 1}
+{210 1}
+{210 1,616 1,627 1,1000 1}
+{210 1,964 1}
+{210 1,593 1,706 1}
+{210 1,616 1,706 1,927 1}
+{210 1}
+{210 1}
+{210 1,635 1,649 1,965 1,970 1}
+{210 1,593 1,709 1}
+{210 1,527 1}
+{210 1,238 1,710 1}
+{210 1,238 1,527 1,710 1,711 1}
+{210 1,238 1,527 1,710 1,711 1}
+{210 1,238 1,527 1,593 1,603 1,701 1,710 1,711 1}
+{210 1,238 1,710 1}
+{210 1,238 1,566 1,710 1}
+{0 Germany,210 1,238 1,575 1,710 1}
+{210 1,238 1,575 1,710 1}
+{210 1,238 1,579 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,696 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1,793 1}
+{210 1,238 1,635 1,710 1,793 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1,806 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1,832 1}
+{210 1,238 1,710 1,832 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1,895 1}
+{210 1,238 1,710 1,895 1}
+{210 1,238 1,710 1}
+{210 1,238 1,710 1}
+{210 1,238 1,542 1,710 1,927 1}
+{210 1,663 1,666 1,722 1}
+{210 1,582 1,785 1,786 1}
+{210 1,788 1}
+{210 1,239 1,589 1,712 1,713 1}
+{210 1,239 1,589 1,712 1,713 1}
+{210 1,239 1,589 1,712 1,713 1}
+{210 1,239 1,589 1,712 1,713 1}
+{170 1,210 1,239 1,593 1,712 1}
+{210 1,239 1,635 1,712 1,714 1}
+{210 1,239 1,635 1,655 1,712 1,714 1}
+{210 1,239 1,635 1,712 1,714 1}
+{210 1,239 1,635 1,712 1,714 1}
+{210 1,239 1,635 1,712 1,714 1}
+{210 1,239 1,589 1,712 1}
+{210 1,239 1,593 1,712 1}
+{210 1}
+{210 1,593 1}
+{210 1,635 1}
+{210 1,635 1}
+{210 1,589 1,733 1}
+{210 1,300 1}
+{210 1,616 1,621 1,777 1}
+{210 1}
+{210 1,589 1}
+{210 1,559 1,562 1,963 1}
+{189 1,210 1,240 1,576 1,739 1}
+{210 1,240 1,589 1,739 1,740 1}
+{210 1,240 1,589 1,739 1,740 1}
+{210 1,240 1,589 1,739 1,740 1}
+{210 1,240 1,589 1,739 1,740 1,815 1}
+{210 1,240 1,593 1,739 1,741 1}
+{210 1,240 1,582 1,593 1,598 1,739 1,741 1}
+{210 1,240 1,593 1,739 1,741 1}
+{210 1,240 1,593 1,739 1,741 1}
+{210 1,240 1,593 1,739 1,741 1}
+{210 1,240 1,593 1,739 1,741 1,815 1}
+{210 1,240 1,593 1,739 1,741 1}
+{210 1,240 1,593 1,612 1,739 1,741 1,900 1}
+{210 1,240 1,616 1,618 1,690 1,739 1}
+{210 1,240 1,616 1,739 1,793 1}
+{210 1,240 1,635 1,739 1}
+{210 1,241 1,587 1,742 1,969 1}
+{210 1,241 1,593 1,635 1,742 1,743 1}
+{210 1,241 1,593 1,742 1,743 1,752 1}
+{210 1,241 1,593 1,742 1,743 1,846 1}
+{210 1,241 1,593 1,742 1,743 1,943 1}
+{210 1,241 1,616 1,742 1,775 1}
+{210 1,241 1,635 1,742 1,744 1}
+{210 1,241 1,635 1,742 1,744 1}
+{210 1,241 1,635 1,742 1,744 1}
+{210 1,241 1,635 1,742 1,744 1}
+{210 1,241 1,635 1,742 1,744 1}
+{210 1,241 1,356 1,635 1,742 1,744 1}
+{210 1,241 1,380 1,635 1,742 1,744 1}
+{210 1,241 1,635 1,742 1,744 1}
+{210 1,241 1,488 1,635 1,742 1,744 1}
+{2 1,210 1,241 1,520 1,635 1,649 1,742 1,744 1,965 1}
+{210 1,241 1,742 1}
+{210 1,589 1,745 1}
+{210 1,593 1,745 1}
+{210 1}
+{210 1,866 1}
+{210 1}
+{210 1,634 1,791 1}
+{210 1,748 1}
+{210 1,520 1,663 1,748 1}
+{2 1,210 1,308 1,593 1,606 1,754 1}
+{210 1,616 1,677 1}
+{210 1}
+{210 1,559 1,897 1}
+{210 1,593 1,605 1,704 1}
+{25 1,210 1,750 1}
+{210 1,663 1,750 1}
+{210 1,750 1}
+{210 1,242 1,751 1}
+{210 1,242 1,579 1,751 1}
+{210 1,242 1,547 1,670 1,751 1}
+{210 1,242 1,696 1,751 1}
+{210 1,242 1,748 1,751 1}
+{210 1,242 1,751 1,793 1}
+{210 1,242 1,553 1,751 1,927 1,989 1}
+{210 1,242 1,751 1,974 1,986 1}
+{210 1,616 1,621 1,777 1}
+{0 Germany,210 1,964 1}
+{210 1,589 1}
+{210 1,593 1}
+{210 1,788 1}
+{210 1,593 1}
+{210 1,629 1}
+{210 1}
+{210 1,628 1}
+{210 1,635 1}
+{210 1,532 1}
+{210 1,826 1}
+{210 1,243 1,593 1,756 1}
+{0 Germany,210 1,243 1,593 1,756 1,789 1,846 1}
+{210 1,243 1,616 1,750 1,756 1,828 1}
+{210 1,243 1,629 1,635 1,756 1}
+{210 1,243 1,635 1,756 1}
+{210 1,243 1,635 1,756 1}
+{25 1,26 1,210 1,752 1,757 1,965 1}
+{0 Germany,210 1}
+{210 1,244 1,758 1}
+{210 1,244 1,524 1,758 1}
+{210 1,244 1,758 1}
+{210 1,244 1,731 1,758 1}
+{53 1,210 1,244 1,635 1,758 1}
+{210 1,244 1,758 1}
+{210 1,244 1,758 1,935 1}
+{210 1,244 1,758 1}
+{210 1}
+{210 1}
+{210 1,593 1,610 1,774 1}
+{210 1,593 1}
+{210 1,616 1,621 1,777 1}
+{25 1,210 1}
+{210 1,245 1,761 1}
+{210 1,245 1,589 1,761 1}
+{210 1,245 1,593 1,761 1,982 1}
+{210 1,245 1,616 1,621 1,761 1,777 1,866 1}
+{210 1,245 1,616 1,621 1,761 1,777 1,866 1}
+{210 1,245 1,616 1,621 1,761 1,777 1,866 1}
+{210 1,245 1,635 1,761 1,762 1}
+{210 1,245 1,635 1,761 1,762 1}
+{210 1,245 1,635 1,761 1,762 1}
+{210 1,245 1,635 1,761 1,762 1}
+{210 1,245 1,635 1,644 1,679 1,761 1,762 1}
+{210 1,245 1,635 1,644 1,679 1,761 1,762 1}
+{210 1,245 1,635 1,644 1,679 1,761 1,762 1}
+{210 1,245 1,635 1,646 1,761 1,762 1,764 1}
+{210 1,245 1,635 1,761 1,762 1}
+{210 1,245 1,505 1,635 1,643 1,761 1,762 1}
+{210 1,245 1,505 1,635 1,643 1,761 1,762 1}
+{210 1,245 1,582 1,663 1,666 1,722 1,761 1}
+{210 1}
+{210 1}
+{210 1,582 1,593 1,598 1}
+{210 1,593 1,635 1,663 1,924 1,926 1}
+{210 1}
+{210 1,729 1}
+{210 1,635 1,645 1,698 1}
+{210 1,635 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1}
+{25 1,26 1,210 1,246 1,656 1,765 1,965 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1}
+{210 1,246 1,593 1,765 1}
+{210 1,246 1,739 1,765 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1,811 1,820 1}
+{210 1,246 1,635 1,646 1,764 1,765 1,914 1}
+{210 1,246 1,765 1}
+{210 1,246 1,765 1,940 1}
+{210 1,246 1,765 1,992 1}
+{210 1,246 1,506 1,765 1,766 1,1000 1}
+{25 1,26 1,210 1,246 1,765 1,766 1,965 1,1000 1,1001 1}
+{25 1,210 1,246 1,765 1,766 1,968 1,1000 1,1001 1,1010 1}
+{210 1,246 1,765 1,766 1,811 1,962 1,1000 1}
+{25 1,210 1,696 1,734 1}
+{210 1}
+{210 1,755 1}
+{210 1,616 1}
+{210 1,446 1}
+{210 1}
+{210 1}
+{210 1,247 1,539 1,772 1}
+{210 1,247 1,772 1}
+{210 1,247 1,772 1}
+{210 1,247 1,548 1,593 1,596 1,772 1,773 1}
+{210 1,247 1,593 1,772 1,773 1}
+{210 1,247 1,593 1,772 1,773 1}
+{0 Germany,210 1,247 1,593 1,772 1,773 1,821 1}
+{210 1,247 1,593 1,772 1,773 1}
+{210 1,247 1,635 1,772 1}
+{69 1,210 1,247 1,635 1,639 1,772 1}
+{210 1,247 1,635 1,649 1,772 1,965 1,970 1}
+{210 1,247 1,772 1}
+{210 1,247 1,772 1}
+{210 1,247 1,772 1}
+{210 1,247 1,772 1}
+{210 1}
+{210 1,775 1}
+{210 1,589 1,775 1,894 1}
+{210 1,775 1,866 1}
+{210 1,897 1}
+{25 1,210 1,248 1,506 1,777 1}
+{210 1,248 1,514 1,777 1}
+{210 1,248 1,542 1,572 1,574 1,734 1,777 1}
+{210 1,248 1,720 1,721 1,777 1,797 1,937 1}
+{210 1,248 1,506 1,577 1,777 1}
+{210 1,248 1,577 1,578 1,686 1,777 1,934 1}
+{210 1,248 1,725 1,777 1,965 1}
+{210 1,248 1,725 1,777 1,972 1}
+{210 1,248 1,731 1,777 1}
+{210 1,248 1,539 1,777 1,952 1}
+{210 1,248 1,583 1,777 1}
+{210 1,248 1,725 1,777 1,903 1}
+{210 1}
+{9 1,210 1}
+{210 1,632 1,785 1}
+{210 1,593 1,601 1,652 1}
+{210 1,249 1,781 1}
+{210 1,249 1,781 1}
+{210 1,249 1,781 1}
+{2 1,3 1,93 1,99 1,210 1,249 1,781 1,857 1}
+{210 1,628 1,939 1}
+{210 1,250 1,559 1,560 1,719 1,782 1,791 1,952 1}
+{210 1,250 1,556 1,593 1,782 1,783 1}
+{210 1,250 1,582 1,593 1,598 1,782 1,783 1}
+{210 1,250 1,582 1,593 1,598 1,782 1,783 1}
+{210 1,250 1,582 1,593 1,598 1,782 1,783 1}
+{2 1,210 1,250 1,582 1,782 1,785 1,786 1}
+{210 1,589 1}
+{210 1,251 1,589 1,784 1}
+{210 1,251 1,593 1,609 1,770 1,784 1}
+{210 1,251 1,616 1,621 1,777 1,784 1}
+{210 1,251 1,635 1,784 1}
+{210 1,251 1,784 1}
+{210 1,251 1,635 1,784 1}
+{210 1,251 1,784 1,790 1,888 1,890 1}
+{210 1}
+{210 1,542 1}
+{210 1}
+{210 1,582 1,785 1,786 1}
+{210 1,587 1}
+{38 1,210 1,635 1,636 1}
+{210 1}
+{210 1,566 1,792 1}
+{210 1,635 1,792 1,793 1,1000 1}
+{25 1,210 1,252 1,518 1,793 1,811 1}
+{210 1,252 1,524 1,793 1}
+{210 1,252 1,593 1,793 1}
+{210 1,252 1,589 1,793 1,794 1}
+{210 1,252 1,589 1,793 1,794 1}
+{210 1,252 1,589 1,592 1,778 1,779 1,793 1,794 1,1003 1}
+{210 1,252 1,589 1,592 1,778 1,779 1,793 1,794 1,1003 1}
+{210 1,252 1,589 1,592 1,778 1,779 1,793 1,794 1,1003 1}
+{210 1,252 1,589 1,793 1,794 1}
+{210 1,252 1,589 1,793 1,794 1,894 1}
+{210 1,252 1,593 1,599 1,615 1,793 1,795 1}
+{210 1,252 1,593 1,793 1,795 1}
+{210 1,252 1,593 1,793 1,795 1}
+{210 1,252 1,593 1,793 1,795 1}
+{2 1,210 1,252 1,501 1,593 1,793 1,795 1}
+{210 1,252 1,616 1,793 1}
+{210 1,252 1,616 1,751 1,793 1,806 1}
+{210 1,252 1,616 1,793 1,988 1}
+{210 1,252 1,628 1,793 1}
+{210 1,252 1,629 1,793 1}
+{0 Germany,210 1,252 1,471 1,635 1,640 1,793 1}
+{210 1,252 1,566 1,663 1,667 1,734 1,793 1}
+{210 1,252 1,716 1,768 1,793 1,797 1}
+{210 1,252 1,791 1,793 1}
+{210 1,252 1,793 1,828 1}
+{210 1,252 1,739 1,793 1,888 1,889 1}
+{210 1,796 1}
+{210 1,796 1}
+{210 1}
+{210 1,616 1,621 1,777 1}
+{210 1,253 1,524 1,805 1}
+{210 1,253 1,805 1,865 1}
+{210 1,253 1,805 1,865 1}
+{9 1,210 1,253 1,805 1,865 1}
+{0 Germany,210 1}
+{210 1,628 1,922 1}
+{210 1,635 1}
+{210 1,510 1}
+{210 1,635 1}
+{210 1,589 1,806 1,888 1}
+{210 1,628 1}
+{210 1}
+{210 1,513 1,806 1,823 1}
+{210 1,635 1}
+{210 1,635 1,807 1}
+{210 1,593 1,610 1,774 1,807 1,924 1,925 1}
+{210 1,471 1,635 1,640 1}
+{210 1,788 1}
+{210 1,545 1,810 1}
+{210 1,559 1,561 1,810 1,876 1}
+{210 1,587 1,810 1}
+{210 1,866 1}
+{210 1,814 1}
+{210 1,616 1,621 1,777 1}
+{0 Germany,210 1}
+{0 Germany,91 1,210 1}
+{210 1,254 1,515 1,527 1,815 1}
+{210 1,254 1,515 1,593 1,815 1,924 1,925 1}
+{210 1,254 1,304 1,527 1,539 1,635 1,815 1}
+{210 1,254 1,527 1,710 1,711 1,815 1}
+{210 1,254 1,710 1,815 1}
+{210 1,254 1,710 1,815 1,924 1}
+{210 1,255 1,817 1}
+{210 1,255 1,817 1}
+{210 1,255 1,544 1,587 1,588 1,804 1,817 1}
+{210 1,255 1,817 1}
+{210 1,255 1,817 1}
+{210 1,255 1,817 1,830 1}
+{210 1,255 1,817 1,830 1}
+{210 1,255 1,817 1,855 1}
+{210 1,255 1,817 1}
+{210 1,559 1,561 1,818 1,876 1}
+{210 1,629 1,818 1,870 1}
+{210 1,818 1}
+{210 1,788 1}
+{210 1}
+{210 1,587 1,819 1}
+{210 1,589 1,819 1}
+{210 1,635 1,645 1,698 1,819 1}
+{210 1,787 1,820 1}
+{210 1,791 1,820 1}
+{210 1,820 1}
+{210 1,934 1}
+{210 1,513 1,823 1}
+{210 1,778 1}
+{210 1,587 1}
+{210 1}
+{210 1,256 1,823 1}
+{210 1,256 1,589 1,823 1,902 1}
+{210 1,256 1,593 1,609 1,770 1,823 1}
+{210 1,256 1,616 1,823 1}
+{210 1,256 1,823 1}
+{210 1,739 1,888 1,889 1}
+{210 1,257 1,826 1}
+{210 1,257 1,540 1,616 1,826 1}
+{210 1,257 1,813 1,826 1}
+{210 1,257 1,826 1,964 1}
+{0 Germany,210 1,258 1,593 1,600 1,633 1,827 1}
+{210 1,258 1,593 1,827 1}
+{0 Germany,210 1,258 1,635 1,827 1}
+{210 1,258 1,827 1}
+{25 1,61 1,210 1,259 1,828 1}
+{210 1,259 1,745 1,828 1}
+{210 1,259 1,593 1,793 1,795 1,828 1}
+{210 1,259 1,725 1,793 1,828 1,958 1}
+{210 1,259 1,635 1,828 1}
+{210 1,259 1,635 1,828 1}
+{210 1,593 1,866 1}
+{0 Germany,210 1,260 1,715 1,722 1,830 1}
+{210 1,260 1,589 1,830 1}
+{210 1,260 1,593 1,830 1}
+{0 Germany,210 1,260 1,628 1,830 1}
+{210 1,260 1,635 1,830 1}
+{210 1,260 1,663 1,666 1,722 1,830 1}
+{210 1,260 1,663 1,668 1,749 1,830 1}
+{210 1,260 1,730 1,830 1}
+{210 1,260 1,830 1,934 1}
+{0 Germany,210 1,832 1}
+{210 1,832 1}
+{210 1,473 1,635 1,641 1,832 1}
+{210 1}
+{210 1}
+{210 1,593 1,612 1,900 1}
+{210 1,261 1,833 1}
+{210 1,261 1,593 1,698 1,833 1}
+{210 1,261 1,593 1,833 1,892 1}
+{210 1}
+{210 1,616 1}
+{210 1,712 1}
+{210 1,589 1,591 1,702 1}
+{210 1}
+{210 1,589 1,592 1,778 1,779 1,1003 1}
+{210 1,705 1}
+{210 1,262 1,837 1}
+{210 1,262 1,559 1,719 1,837 1}
+{210 1,262 1,583 1,837 1}
+{210 1,262 1,584 1,837 1,865 1}
+{210 1,262 1,547 1,810 1,837 1}
+{0 Germany,210 1,262 1,837 1}
+{210 1,262 1,593 1,837 1,838 1}
+{210 1,262 1,593 1,837 1,838 1}
+{210 1,262 1,519 1,593 1,608 1,769 1,837 1,838 1}
+{210 1,262 1,593 1,837 1,838 1}
+{210 1,262 1,593 1,837 1,838 1}
+{210 1,262 1,593 1,837 1,838 1}
+{210 1,262 1,593 1,837 1,838 1,959 1}
+{210 1,262 1,616 1,837 1,839 1}
+{210 1,262 1,508 1,616 1,623 1,823 1,824 1,837 1,839 1}
+{210 1,262 1,508 1,616 1,623 1,823 1,824 1,837 1,839 1}
+{210 1,262 1,508 1,616 1,623 1,823 1,824 1,837 1,839 1}
+{210 1,262 1,616 1,837 1,839 1,927 1}
+{210 1,262 1,629 1,837 1}
+{210 1,262 1,635 1,837 1,840 1}
+{210 1,262 1,635 1,837 1,840 1}
+{210 1,262 1,302 1,303 1,493 1,635 1,837 1,840 1}
+{210 1,262 1,302 1,303 1,493 1,635 1,837 1,840 1}
+{0 Germany,210 1,262 1,635 1,837 1,840 1}
+{210 1,262 1,635 1,837 1,840 1}
+{210 1,262 1,466 1,635 1,837 1,840 1}
+{210 1,262 1,635 1,837 1,840 1}
+{210 1,262 1,471 1,635 1,640 1,837 1,840 1}
+{210 1,262 1,478 1,635 1,837 1,840 1}
+{210 1,262 1,635 1,837 1,840 1}
+{210 1,262 1,725 1,837 1}
+{210 1,262 1,539 1,593 1,610 1,774 1,815 1,837 1}
+{210 1,262 1,593 1,610 1,774 1,815 1,837 1}
+{210 1,262 1,837 1}
+{210 1,593 1,1004 1}
+{210 1,263 1,845 1}
+{210 1,263 1,845 1}
+{210 1,263 1,593 1,845 1}
+{210 1,263 1,593 1,610 1,774 1,807 1,815 1,845 1}
+{210 1}
+{210 1,264 1,589 1,850 1,851 1}
+{210 1,264 1,585 1,589 1,590 1,850 1,851 1}
+{210 1,264 1,589 1,850 1,851 1}
+{210 1,264 1,589 1,850 1,851 1}
+{210 1,264 1,589 1,850 1,851 1}
+{210 1,264 1,494 1,593 1,850 1}
+{210 1,264 1,628 1,850 1}
+{38 1,210 1,264 1,635 1,636 1,850 1}
+{210 1,264 1,635 1,850 1}
+{210 1,264 1,635 1,850 1}
+{186 1,210 1,264 1,850 1}
+{210 1,264 1,850 1,987 1}
+{210 1,589 1}
+{210 1,265 1,593 1,604 1,703 1,853 1}
+{2 1,5 1,44 1,185 1,210 1,265 1,485 1,503 1,593 1,612 1,853 1,900 1}
+{210 1,265 1,593 1,853 1}
+{210 1,265 1,628 1,853 1}
+{210 1}
+{210 1,589 1}
+{210 1}
+{210 1,266 1,855 1}
+{210 1,266 1,593 1,855 1}
+{210 1,266 1,494 1,593 1,595 1,855 1}
+{210 1,266 1,494 1,593 1,595 1,855 1}
+{210 1,616 1,677 1}
+{210 1,635 1}
+{210 1}
+{25 1,210 1,922 1}
+{210 1,589 1}
+{210 1,589 1}
+{210 1,267 1,861 1}
+{210 1,267 1,589 1,861 1}
+{91 1,210 1,267 1,589 1,861 1}
+{210 1,267 1,548 1,593 1,596 1,861 1}
+{210 1,267 1,628 1,861 1}
+{210 1,267 1,628 1,861 1}
+{210 1,267 1,483 1,635 1,642 1,861 1}
+{210 1,267 1,505 1,635 1,643 1,861 1}
+{210 1,268 1,862 1}
+{210 1,268 1,862 1}
+{210 1,268 1,587 1,862 1}
+{210 1,268 1,589 1,862 1}
+{210 1,268 1,589 1,862 1}
+{210 1,268 1,628 1,862 1}
+{210 1,268 1,628 1,862 1}
+{210 1,268 1,635 1,862 1}
+{210 1,635 1}
+{210 1,635 1,645 1,698 1}
+{0 Germany,2 1,210 1,269 1,542 1,865 1}
+{210 1,269 1,593 1,865 1}
+{210 1,269 1,635 1,865 1}
+{210 1,269 1,788 1,865 1}
+{210 1,269 1,593 1,865 1}
+{210 1,269 1,865 1}
+{210 1,635 1,866 1}
+{210 1}
+{210 1,628 1}
+{210 1,589 1}
+{210 1,589 1}
+{210 1,785 1,868 1}
+{0 Germany,210 1}
+{210 1}
+{210 1,635 1}
+{210 1,506 1}
+{210 1,635 1,651 1,990 1}
+{210 1,589 1}
+{210 1}
+{210 1,270 1,871 1}
+{210 1,270 1,871 1}
+{2 1,5 1,210 1,270 1,485 1,871 1}
+{0 Germany,210 1,270 1,635 1,871 1}
+{210 1,587 1}
+{210 1,593 1}
+{210 1,593 1}
+{2 1,210 1,271 1,329 1,635 1,873 1,874 1}
+{2 1,210 1,271 1,635 1,873 1,874 1}
+{2 1,210 1,271 1,381 1,635 1,873 1,874 1}
+{210 1,271 1,635 1,873 1,874 1}
+{210 1,271 1,635 1,873 1,874 1}
+{210 1,473 1,635 1,641 1}
+{210 1}
+{210 1,587 1,588 1,804 1}
+{210 1}
+{210 1,272 1,877 1}
+{210 1,272 1,772 1,877 1}
+{210 1,272 1,877 1,898 1}
+{210 1,272 1,635 1,877 1,1000 1,1002 1}
+{210 1,593 1}
+{210 1}
+{210 1,593 1,606 1,754 1}
+{210 1,593 1,825 1}
+{210 1,616 1,828 1}
+{210 1,635 1}
+{210 1,593 1,825 1}
+{210 1,273 1,585 1,589 1,590 1,893 1}
+{210 1,273 1,589 1,893 1,958 1}
+{210 1,273 1,628 1,893 1,939 1}
+{210 1,580 1}
+{210 1}
+{210 1}
+{210 1}
+{210 1,274 1,593 1,895 1,942 1,970 1}
+{210 1,274 1,635 1,895 1}
+{210 1,274 1,505 1,635 1,643 1,895 1}
+{210 1}
+{210 1,275 1,506 1,898 1}
+{210 1,275 1,898 1}
+{210 1,275 1,738 1,898 1}
+{210 1,275 1,898 1}
+{210 1,275 1,898 1}
+{210 1,275 1,589 1,898 1}
+{210 1,275 1,593 1,898 1}
+{210 1,275 1,593 1,686 1,898 1}
+{210 1,275 1,593 1,898 1}
+{210 1,275 1,616 1,898 1,927 1}
+{210 1,275 1,635 1,646 1,764 1,898 1}
+{210 1,275 1,635 1,898 1}
+{210 1,275 1,635 1,898 1}
+{210 1,275 1,663 1,665 1,720 1,721 1,898 1,937 1}
+{210 1,275 1,725 1,898 1}
+{210 1,275 1,725 1,898 1}
+{210 1,275 1,725 1,867 1,898 1}
+{210 1,275 1,765 1,898 1}
+{210 1,275 1,898 1}
+{210 1,275 1,785 1,898 1}
+{210 1,275 1,898 1}
+{210 1,275 1,722 1,898 1,1006 1}
+{210 1,275 1,898 1}
+{210 1,275 1,722 1,898 1}
+{210 1}
+{210 1,663 1,666 1,722 1}
+{69 1,210 1,635 1,639 1}
+{210 1,565 1,593 1,597 1,901 1}
+{210 1,616 1,619 1,706 1,901 1}
+{210 1}
+{2 1,5 1,210 1,341 1,485 1}
+{210 1}
+{210 1}
+{210 1,748 1,866 1}
+{210 1,748 1,866 1}
+{210 1,410 1,635 1}
+{210 1,276 1,506 1,909 1,958 1}
+{210 1,276 1,593 1,632 1,909 1}
+{210 1,276 1,635 1,909 1}
+{210 1,276 1,635 1,909 1}
+{210 1,276 1,753 1,909 1}
+{2 1,210 1,276 1,635 1,753 1,909 1}
+{210 1,276 1,787 1,909 1}
+{210 1}
+{210 1,635 1}
+{210 1,277 1,914 1}
+{210 1,277 1,914 1}
+{210 1,277 1,559 1,560 1,791 1,857 1,914 1}
+{210 1,277 1,662 1,914 1}
+{210 1,277 1,584 1,914 1,986 1}
+{210 1,277 1,589 1,914 1}
+{210 1,277 1,589 1,914 1}
+{210 1,277 1,593 1,737 1,914 1}
+{210 1,277 1,628 1,914 1}
+{210 1,277 1,635 1,914 1}
+{210 1,277 1,725 1,789 1,914 1}
+{210 1,593 1,915 1}
+{210 1,628 1,915 1}
+{210 1,616 1,625 1,979 1}
+{210 1,712 1}
+{210 1,278 1,917 1}
+{210 1,278 1,593 1,780 1,917 1}
+{210 1,278 1,635 1,917 1}
+{210 1,278 1,635 1,917 1}
+{210 1,278 1,673 1,917 1}
+{210 1,278 1,917 1}
+{210 1,278 1,787 1,917 1}
+{210 1,278 1,855 1,917 1}
+{210 1,278 1,917 1}
+{210 1,278 1,917 1}
+{0 Germany,210 1,278 1,917 1}
+{0 Germany,210 1,278 1,917 1}
+{210 1,278 1,635 1,865 1,917 1}
+{210 1,279 1,616 1,621 1,777 1,918 1}
+{210 1,279 1,729 1,918 1}
+{210 1,279 1,635 1,918 1}
+{210 1,279 1,918 1}
+{210 1}
+{210 1,616 1}
+{210 1}
+{210 1,593 1,599 1,615 1,920 1}
+{210 1,628 1,920 1}
+{210 1,635 1,920 1}
+{210 1,559 1}
+{210 1,280 1,616 1,691 1,921 1}
+{210 1,280 1,616 1,921 1}
+{210 1,280 1,635 1,921 1}
+{0 Germany,210 1,280 1,306 1,635 1,921 1}
+{210 1,280 1,921 1}
+{210 1,281 1,923 1}
+{210 1,281 1,923 1}
+{210 1,281 1,587 1,589 1,923 1}
+{210 1,281 1,593 1,923 1}
+{210 1,281 1,593 1,606 1,754 1,923 1}
+{210 1,281 1,635 1,923 1}
+{210 1,282 1,593 1,602 1,661 1,924 1,925 1}
+{210 1,282 1,593 1,603 1,701 1,924 1,925 1}
+{210 1,282 1,593 1,603 1,701 1,924 1,925 1}
+{210 1,282 1,635 1,924 1,926 1}
+{210 1,282 1,635 1,924 1,926 1}
+{210 1,282 1,635 1,924 1,926 1}
+{159 1,210 1,282 1,635 1,663 1,924 1,926 1}
+{210 1,282 1,495 1,635 1,924 1,926 1}
+{210 1,282 1,635 1,924 1,926 1}
+{210 1,282 1,635 1,650 1,924 1,926 1,966 1}
+{210 1,282 1,924 1}
+{0 Germany,9 1,210 1,282 1,924 1}
+{0 Germany,10 1,210 1,282 1,924 1}
+{210 1,283 1,506 1,927 1}
+{210 1,283 1,593 1,927 1}
+{210 1,283 1,593 1,609 1,770 1,927 1}
+{210 1,283 1,593 1,927 1}
+{210 1,283 1,616 1,677 1,927 1}
+{210 1,283 1,616 1,845 1,927 1}
+{210 1,283 1,811 1,927 1}
+{210 1,283 1,722 1,811 1,927 1}
+{210 1,283 1,927 1}
+{210 1,283 1,790 1,888 1,890 1,927 1}
+{17 1,210 1,635 1}
+{69 1,210 1,635 1,639 1}
+{210 1}
+{9 1,210 1}
+{210 1,635 1}
+{210 1}
+{210 1,635 1}
+{210 1,866 1}
+{210 1,547 1,670 1,932 1}
+{210 1,656 1,932 1}
+{210 1,542 1}
+{210 1,542 1}
+{210 1,593 1,611 1,809 1}
+{210 1}
+{210 1}
+{210 1}
+{210 1,589 1}
+{210 1,589 1,835 1}
+{210 1,628 1,922 1}
+{210 1,593 1,844 1}
+{210 1,635 1}
+{30 1,39 1,210 1,616 1}
+{210 1}
+{210 1,813 1}
+{210 1}
+{210 1}
+{210 1,593 1}
+{210 1}
+{0 Germany,210 1,284 1,545 1,559 1,940 1}
+{210 1,576 1,720 1}
+{210 1,284 1,587 1,940 1}
+{210 1,284 1,589 1,739 1,888 1,889 1,940 1}
+{210 1,284 1,832 1,940 1}
+{210 1,284 1,635 1,867 1,897 1,940 1}
+{210 1,737 1,934 1}
+{0 Germany,210 1}
+{210 1}
+{210 1,1005 1}
+{210 1,593 1,607 1,759 1}
+{210 1,725 1}
+{210 1}
+{210 1}
+{210 1,635 1}
+{210 1,542 1}
+{210 1,635 1}
+{210 1,788 1}
+{210 1,616 1,693 1}
+{210 1,593 1,892 1}
+{210 1,729 1}
+{210 1,285 1,593 1,956 1}
+{210 1,285 1,593 1,956 1}
+{0 Germany,210 1,285 1,593 1,956 1}
+{0 Germany,210 1,285 1,616 1,956 1}
+{210 1,285 1,635 1,956 1}
+{0 Germany,210 1,285 1,635 1,956 1}
+{210 1,593 1,599 1,615 1}
+{210 1,286 1,957 1}
+{210 1,286 1,587 1,957 1}
+{210 1,286 1,593 1,957 1}
+{210 1,286 1,635 1,957 1}
+{210 1,286 1,776 1,957 1}
+{210 1,587 1}
+{210 1}
+{0 Germany,2 1,210 1,575 1,593 1,616 1}
+{0 Germany,2 1,210 1,593 1,811 1,968 1}
+{210 1}
+{210 1,506 1,764 1}
+{210 1}
+{210 1,506 1}
+{210 1,287 1,960 1}
+{25 1,210 1,287 1,960 1}
+{210 1,287 1,353 1,589 1,960 1}
+{210 1,287 1,813 1,960 1}
+{210 1,545 1,961 1}
+{210 1,545 1,810 1,961 1}
+{210 1}
+{210 1,716 1,720 1,721 1,937 1}
+{210 1,593 1,972 1}
+{210 1}
+{210 1,589 1}
+{210 1,589 1}
+{210 1,729 1}
+{210 1,288 1,587 1,750 1,969 1,974 1}
+{210 1,288 1,587 1,969 1,974 1}
+{210 1,288 1,589 1,974 1,975 1}
+{210 1,288 1,589 1,974 1,975 1}
+{210 1,288 1,589 1,591 1,702 1,974 1,975 1}
+{210 1,288 1,589 1,974 1,975 1}
+{210 1,288 1,589 1,974 1,975 1}
+{210 1,288 1,589 1,846 1,974 1,975 1}
+{210 1,288 1,593 1,600 1,633 1,974 1,976 1}
+{210 1,288 1,593 1,612 1,900 1,974 1,976 1}
+{210 1,288 1,593 1,905 1,974 1,976 1}
+{210 1,288 1,593 1,614 1,941 1,974 1,976 1}
+{210 1,288 1,616 1,625 1,974 1,979 1}
+{210 1}
+{210 1,494 1,593 1,595 1,739 1,741 1}
+{210 1,289 1,515 1,978 1}
+{210 1,289 1,515 1,978 1}
+{210 1,289 1,515 1,978 1}
+{210 1,289 1,978 1}
+{210 1,289 1,788 1,978 1}
+{210 1,289 1,814 1,978 1}
+{210 1,628 1}
+{210 1,290 1,587 1,979 1}
+{210 1,290 1,589 1,979 1}
+{210 1,290 1,589 1,592 1,778 1,779 1,979 1,1003 1}
+{210 1,290 1,593 1,602 1,661 1,979 1,980 1}
+{210 1,290 1,593 1,700 1,979 1,980 1}
+{210 1,290 1,593 1,780 1,979 1,980 1}
+{210 1,290 1,593 1,789 1,844 1,979 1,980 1}
+{210 1,290 1,593 1,979 1,980 1}
+{210 1,290 1,635 1,979 1,981 1}
+{210 1,290 1,635 1,979 1,981 1}
+{210 1,290 1,635 1,979 1,981 1}
+{210 1,290 1,635 1,979 1,981 1}
+{0 Germany,210 1,290 1,382 1,635 1,979 1,981 1}
+{210 1,589 1}
+{40 1,210 1,635 1,637 1}
+{210 1,291 1,635 1,924 1,926 1,984 1,985 1}
+{210 1,291 1,635 1,663 1,924 1,926 1,984 1,985 1}
+{159 1,210 1,291 1,635 1,749 1,924 1,926 1,984 1,985 1}
+{164 1,165 1,210 1,291 1,536 1,635 1,722 1,723 1,924 1,926 1,984 1,985 1}
+{210 1,291 1,379 1,635 1,924 1,926 1,984 1,985 1}
+{210 1,291 1,635 1,924 1,926 1,984 1,985 1}
+{210 1,616 1,974 1,987 1}
+{210 1,635 1,987 1}
+{210 1,635 1,987 1}
+{0 Germany,25 1,210 1,292 1,559 1,560 1,707 1,791 1,988 1}
+{210 1,292 1,635 1,988 1}
+{210 1,292 1,988 1}
+{210 1,292 1,931 1,988 1}
+{210 1,292 1,556 1,934 1,988 1}
+{210 1,293 1,589 1,591 1,702 1,992 1}
+{210 1,293 1,593 1,606 1,754 1,992 1,993 1}
+{210 1,293 1,593 1,606 1,754 1,992 1,993 1}
+{210 1,293 1,593 1,992 1,993 1}
+{210 1,293 1,593 1,992 1,993 1}
+{210 1,293 1,494 1,593 1,595 1,992 1,993 1}
+{210 1,293 1,616 1,621 1,777 1,992 1}
+{210 1,293 1,628 1,922 1,992 1}
+{210 1,293 1,992 1}
+{0 Germany,210 1,293 1,888 1,992 1}
+{210 1,593 1,609 1,770 1}
+{210 1,593 1,609 1,770 1}
+{25 1,210 1,722 1,769 1,999 1}
+{210 1}
+{210 1,294 1,506 1,769 1,1000 1}
+{210 1,294 1,506 1,586 1,635 1,1000 1}
+{25 1,210 1,294 1,1000 1,1001 1}
+{25 1,210 1,294 1,792 1,1000 1,1001 1}
+{25 1,26 1,210 1,294 1,965 1,1000 1,1001 1}
+{25 1,26 1,210 1,294 1,903 1,965 1,1000 1,1001 1}
+{210 1,294 1,559 1,1000 1}
+{210 1,294 1,577 1,578 1,934 1,1000 1}
+{210 1,294 1,593 1,602 1,661 1,1000 1}
+{210 1,294 1,635 1,1000 1,1002 1}
+{210 1,294 1,635 1,649 1,700 1,965 1,1000 1,1002 1}
+{210 1,294 1,635 1,649 1,965 1,1000 1,1002 1}
+{152 1,210 1,294 1,635 1,663 1,1000 1,1002 1}
+{210 1,294 1,725 1,965 1,1000 1}
+{2 1,210 1,294 1,335 1,1000 1}
+{210 1,294 1,734 1,736 1,1000 1}
+{85 1,210 1,294 1,635 1,1000 1}
+{210 1,294 1,616 1,624 1,880 1,898 1,1000 1}
+{210 1,294 1,628 1,880 1,1000 1}
+{210 1,294 1,635 1,760 1,769 1,880 1,1000 1}
+{210 1}
+{2 1,5 1,210 1,485 1,635 1}
+{210 1,295 1,587 1,1005 1}
+{210 1,295 1,593 1,1005 1}
+{210 1,295 1,593 1,868 1,1005 1}
+{210 1,295 1,593 1,614 1,941 1,1005 1}
+{210 1,295 1,616 1,818 1,1005 1}
+{210 1,295 1,616 1,1005 1}
+{210 1,295 1,753 1,1005 1}
+{210 1}
+{210 1,663 1,667 1,734 1}
+{210 1,866 1}
+{210 1,635 1}
+{210 1}
+{210 1,725 1}
+{210 1,635 1}
+{210 1,635 1}
+{210 1}
+{210 1}
+{25 1,686 1,722 1,724 1,789 1}
+{545 1,722 1,905 1}
+{686 1,722 1,724 1}
+{0 Germany,967 1}
+{}
+{}
+{}
+{0 Germany,416 1}
+{0 Germany}
+{776 1}
+{}
+{}
+{}
+{0 Germany}
+{0 Germany,635 1}
+{663 1}
+{296 1,521 1,946 1}
+{31 1,296 1,799 1,801 1,946 1}
+{296 1,799 1,801 1,946 1}
+{635 1}
+{506 1}
+{297 1,725 1}
+{297 1,520 1,811 1}
+{297 1,734 1,810 1,811 1,812 1}
+{297 1}
+{635 1,659 1}
+{663 1}
+{}
+{298 1}
+{27 1,80 1,298 1}
+{298 1}
+{298 1}
+{298 1}
+{298 1}
+{298 1}
+{61 1,298 1}
+{298 1}
+{298 1}
+{298 1,725 1,728 1,946 1}
+{298 1,725 1,728 1,946 1}
+{298 1,725 1}
+{194 1,298 1}
+{195 1,298 1}
+{2 1,4 1,210 1,226 1,298 1,656 1,674 1}
+{298 1,460 1,799 1,801 1,946 1}
+{298 1}
+{194 1,298 1}
+{298 1}
+{298 1,506 1,1009 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{19 1,725 1,726 1}
+{954 1}
+{299 1}
+{299 1}
+{42 1,299 1}
+{49 1,299 1}
+{299 1}
+{10 1,66 1,299 1}
+{21 1,299 1,364 1,365 1}
+{299 1,450 1}
+{299 1}
+{299 1}
+{299 1,802 1}
+{2 1,3 1,93 1,112 1,299 1,577 1,578 1,737 1,934 1,941 1}
+{}
+{}
+{}
+{0 Germany}
+{785 1,905 1}
+{934 1}
+{487 1,799 1}
+{300 1,307 1,946 1}
+{300 1,301 1,799 1}
+{300 1,301 1,799 1}
+{300 1,301 1,799 1}
+{300 1,301 1,366 1,799 1,801 1,946 1}
+{300 1,475 1}
+{491 1}
+{}
+{}
+{481 1,506 1,856 1}
+{2 1}
+{}
+{506 1,799 1,800 1}
+{}
+{}
+{46 1}
+{}
+{}
+{0 Germany,722 1}
+{0 Germany}
+{}
+{2 1,4 1,210 1,616 1,627 1,1000 1}
+{}
+{}
+{2 1,749 1,870 1}
+{}
+{946 1}
+{663 1,669 1,837 1,932 1,966 1}
+{2 1,302 1,303 1,493 1,662 1,811 1}
+{2 1,7 1,302 1,303 1,490 1,493 1,511 1,972 1}
+{302 1,303 1,493 1}
+{298 1,302 1,303 1,493 1}
+{194 1,302 1,303 1,493 1}
+{734 1}
+{}
+{0 Germany,514 1,659 1}
+{}
+{}
+{304 1}
+{304 1}
+{2 1,6 1,304 1,489 1,519 1,734 1,736 1,811 1,812 1,1000 1}
+{749 1}
+{}
+{20 1,305 1}
+{305 1}
+{305 1}
+{305 1}
+{46 1,305 1,506 1,689 1}
+{46 1,305 1}
+{48 1,305 1,799 1}
+{48 1,305 1,482 1,799 1}
+{305 1}
+{305 1}
+{305 1}
+{305 1,463 1}
+{305 1}
+{74 1,305 1}
+{81 1,305 1}
+{90 1,305 1}
+{305 1}
+{305 1,333 1,694 1}
+{305 1,400 1}
+{305 1,799 1}
+{305 1,460 1}
+{17 1,305 1,460 1,525 1,526 1,946 1}
+{305 1,799 1}
+{305 1,463 1}
+{305 1,485 1,799 1}
+{305 1}
+{305 1}
+{49 1,305 1,799 1,801 1,946 1,948 1}
+{305 1,725 1}
+{305 1}
+{305 1}
+{305 1,477 1}
+{305 1,689 1}
+{305 1,482 1}
+{305 1,482 1,725 1,728 1,946 1}
+{305 1}
+{305 1,954 1}
+{305 1,493 1}
+{305 1}
+{305 1}
+{}
+{}
+{0 Germany}
+{36 1,76 1,77 1,84 1,954 1}
+{}
+{}
+{}
+{0 Germany,663 1,667 1,734 1,753 1,818 1}
+{0 Germany,2 1,322 1}
+{521 1}
+{194 1}
+{35 1}
+{35 1}
+{}
+{}
+{306 1}
+{306 1}
+{663 1}
+{}
+{0 Germany}
+{307 1,521 1}
+{307 1,462 1,521 1}
+{178 1,307 1,799 1,801 1,946 1,949 1}
+{307 1,799 1,801 1,946 1}
+{307 1,799 1,801 1,946 1}
+{}
+{}
+{799 1}
+{400 1}
+{56 1,157 1}
+{0 Germany}
+{}
+{2 1}
+{}
+{2 1,6 1,489 1,816 1}
+{}
+{9 1}
+{}
+{}
+{}
+{}
+{}
+{308 1,635 1}
+{308 1,635 1}
+{12 1,308 1}
+{13 1,308 1,309 1,616 1,626 1,671 1,999 1}
+{13 1,308 1,309 1}
+{13 1,308 1,309 1,629 1,771 1}
+{13 1,308 1,309 1,593 1}
+{57 1,308 1,593 1,594 1,671 1}
+{308 1,635 1,722 1}
+{308 1,310 1,510 1,512 1}
+{308 1,310 1,512 1,593 1}
+{308 1,310 1,512 1,616 1,747 1}
+{308 1,310 1,512 1,616 1,793 1}
+{308 1,310 1,512 1,628 1}
+{166 1,308 1,517 1,536 1,635 1,722 1,723 1}
+{57 1,308 1,474 1,517 1,593 1,594 1}
+{308 1,616 1,917 1}
+{308 1,582 1,593 1,598 1}
+{61 1,308 1,635 1,638 1}
+{308 1,616 1,978 1}
+{308 1}
+{308 1,311 1,528 1,635 1}
+{308 1,311 1,528 1,589 1}
+{308 1,311 1,528 1,593 1}
+{0 Germany,308 1,311 1,528 1,593 1,829 1}
+{308 1,311 1,528 1,616 1,817 1}
+{30 1,308 1,311 1,528 1,529 1,635 1,663 1}
+{308 1,311 1,528 1,529 1,635 1,787 1}
+{33 1,308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1,725 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1}
+{68 1,308 1,311 1,528 1,529 1,635 1}
+{68 1,308 1,311 1,528 1,529 1,635 1}
+{0 Germany,68 1,308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,453 1,528 1,529 1,635 1,663 1}
+{170 1,308 1,311 1,528 1,529 1,635 1}
+{2 1,3 1,93 1,308 1,311 1,433 1,528 1,529 1,589 1,635 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,528 1,529 1,635 1,663 1}
+{308 1,311 1,528 1,529 1,635 1,663 1,725 1}
+{308 1,311 1,528 1,529 1,635 1}
+{308 1,311 1,488 1,528 1,529 1,635 1}
+{68 1,308 1,311 1,488 1,528 1,529 1,635 1,663 1}
+{308 1,311 1,528 1,529 1,635 1,649 1,705 1,965 1}
+{308 1,311 1,528 1,529 1,635 1,946 1}
+{308 1,311 1,528 1,635 1,663 1,664 1,707 1}
+{308 1,311 1,528 1,635 1}
+{308 1,593 1}
+{308 1}
+{308 1,566 1,616 1,617 1}
+{308 1,635 1}
+{308 1,785 1,868 1}
+{308 1,405 1,472 1,635 1}
+{308 1,725 1}
+{308 1,616 1}
+{308 1,635 1}
+{308 1,593 1}
+{308 1,616 1,747 1}
+{308 1}
+{308 1,312 1,570 1}
+{308 1,312 1,570 1}
+{308 1,312 1,570 1}
+{308 1,312 1,570 1,571 1,707 1,708 1,717 1,718 1,797 1}
+{308 1,312 1,570 1,571 1,707 1,708 1,717 1,718 1,797 1}
+{9 1,308 1,312 1,570 1,571 1,707 1,708 1,717 1,718 1,797 1}
+{91 1,308 1,312 1,570 1,571 1,707 1,708 1,717 1,718 1,797 1}
+{308 1,635 1,649 1,965 1}
+{308 1}
+{308 1,559 1,635 1,746 1}
+{308 1,635 1}
+{308 1}
+{308 1,589 1,592 1,778 1,779 1,1003 1}
+{2 1,3 1,93 1,94 1,308 1,635 1,829 1}
+{2 1,3 1,93 1,117 1,308 1,593 1,635 1,994 1}
+{308 1,593 1,616 1}
+{173 1,308 1,635 1}
+{308 1,635 1}
+{2 1,308 1,466 1,506 1,507 1}
+{308 1,313 1,593 1,659 1}
+{308 1,313 1,616 1,659 1,765 1,766 1,1000 1}
+{308 1,313 1,616 1,659 1}
+{308 1,313 1,659 1,905 1}
+{308 1,313 1,659 1,717 1,885 1}
+{308 1,313 1,659 1,717 1,738 1}
+{308 1,314 1,566 1,662 1}
+{308 1,314 1,635 1,649 1,662 1,671 1,965 1}
+{308 1,314 1,662 1}
+{308 1,314 1,662 1,908 1}
+{308 1,314 1,662 1}
+{308 1,314 1,662 1}
+{308 1,628 1}
+{308 1,907 1}
+{308 1,593 1,602 1,661 1}
+{308 1,593 1,606 1,754 1}
+{308 1,589 1}
+{308 1}
+{0 Germany,308 1,663 1,667 1,734 1,736 1,1000 1}
+{308 1,593 1}
+{308 1,635 1}
+{308 1}
+{1 1,2 1,308 1}
+{40 1,308 1,635 1,637 1}
+{308 1,635 1}
+{308 1}
+{308 1,616 1,917 1}
+{308 1,616 1,793 1}
+{308 1,635 1,649 1,965 1}
+{308 1,528 1,529 1,635 1}
+{308 1,662 1,771 1}
+{308 1}
+{308 1,593 1}
+{308 1,663 1,669 1,768 1,793 1,966 1}
+{308 1,635 1,846 1}
+{308 1,771 1}
+{308 1,616 1,750 1}
+{308 1,635 1}
+{308 1,593 1}
+{308 1,635 1,793 1}
+{308 1,586 1,635 1,908 1}
+{40 1,308 1,635 1,637 1}
+{308 1,528 1,589 1}
+{308 1,528 1,529 1,635 1}
+{308 1,483 1,528 1,529 1,635 1,642 1}
+{308 1,616 1,619 1,706 1}
+{308 1,907 1}
+{308 1,616 1,621 1,777 1}
+{308 1,616 1,792 1,1000 1}
+{308 1,616 1,621 1,777 1}
+{308 1,589 1}
+{308 1,559 1,560 1,719 1,791 1,952 1}
+{308 1,791 1}
+{0 Germany,308 1}
+{308 1,635 1}
+{308 1,589 1,894 1}
+{308 1,725 1}
+{308 1,593 1,616 1}
+{308 1,593 1,611 1,809 1}
+{308 1,494 1,593 1,595 1,671 1,835 1}
+{308 1,564 1,593 1}
+{308 1,593 1,606 1,754 1}
+{308 1,315 1,589 1,841 1}
+{308 1,315 1,593 1,841 1}
+{30 1,39 1,308 1,315 1,616 1,841 1}
+{308 1,315 1,616 1,841 1,915 1}
+{308 1,315 1,629 1,841 1,870 1}
+{308 1,315 1,635 1,841 1,842 1}
+{169 1,308 1,315 1,635 1,841 1,842 1}
+{308 1,315 1,473 1,635 1,641 1,841 1,842 1}
+{308 1,315 1,481 1,635 1,841 1,842 1}
+{308 1,315 1,822 1,841 1}
+{308 1,315 1,822 1,841 1,897 1}
+{308 1,582 1,593 1,598 1}
+{308 1,593 1,607 1,759 1}
+{308 1,593 1}
+{308 1,316 1,593 1,604 1,703 1,854 1}
+{308 1,316 1,593 1,604 1,703 1,854 1}
+{308 1,316 1,553 1,555 1,593 1,616 1,854 1}
+{0 Germany,308 1,316 1,616 1,854 1,960 1}
+{308 1}
+{308 1}
+{308 1}
+{308 1,566 1,616 1,617 1}
+{308 1,894 1}
+{308 1,894 1}
+{308 1,908 1}
+{308 1}
+{308 1,317 1,916 1}
+{308 1,317 1,916 1}
+{308 1,317 1,508 1,616 1,623 1,823 1,824 1,916 1}
+{308 1,317 1,564 1,584 1,916 1}
+{308 1,508 1,616 1,623 1,823 1,824 1}
+{308 1,582 1,593 1,598 1}
+{308 1,717 1,806 1,922 1}
+{308 1,635 1,704 1,897 1,922 1}
+{308 1,528 1,529 1,635 1}
+{308 1,616 1,622 1,806 1}
+{161 1,308 1,635 1}
+{308 1,635 1}
+{308 1,635 1}
+{308 1}
+{2 1,3 1,93 1,308 1,683 1}
+{308 1,593 1}
+{308 1,616 1}
+{308 1,318 1,635 1,659 1,958 1}
+{61 1,308 1,318 1,635 1,638 1,958 1}
+{0 Germany,308 1,318 1,635 1,958 1}
+{308 1,318 1,725 1,841 1,958 1}
+{308 1,318 1,908 1,958 1}
+{308 1}
+{308 1,616 1}
+{308 1,635 1}
+{308 1,988 1}
+{308 1,988 1}
+{308 1,319 1,564 1,593 1,996 1}
+{308 1,319 1,566 1,616 1,617 1,996 1,997 1}
+{308 1,319 1,566 1,616 1,617 1,996 1,997 1}
+{308 1,319 1,616 1,691 1,996 1,997 1}
+{308 1,319 1,616 1,709 1,996 1,997 1}
+{308 1,319 1,616 1,626 1,996 1,997 1,999 1}
+{308 1,319 1,996 1}
+{0 Germany,308 1,587 1}
+{308 1}
+{946 1,954 1,955 1}
+{296 1}
+{}
+{501 1}
+{}
+{}
+{321 1}
+{153 1,321 1,521 1}
+{321 1,368 1,480 1}
+{2 1,3 1,93 1,716 1}
+{}
+{157 1,954 1}
+{799 1,801 1,946 1}
+{}
+{45 1}
+{464 1}
+{}
+{0 Germany}
+{}
+{2 1,4 1,210 1,323 1}
+{91 1,323 1}
+{2 1,323 1}
+{323 1,799 1}
+{0 Germany}
+{324 1}
+{324 1}
+{324 1}
+{33 1,324 1,799 1}
+{324 1,799 1}
+{15 1}
+{}
+{635 1,648 1,868 1}
+{776 1}
+{635 1,672 1}
+{325 1}
+{325 1}
+{325 1,326 1,799 1}
+{0 Germany,84 1,325 1,326 1,799 1}
+{325 1,326 1,799 1,801 1,946 1}
+{325 1,326 1,799 1,801 1,946 1}
+{2 1,3 1,93 1,593 1,704 1}
+{}
+{327 1}
+{153 1,327 1,799 1}
+{32 1,327 1,799 1,801 1,946 1}
+{0 Germany,49 1,327 1,799 1,801 1,946 1,948 1}
+{788 1}
+{2 1,463 1}
+{2 1,3 1,93 1,683 1}
+{64 1,328 1}
+{75 1,328 1}
+{328 1,393 1,451 1,521 1}
+{328 1}
+{586 1,628 1,734 1}
+{329 1}
+{25 1,329 1,734 1,765 1}
+{25 1,329 1,763 1,811 1}
+{329 1,722 1,780 1}
+{}
+{190 1,419 1,420 1,451 1,946 1}
+{476 1}
+{0 Germany,2 1,7 1,490 1,635 1}
+{473 1,635 1,641 1,734 1}
+{}
+{0 Germany}
+{}
+{}
+{54 1,946 1}
+{0 Germany,967 1}
+{0 Germany}
+{722 1,774 1}
+{811 1}
+{}
+{9 1}
+{}
+{0 Germany}
+{}
+{75 1}
+{799 1}
+{}
+{76 1,330 1}
+{27 1,157 1,330 1,416 1}
+{2 1,137 1,157 1,330 1,734 1}
+{330 1,396 1,416 1,503 1,506 1}
+{71 1,330 1,946 1}
+{27 1,330 1,336 1,486 1}
+{27 1,330 1,486 1}
+{76 1,86 1,330 1,463 1,485 1,492 1,521 1}
+{331 1}
+{2 1,3 1,93 1,112 1,331 1,716 1,720 1,941 1}
+{331 1}
+{331 1}
+{331 1}
+{331 1}
+{332 1,506 1,771 1,958 1}
+{332 1,511 1}
+{332 1}
+{332 1,583 1,966 1}
+{583 1}
+{31 1,333 1,400 1,694 1,946 1}
+{333 1,954 1}
+{333 1,954 1}
+{}
+{}
+{}
+{}
+{}
+{1 1}
+{}
+{635 1}
+{0 Germany,635 1,902 1}
+{}
+{509 1}
+{520 1,965 1}
+{18 1}
+{521 1}
+{}
+{584 1,754 1}
+{}
+{635 1}
+{}
+{}
+{}
+{189 1}
+{635 1}
+{635 1}
+{0 Germany}
+{0 Germany}
+{}
+{56 1,1009 1}
+{416 1,954 1}
+{0 Germany,334 1}
+{0 Germany,334 1}
+{0 Germany,334 1}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{}
+{0 Germany}
+{0 Germany}
+{2 1,521 1,663 1}
+{}
+{684 1}
+{335 1}
+{29 1,335 1,525 1}
+{29 1,335 1,689 1}
+{29 1,43 1,335 1,725 1}
+{335 1,725 1}
+{335 1,725 1}
+{335 1,725 1,728 1,946 1}
+{140 1,141 1,335 1,463 1}
+{155 1,335 1}
+{155 1,335 1,725 1}
+{335 1,338 1}
+{197 1,335 1,506 1,799 1,800 1}
+{335 1,506 1,799 1}
+{2 1,7 1,335 1,490 1,511 1,757 1,799 1,801 1,946 1}
+{335 1,802 1,803 1,946 1}
+{335 1}
+{80 1,335 1}
+{335 1}
+{335 1,1009 1}
+{15 1,335 1}
+{}
+{}
+{}
+{416 1,491 1}
+{}
+{}
+{336 1,694 1}
+{336 1,694 1,946 1}
+{335 1,336 1,454 1,799 1}
+{}
+{337 1,458 1,459 1,502 1,799 1}
+{38 1,337 1,461 1,799 1}
+{337 1,461 1,472 1,799 1}
+{2 1,337 1,463 1,785 1}
+{338 1,506 1}
+{338 1}
+{338 1}
+{0 Germany,338 1}
+{338 1}
+{65 1,338 1,477 1}
+{338 1,416 1}
+{338 1,477 1}
+{338 1}
+{157 1,338 1,503 1}
+{338 1}
+{1 1}
+{0 Germany}
+{}
+{0 Germany,2 1}
+{}
+{663 1,666 1,722 1,973 1}
+{663 1,666 1,722 1,973 1}
+{}
+{1 1}
+{}
+{1 1}
+{946 1}
+{}
+{}
+{368 1}
+{}
+{}
+{}
+{}
+{}
+{521 1}
+{689 1}
+{0 Germany}
+{799 1}
+{799 1}
+{339 1,635 1,648 1,868 1}
+{339 1,776 1}
+{339 1,866 1}
+{2 1,4 1,210 1,270 1,871 1}
+{}
+{}
+{2 1}
+{}
+{}
+{}
+{0 Germany}
+{59 1}
+{476 1}
+{155 1,340 1}
+{340 1}
+{340 1,811 1,836 1,907 1}
+{0 Germany,480 1}
+{}
+{0 Germany,2 1,513 1}
+{491 1}
+{}
+{}
+{28 1}
+{341 1}
+{22 1,341 1}
+{341 1}
+{0 Germany,31 1,341 1}
+{31 1,341 1}
+{31 1,341 1}
+{9 1,89 1,175 1,341 1,485 1}
+{341 1}
+{34 1,341 1}
+{341 1}
+{34 1,35 1,341 1}
+{341 1}
+{341 1}
+{42 1,341 1}
+{341 1}
+{341 1}
+{49 1,341 1}
+{341 1}
+{62 1,341 1}
+{341 1}
+{341 1}
+{341 1}
+{341 1,725 1}
+{341 1}
+{31 1,171 1,306 1,341 1,521 1}
+{341 1,363 1}
+{341 1,424 1}
+{341 1}
+{38 1,341 1,342 1,444 1}
+{341 1,342 1,444 1}
+{341 1,342 1,444 1}
+{341 1,342 1,444 1}
+{341 1,342 1,444 1}
+{341 1,451 1}
+{341 1}
+{186 1,341 1}
+{2 1,6 1,341 1,402 1,489 1,506 1,652 1}
+{341 1}
+{341 1,458 1,459 1,461 1,502 1}
+{341 1}
+{341 1}
+{341 1}
+{2 1,341 1,663 1}
+{341 1}
+{341 1}
+{0 Germany,341 1}
+{341 1}
+{341 1}
+{341 1,497 1}
+{341 1,498 1}
+{}
+{343 1}
+{341 1,343 1,368 1,506 1}
+{343 1}
+{343 1,525 1,526 1,946 1}
+{62 1,343 1}
+{62 1,343 1}
+{52 1,343 1}
+{52 1,343 1}
+{52 1,343 1}
+{75 1,343 1}
+{75 1,343 1}
+{343 1}
+{2 1,343 1,511 1}
+{66 1}
+{}
+{344 1,492 1}
+{344 1,521 1}
+{47 1,344 1,480 1,485 1,799 1,946 1}
+{31 1,344 1,506 1,725 1,727 1}
+{344 1,368 1,802 1}
+{344 1,487 1,802 1}
+{344 1,802 1}
+{58 1,344 1,946 1}
+{335 1,344 1,946 1}
+{344 1}
+{35 1}
+{}
+{}
+{2 1,506 1}
+{}
+{345 1}
+{345 1}
+{345 1,663 1,666 1,722 1,821 1}
+{345 1,543 1,663 1,667 1,722 1,734 1}
+{345 1,593 1,605 1,704 1,870 1}
+{345 1,616 1,870 1,932 1,1000 1}
+{345 1,870 1}
+{345 1}
+{345 1}
+{345 1,346 1,635 1,644 1,679 1,872 1}
+{345 1,346 1,725 1,872 1}
+{345 1,346 1,872 1}
+{345 1,346 1,820 1,872 1,888 1}
+{345 1,663 1,665 1,720 1,835 1}
+{345 1}
+{345 1,616 1,626 1,999 1}
+{2 1,345 1}
+{345 1,628 1,771 1}
+{345 1,628 1,771 1}
+{0 Germany,345 1}
+{345 1,875 1}
+{345 1,875 1}
+{345 1,593 1,816 1,875 1,942 1}
+{345 1,628 1,894 1}
+{345 1,663 1,666 1,722 1}
+{345 1,589 1}
+{345 1}
+{345 1}
+{345 1,559 1,562 1,896 1,963 1}
+{2 1,345 1,473 1,635 1,641 1,896 1}
+{345 1}
+{345 1}
+{345 1}
+{345 1}
+{345 1,973 1}
+{345 1,593 1,607 1,759 1}
+{345 1,635 1}
+{345 1,635 1}
+{345 1}
+{345 1}
+{345 1}
+{345 1,559 1}
+{345 1,347 1,616 1,687 1,910 1,911 1}
+{345 1,347 1,616 1,625 1,910 1,911 1,979 1}
+{345 1,347 1,616 1,627 1,910 1,911 1,1000 1}
+{345 1,347 1,616 1,627 1,910 1,911 1,1000 1}
+{345 1,347 1,910 1}
+{345 1}
+{345 1,912 1}
+{345 1,789 1,912 1}
+{345 1,912 1}
+{345 1,348 1,635 1,913 1}
+{345 1,348 1,635 1,725 1,913 1,994 1,995 1}
+{345 1,348 1,731 1,913 1}
+{345 1,348 1,913 1,986 1}
+{345 1}
+{345 1}
+{345 1,593 1,983 1}
+{345 1}
+{345 1,349 1,919 1}
+{9 1,345 1,349 1,919 1}
+{10 1,345 1,349 1,919 1}
+{2 1,4 1,12 1,210 1,290 1,345 1,349 1,919 1,979 1}
+{21 1,345 1,364 1,365 1,635 1}
+{345 1}
+{345 1,884 1}
+{0 Germany,345 1,576 1}
+{345 1}
+{345 1,704 1,722 1}
+{345 1,593 1}
+{345 1}
+{345 1,350 1,928 1}
+{345 1,350 1,635 1,928 1}
+{345 1,350 1,635 1,928 1}
+{345 1,350 1,635 1,928 1}
+{345 1}
+{345 1,716 1,820 1,885 1,966 1}
+{345 1,790 1,888 1,890 1}
+{345 1,351 1,520 1,635 1,929 1}
+{57 1,69 1,345 1,351 1,556 1,593 1,594 1,929 1}
+{345 1,351 1,556 1,593 1,929 1}
+{345 1,351 1,635 1,774 1,929 1}
+{173 1,345 1,351 1,453 1,929 1}
+{30 1,345 1,351 1,457 1,635 1,929 1}
+{345 1,635 1,774 1}
+{345 1}
+{345 1,930 1}
+{0 Germany,345 1,635 1,930 1}
+{0 Germany,345 1,635 1,930 1}
+{345 1,725 1,972 1}
+{345 1,635 1,651 1,990 1,1010 1}
+{345 1,635 1,651 1,990 1,1010 1}
+{352 1}
+{352 1}
+{352 1}
+{352 1}
+{35 1,80 1}
+{36 1}
+{}
+{299 1}
+{}
+{}
+{56 1}
+{506 1,725 1,727 1}
+{}
+{}
+{}
+{}
+{353 1}
+{2 1,5 1,353 1,485 1}
+{}
+{1009 1}
+{}
+{2 1,519 1,593 1,608 1,769 1}
+{0 Germany,354 1}
+{0 Germany,354 1,577 1}
+{354 1}
+{354 1}
+{0 Germany,2 1,88 1,90 1,635 1}
+{}
+{}
+{0 Germany,450 1}
+{0 Germany}
+{0 Germany,485 1,799 1}
+{355 1}
+{355 1,460 1,546 1}
+{356 1}
+{356 1}
+{356 1}
+{35 1,357 1}
+{36 1,357 1}
+{0 Germany,357 1}
+{170 1,357 1}
+{357 1,481 1}
+{357 1}
+{}
+{}
+{168 1}
+{0 Germany,81 1,358 1,521 1}
+{358 1,366 1}
+{65 1,358 1,366 1}
+{358 1,366 1}
+{358 1}
+{358 1,487 1}
+{}
+{}
+{}
+{359 1,360 1,553 1,583 1}
+{359 1,360 1,553 1,583 1}
+{359 1,360 1,583 1}
+{359 1,360 1,583 1,836 1}
+{359 1,584 1}
+{359 1,584 1}
+{359 1,922 1}
+{}
+{416 1}
+{2 1,345 1,593 1,606 1,754 1,896 1}
+{361 1,362 1,689 1}
+{361 1,362 1,499 1,689 1,725 1,728 1,946 1}
+{361 1,362 1,689 1}
+{169 1,361 1,362 1,689 1}
+{361 1,362 1,689 1}
+{361 1,362 1,689 1}
+{354 1,361 1,362 1,689 1}
+{0 Germany,361 1,362 1,689 1}
+{361 1,362 1,689 1}
+{0 Germany,361 1,362 1,689 1}
+{361 1,362 1,689 1,946 1}
+{361 1}
+{361 1}
+{191 1}
+{299 1}
+{0 Germany,15 1,725 1}
+{}
+{}
+{}
+{0 Germany}
+{}
+{355 1,725 1}
+{}
+{}
+{}
+{2 1,3 1,93 1,616 1,618 1,690 1}
+{38 1,363 1,799 1}
+{363 1}
+{363 1}
+{363 1,368 1,506 1}
+{178 1,363 1,799 1,801 1,946 1,949 1}
+{363 1,799 1}
+{799 1}
+{799 1,801 1,946 1}
+{}
+{}
+{}
+{}
+{21 1,364 1,365 1}
+{364 1}
+{364 1}
+{364 1}
+{0 Germany,83 1,504 1}
+{}
+{18 1}
+{}
+{}
+{}
+{368 1,725 1}
+{366 1}
+{366 1}
+{1 1,366 1}
+{366 1,521 1,725 1}
+{366 1}
+{366 1}
+{366 1}
+{366 1}
+{42 1,178 1,366 1,799 1,801 1,946 1,949 1}
+{366 1}
+{58 1,366 1}
+{366 1}
+{366 1}
+{75 1,366 1}
+{87 1,366 1}
+{0 Germany,366 1,367 1,725 1}
+{355 1,366 1,367 1,725 1}
+{366 1,367 1,725 1}
+{366 1,367 1,725 1}
+{366 1,367 1,725 1,728 1,946 1}
+{366 1,367 1,725 1,728 1,946 1}
+{366 1,367 1,498 1,725 1,728 1,946 1}
+{366 1}
+{0 Germany,195 1,366 1}
+{299 1,366 1}
+{366 1,802 1}
+{0 Germany,366 1}
+{366 1}
+{366 1}
+{2 1,4 1,210 1,366 1}
+{366 1,487 1}
+{366 1}
+{366 1,498 1}
+{357 1,366 1,521 1}
+{2 1,635 1,825 1}
+{}
+{811 1,903 1,965 1}
+{0 Germany}
+{}
+{0 Germany,1007 1}
+{}
+{368 1}
+{1 1,368 1,369 1}
+{1 1,368 1,369 1}
+{1 1,368 1,369 1,426 1}
+{1 1,368 1,369 1}
+{1 1,368 1,369 1,474 1}
+{1 1,368 1,369 1}
+{8 1,368 1}
+{368 1,506 1,734 1}
+{368 1}
+{2 1,6 1,368 1,489 1,520 1,710 1}
+{368 1}
+{15 1,40 1,368 1,371 1,521 1,725 1}
+{368 1,371 1,521 1}
+{368 1,371 1,521 1}
+{368 1,371 1,410 1,521 1}
+{84 1,368 1,416 1,946 1}
+{368 1}
+{368 1}
+{368 1}
+{368 1}
+{0 Germany,368 1}
+{368 1,946 1,954 1,955 1}
+{368 1,663 1,669 1,966 1}
+{368 1}
+{368 1}
+{368 1,689 1}
+{368 1,689 1}
+{368 1}
+{368 1}
+{86 1,368 1}
+{88 1,368 1}
+{368 1}
+{368 1}
+{368 1}
+{368 1,372 1,506 1,725 1,727 1}
+{368 1,372 1,725 1}
+{368 1,372 1,725 1}
+{368 1,372 1,725 1,728 1,946 1}
+{368 1,372 1,449 1,487 1,725 1,728 1,799 1,946 1}
+{368 1,372 1,451 1,487 1,725 1,728 1,799 1,946 1}
+{2 1,82 1,155 1,368 1,370 1,506 1,776 1}
+{155 1,368 1,370 1,506 1}
+{155 1,368 1,370 1,506 1}
+{18 1,155 1,368 1,370 1,503 1}
+{155 1,368 1,370 1}
+{155 1,368 1,370 1,802 1,803 1,946 1}
+{155 1,368 1,370 1,946 1}
+{173 1,368 1}
+{2 1,368 1,663 1}
+{335 1,368 1}
+{368 1}
+{368 1,506 1,802 1}
+{368 1,802 1,803 1,946 1}
+{368 1}
+{368 1}
+{368 1}
+{368 1}
+{368 1}
+{368 1}
+{0 Germany,368 1}
+{368 1}
+{368 1,480 1}
+{368 1}
+{368 1}
+{368 1}
+{368 1,458 1,480 1,485 1}
+{368 1,521 1}
+{368 1}
+{368 1}
+{1 1,12 1,368 1,369 1}
+{368 1}
+{452 1,485 1}
+{}
+{}
+{21 1,364 1,365 1,725 1}
+{}
+{}
+{1 1,373 1}
+{373 1}
+{373 1,546 1}
+{373 1}
+{373 1}
+{}
+{74 1}
+{}
+{0 Germany}
+{374 1,521 1}
+{374 1}
+{374 1,799 1}
+{374 1,521 1}
+{82 1,86 1}
+{}
+{}
+{}
+{}
+{2 1,375 1}
+{375 1}
+{375 1}
+{375 1,400 1,946 1}
+{56 1,376 1}
+{376 1}
+{376 1}
+{376 1}
+{}
+{}
+{}
+{}
+{1 1}
+{734 1,987 1}
+{0 Germany}
+{}
+{377 1}
+{377 1,589 1,797 1}
+{377 1,787 1}
+{377 1,866 1}
+{378 1,565 1,593 1,597 1}
+{378 1,566 1,616 1,617 1}
+{378 1,616 1}
+{378 1,582 1,785 1,786 1}
+{}
+{379 1}
+{379 1}
+{379 1}
+{379 1}
+{379 1}
+{379 1}
+{0 Germany,379 1}
+{379 1}
+{379 1}
+{0 Germany,2 1,379 1,630 1,725 1}
+{379 1}
+{379 1}
+{379 1,460 1}
+{379 1}
+{379 1}
+{379 1,593 1,632 1,846 1,848 1}
+{}
+{0 Germany,380 1}
+{380 1}
+{380 1,476 1,725 1,728 1,946 1,951 1}
+{25 1,381 1,769 1}
+{0 Germany,25 1,381 1}
+{381 1,663 1,746 1}
+{381 1,663 1,746 1}
+{381 1,663 1,664 1,707 1,746 1}
+{0 Germany,663 1,664 1,707 1}
+{}
+{}
+{}
+{0 Germany,967 1}
+{}
+{400 1}
+{}
+{382 1,383 1,506 1,635 1,647 1,767 1,958 1}
+{382 1,383 1,572 1,574 1,635 1,647 1,734 1,757 1,767 1}
+{382 1,383 1,635 1,647 1,674 1,767 1}
+{382 1,383 1,635 1,647 1,767 1}
+{382 1,796 1}
+{382 1,467 1}
+{382 1,767 1,888 1}
+{}
+{686 1,722 1,724 1,867 1}
+{628 1,734 1,974 1}
+{635 1,857 1,994 1,995 1}
+{906 1}
+{}
+{66 1}
+{725 1}
+{}
+{}
+{2 1,663 1}
+{689 1}
+{725 1,728 1,946 1}
+{}
+{}
+{0 Germany,2 1,855 1}
+{946 1}
+{520 1}
+{0 Germany,631 1}
+{0 Germany}
+{}
+{}
+{}
+{}
+{521 1}
+{}
+{}
+{}
+{}
+{384 1}
+{0 Germany,2 1,3 1,93 1,384 1,635 1,780 1}
+{13 1,384 1}
+{384 1}
+{14 1,384 1,470 1}
+{14 1,384 1}
+{14 1,62 1,90 1,384 1}
+{384 1,451 1,799 1}
+{0 Germany}
+{385 1}
+{385 1}
+{89 1,187 1,385 1,386 1,464 1,465 1,521 1,522 1,525 1}
+{187 1,385 1,386 1,464 1,465 1,521 1,522 1,525 1,526 1,946 1}
+{187 1,385 1,386 1,464 1,465 1,521 1,522 1,525 1}
+{187 1,385 1,386 1,464 1,465 1,521 1,522 1,802 1,803 1,946 1}
+{187 1,385 1,386 1,464 1,465 1,521 1,522 1,802 1}
+{385 1,506 1,763 1}
+{385 1,559 1,635 1}
+{385 1,559 1}
+{385 1,506 1}
+{385 1,763 1,791 1,811 1}
+{385 1,952 1}
+{0 Germany,9 1}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany,334 1,653 1,967 1}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{0 Germany}
+{387 1}
+{1 1,76 1,77 1,387 1,954 1}
+{387 1,701 1,722 1,855 1}
+{1 1,374 1,387 1,946 1}
+{}
+{467 1}
+{}
+{402 1,725 1}
+{}
+{}
+{}
+{9 1}
+{}
+{170 1}
+{}
+{388 1}
+{82 1,388 1}
+{83 1,388 1}
+{}
+{0 Germany,400 1}
+{}
+{2 1,3 1,93 1,616 1,626 1,999 1}
+{389 1}
+{389 1,525 1,526 1,946 1}
+{2 1,42 1,389 1,513 1}
+{389 1}
+{389 1}
+{87 1,389 1}
+{389 1,450 1}
+{389 1,499 1}
+{389 1}
+{}
+{9 1}
+{2 1,10 1,11 1,725 1}
+{}
+{390 1}
+{390 1}
+{390 1}
+{390 1}
+{0 Germany,390 1}
+{390 1,663 1,738 1,841 1}
+{390 1}
+{390 1,500 1}
+{390 1,500 1}
+{616 1,626 1,722 1,999 1}
+{2 1,391 1,458 1,459 1,502 1,506 1}
+{391 1,689 1}
+{19 1,391 1,392 1,725 1,726 1}
+{391 1,392 1,725 1}
+{391 1,392 1,725 1}
+{14 1,391 1,392 1,470 1,725 1}
+{38 1,391 1,802 1}
+{73 1,506 1}
+{78 1,79 1,954 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{725 1,728 1,946 1}
+{0 Germany}
+{}
+{}
+{}
+{}
+{635 1,663 1,669 1,966 1}
+{65 1,477 1,485 1,946 1}
+{0 Germany,2 1,9 1,725 1}
+{0 Germany,593 1,663 1,666 1,722 1}
+{0 Germany}
+{}
+{}
+{22 1,521 1}
+{32 1}
+{393 1}
+{393 1}
+{41 1,393 1}
+{393 1,725 1,728 1,946 1}
+{393 1}
+{393 1,400 1}
+{393 1,435 1}
+{393 1,435 1}
+{393 1}
+{393 1}
+{0 Germany,631 1,653 1,798 1}
+{}
+{582 1,593 1,598 1}
+{582 1,593 1,598 1}
+{}
+{}
+{}
+{}
+{0 Germany,630 1}
+{}
+{}
+{394 1,572 1,574 1,734 1,750 1}
+{394 1,572 1,875 1,968 1}
+{394 1}
+{394 1}
+{394 1,885 1}
+{394 1,635 1,843 1}
+{394 1,635 1,875 1,968 1}
+{394 1,616 1,961 1}
+{394 1,511 1,752 1}
+{394 1,583 1,836 1}
+{394 1,680 1,765 1,888 1}
+{394 1}
+{394 1,705 1,811 1}
+{0 Germany,43 1}
+{9 1}
+{0 Germany,2 1,720 1,749 1,778 1}
+{}
+{37 1,462 1}
+{450 1,462 1}
+{462 1}
+{481 1}
+{47 1,481 1}
+{}
+{395 1}
+{73 1,86 1,395 1,400 1}
+{78 1,79 1,395 1,469 1,954 1}
+{298 1,395 1,506 1}
+{628 1,734 1,901 1}
+{}
+{2 1,4 1,210 1,267 1,320 1,861 1}
+{2 1,4 1,210 1,279 1,320 1,616 1,815 1,918 1}
+{338 1,396 1,452 1,506 1}
+{16 1,19 1,396 1,495 1}
+{396 1,416 1,479 1,506 1}
+{396 1,946 1}
+{298 1,396 1,506 1,689 1}
+{396 1,504 1}
+{}
+{368 1}
+{487 1}
+{2 1,345 1,349 1,616 1,621 1,777 1,919 1}
+{}
+{}
+{}
+{2 1,133 1,635 1,648 1,868 1}
+{}
+{500 1}
+{521 1}
+{}
+{670 1}
+{}
+{2 1,593 1,606 1,754 1}
+{}
+{}
+{}
+{10 1,194 1}
+{}
+{559 1,561 1,734 1,837 1,876 1}
+{397 1}
+{397 1,482 1}
+{397 1}
+{2 1,7 1,397 1,490 1,796 1}
+{397 1}
+{}
+{}
+{0 Germany}
+{}
+{}
+{}
+{}
+{90 1,954 1}
+{463 1}
+{}
+{}
+{}
+{}
+{398 1,506 1,720 1}
+{398 1,559 1,793 1}
+{398 1,399 1,719 1,722 1}
+{398 1,722 1,907 1}
+{398 1,429 1}
+{0 Germany,398 1}
+{398 1,457 1,791 1}
+{398 1,791 1,952 1}
+{398 1,952 1}
+{398 1,506 1,553 1}
+{398 1,399 1,719 1,965 1}
+{398 1,399 1,719 1,722 1}
+{398 1,399 1,719 1,965 1}
+{}
+{400 1}
+{35 1,400 1,521 1}
+{400 1}
+{400 1}
+{56 1,400 1}
+{400 1,694 1}
+{400 1,469 1,694 1}
+{400 1,694 1}
+{400 1,725 1,728 1,946 1}
+{47 1,400 1,725 1,728 1,946 1,947 1}
+{391 1,400 1,450 1}
+{400 1}
+{59 1,86 1,400 1,401 1,799 1}
+{400 1,401 1,799 1}
+{400 1,401 1,799 1,801 1,946 1}
+{400 1,401 1,799 1,801 1,946 1}
+{400 1,401 1,499 1,799 1,801 1,946 1}
+{400 1,401 1,501 1,799 1,801 1,946 1}
+{400 1,401 1,501 1,799 1,801 1,946 1}
+{400 1,506 1,802 1}
+{2 1,3 1,93 1,400 1,616 1,625 1,698 1,802 1,979 1}
+{400 1,802 1,803 1,946 1}
+{400 1}
+{2 1,4 1,210 1,400 1,593 1,614 1,941 1}
+{400 1}
+{400 1,491 1}
+{400 1}
+{400 1,506 1,1009 1}
+{0 Germany,400 1,946 1,1009 1}
+{400 1,1009 1}
+{67 1,400 1,496 1}
+{400 1,496 1,521 1}
+{}
+{}
+{546 1,946 1}
+{}
+{635 1}
+{635 1}
+{521 1,523 1,946 1}
+{457 1,663 1,666 1,722 1}
+{663 1,666 1,722 1,881 1}
+{}
+{946 1}
+{}
+{}
+{}
+{}
+{635 1,966 1}
+{59 1}
+{199 1}
+{}
+{}
+{402 1}
+{402 1}
+{402 1}
+{402 1}
+{402 1}
+{}
+{156 1,799 1}
+{2 1,635 1,649 1,965 1}
+{403 1}
+{403 1,516 1,725 1}
+{403 1}
+{403 1,566 1,935 1}
+{404 1}
+{404 1}
+{2 1,3 1,93 1,404 1,821 1}
+{2 1,3 1,10 1,11 1,93 1,404 1,593 1,612 1,900 1}
+{93 1,404 1,559 1,562 1,963 1}
+{}
+{}
+{}
+{2 1,635 1,837 1,855 1,884 1,919 1,965 1}
+{56 1}
+{}
+{0 Germany}
+{0 Germany}
+{}
+{593 1,606 1,749 1,754 1}
+{}
+{0 Germany}
+{694 1}
+{}
+{2 1,635 1,650 1,656 1,966 1}
+{1 1,345 1}
+{814 1}
+{}
+{485 1,799 1}
+{0 Germany,946 1}
+{}
+{}
+{}
+{64 1}
+{0 Germany,2 1,51 1,67 1}
+{0 Germany}
+{}
+{}
+{}
+{}
+{}
+{}
+{0 Germany,587 1,589 1,663 1,666 1,722 1}
+{}
+{0 Germany,500 1}
+{734 1,747 1,811 1,812 1}
+{722 1,855 1}
+{}
+{2 1,43 1,584 1}
+{411 1}
+{}
+{}
+{74 1}
+{9 1,74 1}
+{}
+{}
+{}
+{}
+{405 1}
+{405 1,635 1}
+{405 1}
+{}
+{}
+{}
+{2 1,663 1,791 1,991 1}
+{}
+{}
+{}
+{0 Germany}
+{210 1,729 1}
+{34 1}
+{406 1,506 1,940 1}
+{406 1}
+{406 1,517 1,725 1}
+{406 1,663 1}
+{663 1,709 1,868 1}
+{}
+{407 1}
+{407 1}
+{407 1,663 1,771 1}
+{407 1}
+{407 1,725 1}
+{407 1,931 1}
+{506 1}
+{692 1,811 1}
+{}
+{368 1,799 1}
+{799 1,801 1,946 1}
+{}
+{424 1}
+{}
+{0 Germany}
+{722 1,821 1}
+{}
+{0 Germany}
+{}
+{}
+{}
+{}
+{}
+{408 1}
+{28 1,408 1}
+{408 1,468 1,474 1}
+{409 1}
+{409 1}
+{409 1,499 1,946 1}
+{409 1}
+{0 Germany}
+{519 1,811 1,965 1}
+{734 1}
+{}
+{2 1,6 1,489 1,518 1,583 1}
+{1 1}
+{}
+{722 1}
+{2 1,635 1,649 1,965 1}
+{}
+{17 1,799 1,801 1,946 1}
+{0 Germany,410 1}
+{410 1}
+{410 1,799 1}
+{410 1}
+{410 1}
+{45 1,384 1,410 1}
+{}
+{}
+{}
+{0 Germany,542 1}
+{}
+{635 1}
+{635 1}
+{663 1}
+{}
+{}
+{}
+{0 Germany}
+{}
+{}
+{}
+{411 1,802 1}
+{510 1}
+{43 1,511 1}
+{511 1}
+{}
+{}
+{}
+{}
+{1 1,2 1,510 1,593 1,607 1,759 1}
+{}
+{799 1}
+{}
+{}
+{2 1,90 1,616 1,960 1}
+{2 1,4 1,210 1,239 1,589 1,712 1,713 1}
+{}
+{}
+{49 1}
+{75 1}
+{}
+{}
+{}
+{}
+{506 1}
+{12 1,412 1,506 1}
+{156 1,358 1,412 1,506 1}
+{412 1}
+{412 1,672 1,725 1}
+{412 1,725 1,835 1}
+{412 1,811 1}
+{412 1}
+{}
+{}
+{}
+{}
+{722 1}
+{791 1}
+{13 1}
+{799 1,801 1,946 1}
+{}
+{}
+{0 Germany}
+{413 1}
+{9 1,30 1,39 1,413 1,489 1,513 1}
+{413 1,799 1,801 1,946 1}
+{413 1,799 1}
+{0 Germany,413 1,967 1}
+{413 1}
+{413 1,521 1,523 1,946 1}
+{413 1}
+{413 1}
+{0 Germany,413 1}
+{0 Germany,413 1,967 1}
+{413 1,521 1,523 1,799 1,946 1}
+{}
+{}
+{414 1}
+{414 1}
+{122 1,414 1}
+{414 1}
+{414 1}
+{414 1}
+{}
+{}
+{}
+{}
+{}
+{415 1}
+{2 1,3 1,93 1,415 1}
+{2 1,4 1,210 1,236 1,415 1,696 1}
+{2 1,4 1,210 1,415 1}
+{0 Germany}
+{}
+{}
+{}
+{}
+{970 1}
+{}
+{1 1,416 1,492 1,503 1}
+{16 1,416 1,417 1}
+{416 1,418 1,454 1,521 1}
+{416 1,418 1,454 1,521 1}
+{416 1,418 1,521 1}
+{416 1,418 1,503 1,521 1}
+{86 1,416 1}
+{90 1,416 1,521 1}
+{416 1}
+{2 1}
+{}
+{75 1}
+{27 1,954 1}
+{}
+{400 1,506 1,799 1,800 1}
+{9 1,725 1,972 1}
+{}
+{799 1}
+{}
+{689 1}
+{0 Germany}
+{}
+{0 Germany}
+{419 1}
+{419 1}
+{416 1,419 1,725 1}
+{416 1,419 1,486 1}
+{419 1}
+{419 1}
+{419 1,420 1,946 1}
+{419 1,420 1,946 1}
+{419 1,420 1,946 1}
+{419 1,420 1,946 1}
+{419 1,420 1,468 1,946 1}
+{419 1,420 1,946 1}
+{}
+{}
+{475 1,1008 1}
+{475 1,1008 1}
+{}
+{}
+{}
+{}
+{155 1,445 1}
+{}
+{559 1}
+{583 1,965 1}
+{0 Germany,322 1,421 1}
+{0 Germany,421 1,732 1,967 1}
+{0 Germany,421 1}
+{0 Germany,421 1}
+{0 Germany,2 1,4 1,210 1,421 1,931 1,984 1,988 1}
+{0 Germany,421 1}
+{0 Germany,322 1,421 1}
+{0 Germany,67 1,421 1}
+{0 Germany,421 1}
+{0 Germany,422 1}
+{0 Germany,422 1}
+{0 Germany,422 1}
+{0 Germany,422 1}
+{0 Germany,631 1}
+{519 1,811 1,966 1}
+{663 1}
+{0 Germany,630 1}
+{}
+{}
+{663 1}
+{616 1,627 1,1000 1}
+{78 1,79 1,954 1}
+{}
+{506 1,799 1,800 1}
+{}
+{48 1,423 1}
+{48 1,423 1}
+{48 1,423 1}
+{411 1,423 1}
+{635 1,650 1,966 1}
+{}
+{}
+{946 1}
+{24 1,424 1}
+{157 1,368 1,424 1}
+{424 1}
+{76 1,77 1,424 1,954 1}
+{32 1,424 1,425 1,725 1}
+{10 1,32 1,424 1,425 1,725 1}
+{32 1,91 1,424 1,425 1,725 1}
+{424 1,425 1,725 1}
+{424 1}
+{19 1,424 1,799 1}
+{424 1,799 1}
+{424 1,497 1}
+{424 1,1009 1}
+{424 1,1009 1}
+{1 1,424 1,497 1}
+{}
+{}
+{}
+{}
+{}
+{660 1}
+{566 1,660 1,734 1}
+{566 1,660 1,734 1}
+{635 1,777 1}
+{635 1,969 1}
+{}
+{628 1}
+{426 1}
+{426 1}
+{426 1}
+{426 1}
+{32 1,426 1}
+{41 1,426 1}
+{426 1}
+{635 1,646 1,764 1}
+{56 1}
+{799 1}
+{76 1,77 1,84 1,954 1}
+{469 1,799 1}
+{799 1,801 1,946 1}
+{366 1,497 1,799 1}
+{0 Germany}
+{}
+{506 1,725 1,727 1}
+{583 1}
+{881 1}
+{799 1}
+{}
+{593 1,601 1,652 1}
+{0 Germany}
+{471 1,521 1}
+{946 1}
+{0 Germany}
+{485 1}
+{}
+{83 1}
+{}
+{0 Germany}
+{}
+{427 1}
+{427 1,478 1}
+{427 1,478 1,525 1}
+{427 1,463 1,478 1,494 1}
+{427 1}
+{427 1,484 1,725 1}
+{0 Germany,722 1}
+{38 1,506 1}
+{471 1,506 1}
+{593 1,606 1,663 1,754 1,785 1}
+{720 1,831 1}
+{635 1,645 1,698 1}
+{635 1}
+{635 1,645 1,663 1,698 1}
+{428 1,663 1,665 1,720 1}
+{39 1,428 1}
+{428 1}
+{428 1}
+{428 1}
+{428 1}
+{2 1,428 1,635 1,902 1}
+{302 1,303 1,428 1,493 1,506 1,703 1,734 1,772 1}
+{428 1,543 1}
+{428 1,720 1}
+{428 1,725 1,835 1}
+{428 1,457 1,722 1,907 1}
+{428 1,898 1}
+{428 1}
+{428 1}
+{429 1}
+{25 1,429 1,430 1,635 1,772 1}
+{25 1,429 1,430 1,524 1,772 1,807 1,966 1}
+{429 1,430 1,772 1}
+{429 1,430 1,558 1,760 1,772 1}
+{429 1,430 1,772 1,833 1}
+{429 1,430 1,716 1,772 1,885 1}
+{429 1,430 1,772 1,811 1}
+{429 1,430 1,760 1,772 1,936 1}
+{429 1,430 1,772 1,897 1,917 1}
+{429 1,430 1,559 1,656 1,772 1}
+{429 1}
+{429 1}
+{431 1}
+{431 1}
+{431 1}
+{431 1}
+{0 Germany,432 1}
+{432 1}
+{432 1}
+{91 1,432 1}
+{432 1,663 1,738 1}
+{38 1,432 1,506 1,971 1}
+{432 1}
+{}
+{433 1}
+{433 1}
+{433 1,521 1,523 1,946 1}
+{433 1,663 1,667 1,734 1}
+{433 1}
+{663 1}
+{411 1}
+{}
+{424 1}
+{799 1}
+{799 1}
+{}
+{}
+{}
+{434 1}
+{434 1}
+{34 1,434 1}
+{434 1}
+{434 1}
+{434 1}
+{434 1}
+{434 1}
+{199 1,434 1}
+{434 1}
+{434 1}
+{410 1,434 1}
+{434 1}
+{434 1,452 1}
+{411 1,434 1,452 1}
+{434 1}
+{434 1,474 1}
+{434 1}
+{434 1,477 1}
+{2 1,434 1,787 1,793 1}
+{434 1}
+{91 1,434 1}
+{}
+{}
+{2 1,3 1,93 1,118 1,585 1,589 1,590 1,998 1}
+{954 1}
+{}
+{725 1,728 1,946 1}
+{}
+{1 1,2 1,6 1,435 1,489 1,583 1}
+{31 1,199 1,435 1,485 1,725 1}
+{663 1}
+{}
+{0 Germany}
+{}
+{0 Germany}
+{436 1}
+{436 1}
+{436 1,492 1}
+{89 1,436 1,694 1}
+{1008 1}
+{}
+{556 1,811 1}
+{931 1}
+{725 1}
+{572 1,574 1,734 1,736 1,931 1,1000 1}
+{503 1,521 1}
+{}
+{}
+{1 1,449 1}
+{635 1}
+{437 1}
+{0 Germany,2 1,437 1,559 1,560 1,791 1,963 1}
+{2 1,437 1,559 1,659 1,738 1}
+{437 1}
+{}
+{}
+{55 1,438 1,439 1}
+{55 1,438 1,439 1}
+{55 1,438 1,439 1}
+{55 1,189 1,438 1,439 1}
+{55 1,438 1,439 1}
+{725 1}
+{}
+{}
+{931 1}
+{}
+{}
+{0 Germany}
+{}
+{}
+{0 Germany}
+{}
+{}
+{}
+{388 1,440 1,521 1}
+{72 1,440 1}
+{72 1,440 1}
+{72 1,440 1}
+{440 1,946 1}
+{1 1,440 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{72 1}
+{}
+{}
+{}
+{689 1}
+{}
+{368 1}
+{663 1}
+{}
+{}
+{}
+{}
+{400 1}
+{485 1}
+{434 1,954 1}
+{}
+{811 1,888 1}
+{}
+{}
+{}
+{572 1,720 1}
+{2 1,3 1,93 1,683 1}
+{}
+{689 1}
+{564 1,584 1}
+{0 Germany,441 1,457 1,506 1}
+{441 1,506 1}
+{441 1,472 1,506 1}
+{441 1,787 1,927 1}
+{}
+{}
+{}
+{343 1,504 1}
+{442 1,443 1}
+{9 1,46 1,442 1,443 1}
+{10 1,442 1,443 1,485 1}
+{12 1,442 1,443 1}
+{442 1,725 1,910 1}
+{}
+{722 1}
+{}
+{460 1}
+{460 1}
+{}
+{}
+{634 1,791 1}
+{2 1}
+{}
+{490 1,725 1,835 1,1000 1}
+{}
+{}
+{22 1,444 1}
+{444 1}
+{444 1}
+{444 1}
+{2 1,90 1,444 1}
+{19 1,444 1}
+{162 1,444 1}
+{177 1,444 1}
+{444 1}
+{444 1}
+{444 1}
+{41 1,416 1,444 1}
+{2 1,7 1,444 1,490 1}
+{444 1}
+{444 1}
+{444 1}
+{2 1,4 1,210 1,220 1,444 1,553 1,554 1,589 1}
+{444 1}
+{444 1}
+{444 1}
+{0 Germany,444 1}
+{444 1}
+{444 1}
+{}
+{}
+{725 1}
+{553 1,811 1}
+{750 1,935 1}
+{2 1,445 1}
+{445 1}
+{19 1,445 1,725 1,726 1}
+{445 1}
+{445 1}
+{445 1}
+{446 1}
+{409 1,446 1}
+{409 1,446 1,954 1}
+{446 1,954 1}
+{123 1,446 1,447 1}
+{2 1,123 1,446 1,447 1}
+{2 1,123 1,446 1,447 1,673 1}
+{2 1,123 1,446 1,447 1}
+{91 1,123 1,446 1,447 1}
+{92 1,123 1,446 1,447 1}
+{}
+{400 1}
+{448 1,509 1,516 1,856 1}
+{448 1}
+{448 1}
+{448 1,725 1}
+{2 1,3 1,93 1,448 1,725 1}
+{448 1}
+{448 1,880 1}
+{448 1}
+{448 1}
+{}
+{}
