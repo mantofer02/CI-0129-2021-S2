@@ -7,14 +7,14 @@ from pygame.version import PygameVersion
 import direction as dir
 
 BLOCK_SIZE = 20
-SPEED = 15
+SPEED = 7
 
 # Colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 RED = (200, 0, 0)
-BLUE = (0, 0, 200)
-LIGHT_BLUE = (0, 100, 255)
+GREEN = (0, 102, 0)
+LIGHT_GREEN = (128, 255, 0)
 
 
 # Initialize pygame modules
@@ -26,6 +26,7 @@ Point = namedtuple('Point', 'x, y')
 
 class SnakeAgent():
   def __init__(self, widht=640, height=480) -> None:
+    self.speed = SPEED
     self.widht = widht
     self.height = height
 
@@ -58,6 +59,7 @@ class SnakeAgent():
 
   def play_step(self):
     # Get events in the game / user inputs
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
           pygame.quit()
@@ -82,12 +84,13 @@ class SnakeAgent():
 
     if self.head == self.food:
       self.score += 1
+      # self.speed += 1
       self.place_food()
     else:
       self.snake.pop()
 
     self.update_ui()
-    self.clock.tick(SPEED)
+    self.clock.tick(self.speed)
 
     return game_over, self.score
 
@@ -95,8 +98,8 @@ class SnakeAgent():
     self.display.fill(BLACK)
 
     for point in self.snake:
-      pygame.draw.rect(self.display, LIGHT_BLUE, pygame.Rect(point.x, point.y, BLOCK_SIZE, BLOCK_SIZE))
-      pygame.draw.rect(self.display, BLUE, pygame.Rect(point.x + 4, point.y + 4, 12, 12))
+      pygame.draw.rect(self.display, LIGHT_GREEN, pygame.Rect(point.x, point.y, BLOCK_SIZE, BLOCK_SIZE))
+      pygame.draw.rect(self.display, GREEN, pygame.Rect(point.x + 4, point.y + 4, 12, 12))
 
     pygame.draw.rect(self.display, RED, pygame.Rect(self.food.x, self.food.y, BLOCK_SIZE, BLOCK_SIZE))
 
