@@ -1,5 +1,6 @@
 import pygame
 import random
+import numpy as np
 from collections import namedtuple
 from pygame import font
 
@@ -24,7 +25,7 @@ pygame.init()
 font = pygame.font.Font('arial.ttf', 25 )
 Point = namedtuple('Point', 'x, y')
 
-class SnakeAgent():
+class SnakeEnvironment():
   def __init__(self, widht=640, height=480) -> None:
     self.speed = SPEED
     self.widht = widht
@@ -36,6 +37,10 @@ class SnakeAgent():
     self.clock = pygame.time.Clock()
 
     # initialize game state
+    self.reset()
+
+  def reset(self):
+    # initialize game state
     # Set up variables and snake order
     self.direction = dir.Direction.RIGHT
 
@@ -45,6 +50,7 @@ class SnakeAgent():
     print(self.snake)
 
     self.score = 0
+    self.frame_iteration = 0
     self.food = None
     self.place_food()
 
@@ -57,32 +63,30 @@ class SnakeAgent():
     if self.food in self.snake:
       self.place_food()
 
-  def play_step(self):
+  def play_step(self, action):
     # Get events in the game / user inputs
+    self.frame_iteration += 1
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
           pygame.quit()
           quit()
-        if event.type == pygame.KEYDOWN:
-          if event.key == pygame.K_LEFT:
-            self.direction = dir.Direction.LEFT
-          elif event.key == pygame.K_RIGHT:
-            self.direction = dir.Direction.RIGHT
-          elif event.key == pygame.K_UP:
-            self.direction = dir.Direction.UP
-          elif event.key == pygame.K_DOWN:
-            self.direction = dir.Direction.DOWN
 
-    self.move(self.direction)
+        
+
+    self.move(action)
     self.snake.insert(0, self.head)
 
+    reward = 0
     game_over = False
-    if self.is_collision():
+    if self.is_collision() or self.frame_iteration > 100 * len(self.snake):
       game_over = True
-      return game_over, self.score
+      reward = -10
+      return game_over, self.score, reward
 
     if self.head == self.food:
       self.score += 1
+      reward = 10
       # self.speed += 1
       self.place_food()
     else:
@@ -91,7 +95,7 @@ class SnakeAgent():
     self.update_ui()
     self.clock.tick(self.speed)
 
-    return game_over, self.score
+    return game_over, self.score, reward
 
   def update_ui(self):
     self.display.fill(BLACK)
@@ -106,24 +110,46 @@ class SnakeAgent():
     self.display.blit(text, [0, 0])
     pygame.display.flip()
 
-  def move(self, direction):
+  def move(self, action):
+    # [straight, right, left]
+
+    clock_wise = [dir.Direction.RIGHT, dir.Direction.DOWN, dir.Direction.LEFT, dir.Direction.UP]
+    index = clock_wise.index(self.direction)
+
+    if np.array_equal(action, [1, 0, 0]):
+      new_direction = clock_wise[index]
+    
+    elif np.array_equal(action, [0, 1, 0]):
+      # right turn
+      next_index =  (index + 1) % 4
+      new_direction = clock_wise[next_index]
+
+    else:
+      # left turn
+      next_index =  (index - 1) % 4
+      new_direction = clock_wise[next_index]
+
+    self.direction = new_direction
+
     x = self.head.x
     y = self.head.y
-    if direction == dir.Direction.RIGHT:
+    if self.direction == dir.Direction.RIGHT:
       x += BLOCK_SIZE
-    elif direction == dir.Direction.LEFT:
+    elif self.direction == dir.Direction.LEFT:
       x -= BLOCK_SIZE
-    elif direction == dir.Direction.DOWN:
+    elif self.direction == dir.Direction.DOWN:
       y += BLOCK_SIZE
-    elif direction == dir.Direction.UP:
+    elif self.direction == dir.Direction.UP:
       y -= BLOCK_SIZE
 
     self.head = Point(x, y)
 
   # To do: check beacause it detects collision when none taken
-  def is_collision(self):
+  def is_collision(self, pt=None):
+    if pt in None:
+      pt = self.head
     # To Do: Fix soo snake can go around game
-    if self.head.x > self.widht - BLOCK_SIZE or self.head.x < 0 or self.head.y > self.height - BLOCK_SIZE or self.head.y < 0:
+    if pt.x > self.widht - BLOCK_SIZE or pt.x < 0 or pt.y > self.height - BLOCK_SIZE or pt.y < 0:
       return True
     
     if self.head in self.snake[1:]:
@@ -133,14 +159,3 @@ class SnakeAgent():
     
     return False
 
-if __name__ == '__main__':
-  agent = SnakeAgent()
-  game_over = False
-
-  while game_over == False:
-    game_over, score = agent.play_step()
-
-    # break if loose
-  print('Final Score', score)
-
-  pygame.quit()
