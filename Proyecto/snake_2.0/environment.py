@@ -8,7 +8,7 @@ from pygame.version import PygameVersion
 import direction as dir
 
 BLOCK_SIZE = 20
-SPEED = 7
+SPEED = 20
 
 # Colors
 BLACK = (0, 0, 0)
@@ -146,7 +146,7 @@ class SnakeEnvironment():
 
   # To do: check beacause it detects collision when none taken
   def is_collision(self, pt=None):
-    if pt in None:
+    if pt is None:
       pt = self.head
     # To Do: Fix soo snake can go around game
     if pt.x > self.widht - BLOCK_SIZE or pt.x < 0 or pt.y > self.height - BLOCK_SIZE or pt.y < 0:
