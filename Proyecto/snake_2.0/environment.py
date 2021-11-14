@@ -8,7 +8,7 @@ from pygame.version import PygameVersion
 import direction as dir
 
 BLOCK_SIZE = 20
-SPEED = 20
+SPEED = 50
 
 # Colors
 BLACK = (0, 0, 0)

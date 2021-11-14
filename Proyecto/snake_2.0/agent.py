@@ -106,9 +106,8 @@ class Agent:
       game.food.x > game.head.x, # food right
       game.food.y < game.head.y, # food up
       game.food.y > game.head.y # food down
-
     ]
-
+    
     return np.array(state, dtype=int)
 
 
