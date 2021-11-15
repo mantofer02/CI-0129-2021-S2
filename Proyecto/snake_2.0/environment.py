@@ -86,7 +86,7 @@ class SnakeEnvironment():
 
     if self.head == self.food:
       self.score += 1
-      reward = 10
+      reward += 10
       # self.speed += 1
       self.place_food()
     else:
