@@ -26,7 +26,7 @@ def train():
     #get move
     final_move = agent.get_action(state_old)
 
-    #permorm move
+    #perform move
     done, score, reward = game.play_step(final_move)
     state_new = agent.get_state(game)
 
@@ -63,7 +63,7 @@ class Agent:
     self.model = Linear_QNet(11, 256, 3)
     self.trainer = QTrainer(self.model, lr=LR, gamma=self.gamma)
 
-
+  # Refactor, deberia de estar en environment
   def get_state(self, game):
     head = game.snake[0]
     point_l = Point(head.x - 20, head.y)
@@ -96,7 +96,6 @@ class Agent:
       (dir_d and game.is_collision(point_r)),
 
       # Move direction
-
       dir_l,
       dir_r,
       dir_u,
@@ -107,7 +106,7 @@ class Agent:
       game.food.y < game.head.y, # food up
       game.food.y > game.head.y # food down
     ]
-    
+
     return np.array(state, dtype=int)
 
 
@@ -128,7 +127,7 @@ class Agent:
 
   def get_action(self, state):
     self.epsilon = 80 - self.n_games
-    final_move = [0,0,0]
+    final_move = [0, 0, 0]
     
     if random.randint(0, 200) < self.epsilon:
       move = random.randint(0, 2)

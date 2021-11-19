@@ -112,7 +112,6 @@ class SnakeEnvironment():
 
   def move(self, action):
     # [straight, right, left]
-
     clock_wise = [dir.Direction.RIGHT, dir.Direction.DOWN, dir.Direction.LEFT, dir.Direction.UP]
     index = clock_wise.index(self.direction)
 
