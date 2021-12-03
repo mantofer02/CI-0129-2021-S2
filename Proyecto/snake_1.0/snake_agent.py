@@ -5,13 +5,14 @@ from pygame import font
 import numpy as np
 import os
 import csv
-
+import time
 from pygame.version import PygameVersion
 import direction as dir
 
 BLOCK_SIZE = 20
 SPEED = 7
 SPEED_INCREASE = 1
+SESSION_AMOUNT = 5
 
 # Colors
 BLACK = (0, 0, 0)
@@ -126,13 +127,10 @@ class SnakeAgent():
 
   # To do: check beacause it detects collision when none taken
   def is_collision(self):
-    # To Do: Fix soo snake can go around game
     if self.head.x > self.widht - BLOCK_SIZE or self.head.x < 0 or self.head.y > self.height - BLOCK_SIZE or self.head.y < 0:
       return True
     
     if self.head in self.snake[1:]:
-      # print(self.head)
-      # print(self.snake)
       return True
     
     return False
@@ -213,24 +211,44 @@ def save_data(data, file_name):
     for i in data:
       writer.writerow(i)
 
+def save_results(results, file_name):
+  data_folder_path = './game_results'
+  if not os.path.exists(data_folder_path):
+    os.makedirs(data_folder_path)
+  
+  column_labels = ['score', 'frame_count']
+
+  with open(data_folder_path + str('/') + file_name + str('.csv'), 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(column_labels)
+    for i in results:
+      writer.writerow(i)
+
+
 
 
 
 if __name__ == '__main__':
   print('Enter user name')
   file_name = input()
-  data = []
+  
+  results = []
+  for i in range(SESSION_AMOUNT): 
+    data = []
+    game_results = []
 
-  agent = SnakeAgent()
-  game_over = False
-
-  while game_over == False:
-    game_over, score = agent.play_step()
-    data.append(agent.get_state())
-
-    # break if loose
-  print('Final Score', score)
-  save_data(data, file_name)
-  print(file_name)
+    agent = SnakeAgent()
+    game_over = False
+    while game_over == False:
+      game_over, score = agent.play_step()
+      data.append(agent.get_state())
+   
+    game_results.append(score)
+    game_results.append(len(data))
+    results.append(game_results)
+    print('Final Score', score)
+    save_data(data, file_name + str('_') + str(i + 1))
+  
+  save_results(results, file_name)
 
   pygame.quit()
