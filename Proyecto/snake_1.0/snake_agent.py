@@ -225,9 +225,6 @@ def save_results(results, file_name):
       writer.writerow(i)
 
 
-
-
-
 if __name__ == '__main__':
   print('Enter user name')
   file_name = input()
