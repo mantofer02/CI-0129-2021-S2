@@ -1,5 +1,7 @@
 import torch
 import random
+import os
+import csv
 import numpy as np
 from collections import deque
 from environment import SnakeEnvironment, Point, dir
@@ -10,6 +12,23 @@ from helper import plot
 MAX_MEMORY = 100_000
 BATCH_SIZE = 1000
 LR = 0.001
+GAME_AMOUNT = 300
+
+
+def save_results(results, file_name):
+  data_folder_path = './game_results'
+  if not os.path.exists(data_folder_path):
+    os.makedirs(data_folder_path)
+  
+  column_labels = ['score', 'frame_count']
+
+  with open(data_folder_path + str('/') + file_name + str('.csv'), 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(column_labels)
+    for i in results:
+      writer.writerow(i)
+
+
 
 def train():
   plot_scores = []
@@ -19,15 +38,17 @@ def train():
   agent = Agent()
   game = SnakeEnvironment()
   
+  results = []
   while True:
     # get old state
+    game_results = []
     state_old = agent.get_state(game)
 
     #get move
     final_move = agent.get_action(state_old)
 
     #perform move
-    done, score, reward = game.play_step(final_move)
+    done, score, reward, frames = game.play_step(final_move)
     state_new = agent.get_state(game)
 
     #train short memory
@@ -52,6 +73,11 @@ def train():
       mean_score = total_score / agent.n_games
       plot_mean_scores.append(mean_score)
       plot(plot_scores, plot_mean_scores)
+      game_results.append(score)
+      game_results.append(frames)
+      results.append(game_results)
+
+    save_results(results, 'Training')
 
 
 class Agent:

@@ -82,7 +82,7 @@ class SnakeEnvironment():
     if self.is_collision() or self.frame_iteration > 100 * len(self.snake):
       game_over = True
       reward = -10
-      return game_over, self.score, reward
+      return game_over, self.score, reward, self.frame_iteration
 
     if self.head == self.food:
       self.score += 1
@@ -95,7 +95,7 @@ class SnakeEnvironment():
     self.update_ui()
     self.clock.tick(self.speed)
 
-    return game_over, self.score, reward
+    return game_over, self.score, reward, self.frame_iteration
 
   def update_ui(self):
     self.display.fill(BLACK)
